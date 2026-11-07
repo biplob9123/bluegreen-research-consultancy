@@ -1,0 +1,42 @@
+# Text of the Page-not-found page  (template: templates/404.html)
+#
+# HOW TO EDIT THIS FILE
+# This page exists in English only.
+# - Change only the words after 'en:' or 'bn:'. Never change the names in [square brackets].
+# - Type & as it is; the website adds the special code by itself.
+# - Words like {{@email}} are values from content/_site.txt. Keep them as they are.
+# - Lines that start with # are notes and are ignored.
+# - After you save (commit) the file, the website rebuilds itself in 1-2 minutes.
+
+
+# ======================================================================
+# Page title and description (browser tab and search engines)
+# ======================================================================
+
+[meta.title]
+en: Page not found | BlueGreen Research and Consultancy
+
+[meta.description]
+en: This page could not be found.
+
+
+# ======================================================================
+# Page title banner
+# ======================================================================
+
+[banner.page-not-found]
+en: Page not found
+
+[banner.the-page-you-opened]
+en: The page you opened does not exist or has moved.
+
+
+# ======================================================================
+# Section: Go to the home page
+# ======================================================================
+
+[sec-go-to-the.go-to-the-home]
+en: Go to the home page
+
+[sec-go-to-the.contact-us]
+en: Contact us

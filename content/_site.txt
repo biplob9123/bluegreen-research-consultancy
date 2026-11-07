@@ -1,0 +1,41 @@
+# Site-wide values (used in many places). Change a value here and it changes everywhere.
+# Write the value after the colon. Do not use quotes.
+
+# Website address, no slash at the end. Change this when the domain changes.
+site_url: https://www.bgrcbd.com
+
+# Facebook page link (header, footer).
+facebook_url: https://www.facebook.com/bluegreenrand
+
+# LinkedIn company page link (header, footer).
+linkedin_url: https://www.linkedin.com/company/bluegreen-research-and-consuntancy/
+
+# YouTube channel link (header, footer).
+youtube_url: https://www.youtube.com/@BlueGreenResearchandConsultanc
+
+# Main business email shown across the site.
+email: info@bgrcbd.com
+
+# Email for training enquiries.
+email_training: training@bgrcbd.com
+
+# Email for project enquiries.
+email_projects: projects@bgrcbd.com
+
+# Phone number for tap-to-call links: plus sign and digits only, no spaces.
+phone_link: +8801728686060
+
+# Phone number as people read it on the page.
+phone: +880 1728-686060
+
+# WhatsApp number for chat links: digits only, with country code, no plus sign.
+whatsapp_number: 8801737129123
+
+# WhatsApp number as people read it on the page.
+whatsapp_show: +880 1737-129123
+
+# Trade licence number shown in the footer.
+licence_no: 20420
+
+# Access key of the contact form (from web3forms.com). Keep it exactly as given.
+web3forms_key: 42e55752-fca8-49bc-a5e5-0eb54618872a

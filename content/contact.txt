@@ -1,0 +1,180 @@
+# Text of the Contact page  (template: templates/contact.html)
+#
+# HOW TO EDIT THIS FILE
+# - Each text has a name in [square brackets], then two lines: 'en:' (English) and 'bn:' (Bangla).
+# - Change only the words after 'en:' or 'bn:'. Never change the names in [square brackets].
+# - Type & as it is; the website adds the special code by itself.
+# - Words like {{@email}} are values from content/_site.txt. Keep them as they are.
+# - Lines that start with # are notes and are ignored.
+# - After you save (commit) the file, the website rebuilds itself in 1-2 minutes.
+
+
+# ======================================================================
+# Page title and description (browser tab and search engines)
+# ======================================================================
+
+[meta.title]
+en: Contact | BlueGreen Research and Consultancy
+bn: যোগাযোগ | ব্লুগ্রিন রিসার্চ অ্যান্ড কনসালটেন্সি
+
+[meta.description]
+en: Contact BlueGreen Research and Consultancy in Gazipur, Bangladesh. Request a quote, ask about training, or message us on WhatsApp.
+bn: গাজীপুর, বাংলাদেশে ব্লুগ্রিন রিসার্চ অ্যান্ড কনসালটেন্সির সাথে যোগাযোগ করুন। কোটেশন চান, প্রশিক্ষণ সম্পর্কে জানুন, অথবা হোয়াটসঅ্যাপে বার্তা দিন।
+
+
+# ======================================================================
+# Page title banner
+# ======================================================================
+
+[banner.contact-us]
+en: Contact us
+bn: যোগাযোগ করুন
+
+[banner.tell-us-about-your]
+en: Tell us about your project and we will reply within one working day.
+bn: আপনার প্রকল্পের কথা জানান, আমরা এক কর্মদিবসের মধ্যে উত্তর দেব।
+
+
+# ======================================================================
+# Section: Send us a message
+# ======================================================================
+
+[sec-send-us-a.send-us-a-message]
+en: Send us a message
+bn: আমাদের বার্তা পাঠান
+
+[sec-send-us-a.name]
+en: Name
+bn: নাম
+
+[sec-send-us-a.email]
+en: Email
+bn: ইমেইল
+
+[sec-send-us-a.phone-or-whatsapp]
+en: Phone or WhatsApp
+bn: ফোন বা হোয়াটসঅ্যাপ
+
+[sec-send-us-a.optional]
+# Used 2 times in this part (one change updates all of them)
+en: (optional)
+bn: (ঐচ্ছিক)
+
+[sec-send-us-a.organisation]
+en: Organisation
+bn: প্রতিষ্ঠান
+
+[sec-send-us-a.i-am-interested-in]
+en: I am interested in
+bn: আমি যে বিষয়ে আগ্রহী
+
+[sec-send-us-a.etp-design]
+en: ETP design
+bn: ইটিপি ডিজাইন
+
+[sec-send-us-a.iee-or-eia-report]
+en: IEE or EIA report
+bn: আইইই বা ইআইএ প্রতিবেদন
+
+[sec-send-us-a.feasibility-study]
+en: Feasibility study
+bn: সম্ভাব্যতা সমীক্ষা
+
+[sec-send-us-a.gis-and-remote-sensing]
+en: GIS and remote sensing work
+bn: জিআইএস ও রিমোট সেন্সিংয়ের কাজ
+
+[sec-send-us-a.training-courses]
+en: Training courses
+bn: প্রশিক্ষণ কোর্স
+
+[sec-send-us-a.hydrological-modelling]
+en: Hydrological modelling
+bn: হাইড্রোলজিক্যাল মডেলিং
+
+[sec-send-us-a.thesis-or-publication-support]
+en: Thesis or publication support
+bn: থিসিস বা প্রকাশনা সহায়তা
+
+[sec-send-us-a.something-else]
+en: Something else
+bn: অন্য কিছু
+
+[sec-send-us-a.message]
+en: Message
+bn: বার্তা
+
+[sec-send-us-a.what-do-you-need]
+en: What do you need, and by when?
+bn: আপনার কী প্রয়োজন, আর কবের মধ্যে?
+
+[sec-send-us-a.send-message]
+en: Send message
+bn: বার্তা পাঠান
+
+
+# ======================================================================
+# Side panel: Visit and contact
+# ======================================================================
+
+[aside-visit-and-contact.visit-and-contact]
+en: Visit and contact
+bn: অফিস ও যোগাযোগ
+
+[aside-visit-and-contact.office]
+en: Office
+bn: অফিস
+
+[aside-visit-and-contact.402-5-west-bhurolia]
+en: 402/5 West Bhurolia, Monir Chemical Road, DUET
+bn: ৪০২/৫ পশ্চিম ভুরুলিয়া, মনির কেমিক্যাল রোড, ডুয়েট
+
+[aside-visit-and-contact.gazipur-1707-bangladesh]
+en: Gazipur-1707, Bangladesh
+bn: গাজীপুর-১৭০৭, বাংলাদেশ
+
+[aside-visit-and-contact.phone]
+en: Phone
+bn: ফোন
+
+[aside-visit-and-contact.whatsapp]
+# Used 2 times in this part (one change updates all of them)
+en: WhatsApp
+bn: হোয়াটসঅ্যাপ
+
+[aside-visit-and-contact.email]
+en: Email
+bn: ইমেইল
+
+[aside-visit-and-contact.for-projects]
+en: for projects
+bn: প্রকল্পের জন্য
+
+[aside-visit-and-contact.for-training]
+en: for training
+bn: প্রশিক্ষণের জন্য
+
+[aside-visit-and-contact.follow-us]
+en: Follow us
+bn: আমাদের অনুসরণ করুন
+
+[aside-visit-and-contact.facebook]
+en: Facebook
+bn: ফেসবুক
+
+[aside-visit-and-contact.linkedin]
+en: LinkedIn
+bn: লিংকডইন
+
+[aside-visit-and-contact.youtube]
+en: YouTube
+bn: ইউটিউব
+
+
+# ======================================================================
+# Section: map-sec
+# ======================================================================
+
+[sec-map-sec.map-showing-the-bluegreen]
+en: Map showing the BlueGreen office near DUET, Gazipur
+bn: গাজীপুরে ডুয়েটের কাছে ব্লুগ্রিন অফিসের অবস্থান দেখানো মানচিত্র

@@ -1,0 +1,419 @@
+# Text of the Projects page  (template: templates/projects.html)
+#
+# HOW TO EDIT THIS FILE
+# - Each text has a name in [square brackets], then two lines: 'en:' (English) and 'bn:' (Bangla).
+# - Change only the words after 'en:' or 'bn:'. Never change the names in [square brackets].
+# - Type & as it is; the website adds the special code by itself.
+# - Words like {{@email}} are values from content/_site.txt. Keep them as they are.
+# - Lines that start with # are notes and are ignored.
+# - After you save (commit) the file, the website rebuilds itself in 1-2 minutes.
+
+
+# ======================================================================
+# Page title and description (browser tab and search engines)
+# ======================================================================
+
+[meta.title]
+en: Projects | BlueGreen Research and Consultancy
+bn: প্রকল্পসমূহ | ব্লুগ্রিন রিসার্চ অ্যান্ড কনসালটেন্সি
+
+[meta.description]
+en: Projects by BlueGreen Research and Consultancy: ETP design and IEE for a paper factory, thesis support, and six batches of GIS training.
+bn: ব্লুগ্রিন রিসার্চ অ্যান্ড কনসালটেন্সির প্রকল্প: একটি পেপার কারখানার ইটিপি ডিজাইন ও আইইই, থিসিস সহায়তা এবং জিআইএস প্রশিক্ষণের ছয়টি ব্যাচ।
+
+
+# ======================================================================
+# Page title banner
+# ======================================================================
+
+[banner.projects]
+en: Projects
+bn: প্রকল্পসমূহ
+
+[banner.what-we-are-working]
+en: What we are working on, and what we have completed. Client details are kept confidential.
+bn: আমরা এখন যা নিয়ে কাজ করছি এবং যা সম্পন্ন করেছি। ক্লায়েন্টের তথ্য গোপন রাখা হয়।
+
+
+# ======================================================================
+# Section: All projects
+# ======================================================================
+
+[sec-all-projects.all-projects]
+en: All projects
+bn: সব প্রকল্প
+
+[sec-all-projects.project-status]
+en: Project status
+bn: প্রকল্পের অবস্থা
+
+[sec-all-projects.all]
+en: All
+bn: সব
+
+[sec-all-projects.in-progress]
+en: In progress
+bn: চলমান
+
+[sec-all-projects.completed]
+en: Completed
+bn: সম্পন্ন
+
+
+# ======================================================================
+# Card: ETP design and IEE report, recycled paper...
+# ======================================================================
+
+[card-etp-design-and.in-progress]
+# Also used in: Popup: ETP design and IEE report, recycled paper...  (one change updates all of them)
+en: In progress
+bn: চলমান
+
+[card-etp-design-and.etp-design-and-iee]
+# Also used in: Popup: ETP design and IEE report, recycled paper...  (one change updates all of them)
+en: ETP design and IEE report, recycled paper factory, Sirajganj
+bn: ইটিপি ডিজাইন ও আইইই প্রতিবেদন, রিসাইকেলড পেপার কারখানা, সিরাজগঞ্জ
+
+[card-etp-design-and.designing-the-effluent]
+en: Designing the effluent treatment plant and preparing the IEE report for a recycled paper factory.
+bn: একটি রিসাইকেলড পেপার কারখানার জন্য ইফ্লুয়েন্ট ট্রিটমেন্ট প্ল্যান্ট ডিজাইন ও আইইই প্রতিবেদন প্রস্তুত।
+
+[card-etp-design-and.view-details]
+en: View details
+bn: বিস্তারিত দেখুন
+
+
+# ======================================================================
+# Card: Thesis project, Institute of Water and...
+# ======================================================================
+
+[card-thesis-project.completed]
+# Also used in: Popup: Thesis project, Institute of Water and...  (one change updates all of them)
+en: Completed
+bn: সম্পন্ন
+
+[card-thesis-project.thesis-project-institute-of]
+# Also used in: Popup: Thesis project, Institute of Water and...  (one change updates all of them)
+en: Thesis project, Institute of Water and Environment, DUET
+bn: থিসিস প্রকল্প, ইনস্টিটিউট অব ওয়াটার অ্যান্ড এনভায়রনমেন্ট, ডুয়েট
+
+[card-thesis-project.research-and-analysis-support]
+en: Research and analysis support for a student's thesis at IWE, DUET, Gazipur.
+bn: ডুয়েট, গাজীপুরের আইডব্লিউইতে একজন শিক্ষার্থীর থিসিসে গবেষণা ও বিশ্লেষণ সহায়তা।
+
+[card-thesis-project.view-details]
+en: View details
+bn: বিস্তারিত দেখুন
+
+
+# ======================================================================
+# Card: MSc thesis project, IUBAT
+# ======================================================================
+
+[card-msc-thesis-project.completed]
+# Also used in: Popup: MSc thesis project, IUBAT  (one change updates all of them)
+en: Completed
+bn: সম্পন্ন
+
+[card-msc-thesis-project.msc-thesis-project-iubat]
+# Also used in: Popup: MSc thesis project, IUBAT  (one change updates all of them)
+en: MSc thesis project, IUBAT
+bn: এমএসসি থিসিস প্রকল্প, আইইউবিএটি
+
+[card-msc-thesis-project.research-and-analysis-support]
+# Also used in: Popup: MSc thesis project, IUBAT  (one change updates all of them)
+en: Research and analysis support for an MSc student's thesis at IUBAT.
+bn: আইইউবিএটির একজন এমএসসি শিক্ষার্থীর থিসিসে গবেষণা ও বিশ্লেষণ সহায়তা।
+
+[card-msc-thesis-project.view-details]
+en: View details
+bn: বিস্তারিত দেখুন
+
+
+# ======================================================================
+# Card: GIS and RS training programme, six batches
+# ======================================================================
+
+[card-gis-and-rs.completed]
+# Also used in: Popup: GIS and RS training programme, six batches  (one change updates all of them)
+en: Completed
+bn: সম্পন্ন
+
+[card-gis-and-rs.gis-and-rs-training]
+# Also used in: Popup: GIS and RS training programme, six batches  (one change updates all of them)
+en: GIS and RS training programme, six batches
+bn: জিআইএস ও আরএস প্রশিক্ষণ কর্মসূচি, ছয়টি ব্যাচ
+
+[card-gis-and-rs.four-online-and-two]
+en: Four online and two on-campus batches, with about 30 to 50 learners in each.
+bn: চারটি অনলাইন ও দুটি ক্যাম্পাস ব্যাচ, প্রতিটিতে প্রায় ৩০ থেকে ৫০ জন শিক্ষার্থী।
+
+[card-gis-and-rs.view-details]
+en: View details
+bn: বিস্তারিত দেখুন
+
+
+# ======================================================================
+# Section: All projects
+# ======================================================================
+
+[sec-all-projects.open-a-project-to]
+en: Open a project to see what it involves. Have something similar?
+bn: একটি প্রকল্প খুলে দেখুন এতে কী কী কাজ ছিল। আপনারও কি এমন কাজ আছে?
+
+
+# ======================================================================
+# Popup: ETP design and IEE report, recycled paper...
+# ======================================================================
+
+[pop-etp-design-and.etp-design-iee-report]
+# Used 2 times in this part (one change updates all of them)
+en: ETP design, IEE report
+bn: ইটিপি ডিজাইন, আইইই প্রতিবেদন
+
+[pop-etp-design-and.close-window]
+en: Close window
+bn: উইন্ডো বন্ধ করুন
+
+[pop-etp-design-and.we-are-designing-the]
+en: We are designing the effluent treatment plant and preparing the Initial Environmental Examination (IEE) report for a recycled paper factory in Sirajganj.
+bn: আমরা সিরাজগঞ্জের একটি রিসাইকেলড পেপার কারখানার জন্য ইফ্লুয়েন্ট ট্রিটমেন্ট প্ল্যান্ট ডিজাইন এবং প্রাথমিক পরিবেশগত পরীক্ষা (আইইই) প্রতিবেদন প্রস্তুত করছি।
+
+[pop-etp-design-and.work-of-this-kind]
+en: Work of this kind usually starts with the wastewater the factory really produces, then moves to sizing the treatment units, the baseline survey and the environmental management plan.
+bn: এ ধরনের কাজ সাধারণত শুরু হয় কারখানার প্রকৃত বর্জ্যপানি দিয়ে, তারপর শোধন ইউনিটের আকার নির্ধারণ, বেসলাইন জরিপ ও পরিবেশ ব্যবস্থাপনা পরিকল্পনার দিকে এগোয়।
+
+[pop-etp-design-and.what-the-work-covers]
+en: What the work covers
+bn: কাজের পরিধি
+
+[pop-etp-design-and.characterising-the-effluent]
+en: Characterising the effluent
+bn: ইফ্লুয়েন্টের বৈশিষ্ট্য নিরূপণ
+
+[pop-etp-design-and.designing-the-treatment-units]
+en: Designing the treatment units
+bn: শোধন ইউনিটের ডিজাইন
+
+[pop-etp-design-and.baseline-survey-and-impact]
+en: Baseline survey and impact assessment
+bn: বেসলাইন জরিপ ও প্রভাব নিরূপণ
+
+[pop-etp-design-and.environmental-management-plan]
+en: Environmental management plan
+bn: পরিবেশ ব্যবস্থাপনা পরিকল্পনা
+
+[pop-etp-design-and.at-a-glance]
+en: At a glance
+bn: এক নজরে
+
+[pop-etp-design-and.status]
+en: Status
+bn: অবস্থা
+
+[pop-etp-design-and.client-type]
+en: Client type
+bn: ক্লায়েন্টের ধরন
+
+[pop-etp-design-and.industry]
+en: Industry
+bn: শিল্প
+
+[pop-etp-design-and.services]
+en: Services
+bn: সেবাসমূহ
+
+[pop-etp-design-and.client-details-are-kept]
+en: Client details are kept confidential.
+bn: ক্লায়েন্টের তথ্য গোপন রাখা হয়।
+
+[pop-etp-design-and.ask-about-similar-work]
+en: Ask about similar work
+bn: এমন কাজ সম্পর্কে জানুন
+
+[pop-etp-design-and.email-projects-bgrcbd-com]
+en: Email {{@email_projects}}
+bn: {{@email_projects}}-এ ইমেইল করুন
+
+
+# ======================================================================
+# Popup: Thesis project, Institute of Water and...
+# ======================================================================
+
+[pop-thesis-project.thesis-and-project-support]
+# Used 2 times in this part (one change updates all of them)
+en: Thesis and project support
+bn: থিসিস ও প্রকল্প সহায়তা
+
+[pop-thesis-project.close-window]
+en: Close window
+bn: উইন্ডো বন্ধ করুন
+
+[pop-thesis-project.research-and-analysis-support]
+en: Research and analysis support for a student's thesis at the Institute of Water and Environment (IWE), Dhaka University of Engineering and Technology, Gazipur.
+bn: ঢাকা প্রকৌশল ও প্রযুক্তি বিশ্ববিদ্যালয় (ডুয়েট), গাজীপুরের ইনস্টিটিউট অব ওয়াটার অ্যান্ড এনভায়রনমেন্টের (আইডব্লিউই) একজন শিক্ষার্থীর থিসিসে গবেষণা ও বিশ্লেষণ সহায়তা।
+
+[pop-thesis-project.support-of-this-kind]
+en: Support of this kind covers shaping the question, choosing methods, running the analysis and presenting the results clearly.
+bn: এ ধরনের সহায়তায় থাকে গবেষণা প্রশ্ন সাজানো, পদ্ধতি নির্বাচন, বিশ্লেষণ পরিচালনা এবং ফলাফল স্পষ্টভাবে উপস্থাপন।
+
+[pop-thesis-project.at-a-glance]
+en: At a glance
+bn: এক নজরে
+
+[pop-thesis-project.status]
+en: Status
+bn: অবস্থা
+
+[pop-thesis-project.client-type]
+en: Client type
+bn: ক্লায়েন্টের ধরন
+
+[pop-thesis-project.university-student]
+en: University student
+bn: বিশ্ববিদ্যালয়ের শিক্ষার্থী
+
+[pop-thesis-project.services]
+en: Services
+bn: সেবাসমূহ
+
+[pop-thesis-project.client-details-are-kept]
+en: Client details are kept confidential.
+bn: ক্লায়েন্টের তথ্য গোপন রাখা হয়।
+
+[pop-thesis-project.ask-about-similar-work]
+en: Ask about similar work
+bn: এমন কাজ সম্পর্কে জানুন
+
+[pop-thesis-project.email-projects-bgrcbd-com]
+en: Email {{@email_projects}}
+bn: {{@email_projects}}-এ ইমেইল করুন
+
+
+# ======================================================================
+# Popup: MSc thesis project, IUBAT
+# ======================================================================
+
+[pop-msc-thesis-project.thesis-and-project-support]
+# Used 2 times in this part (one change updates all of them)
+en: Thesis and project support
+bn: থিসিস ও প্রকল্প সহায়তা
+
+[pop-msc-thesis-project.close-window]
+en: Close window
+bn: উইন্ডো বন্ধ করুন
+
+[pop-msc-thesis-project.we-work-alongside-the]
+en: We work alongside the student so that the methods and the results are the student's own to explain and defend.
+bn: আমরা শিক্ষার্থীর পাশে থেকে কাজ করি, যাতে পদ্ধতি ও ফলাফল শিক্ষার্থী নিজেই ব্যাখ্যা ও ডিফেন্ড করতে পারেন।
+
+[pop-msc-thesis-project.at-a-glance]
+en: At a glance
+bn: এক নজরে
+
+[pop-msc-thesis-project.status]
+en: Status
+bn: অবস্থা
+
+[pop-msc-thesis-project.client-type]
+en: Client type
+bn: ক্লায়েন্টের ধরন
+
+[pop-msc-thesis-project.university-student]
+en: University student
+bn: বিশ্ববিদ্যালয়ের শিক্ষার্থী
+
+[pop-msc-thesis-project.services]
+en: Services
+bn: সেবাসমূহ
+
+[pop-msc-thesis-project.client-details-are-kept]
+en: Client details are kept confidential.
+bn: ক্লায়েন্টের তথ্য গোপন রাখা হয়।
+
+[pop-msc-thesis-project.ask-about-similar-work]
+en: Ask about similar work
+bn: এমন কাজ সম্পর্কে জানুন
+
+[pop-msc-thesis-project.email-projects-bgrcbd-com]
+en: Email {{@email_projects}}
+bn: {{@email_projects}}-এ ইমেইল করুন
+
+
+# ======================================================================
+# Popup: GIS and RS training programme, six batches
+# ======================================================================
+
+[pop-gis-and-rs.gis-and-remote-sensing]
+# Used 2 times in this part (one change updates all of them)
+en: GIS and remote sensing training
+bn: জিআইএস ও রিমোট সেন্সিং প্রশিক্ষণ
+
+[pop-gis-and-rs.close-window]
+en: Close window
+bn: উইন্ডো বন্ধ করুন
+
+[pop-gis-and-rs.four-online-batches-and]
+en: Four online batches and two on-campus batches, with about 30 to 50 learners in each. The on-campus batches were for final-year Civil Engineering students at DUET.
+bn: চারটি অনলাইন ব্যাচ ও দুটি ক্যাম্পাস ব্যাচ, প্রতিটিতে প্রায় ৩০ থেকে ৫০ জন শিক্ষার্থী। ক্যাম্পাস ব্যাচ দুটি ছিল ডুয়েটের সিভিল ইঞ্জিনিয়ারিংয়ের চূড়ান্ত বর্ষের শিক্ষার্থীদের জন্য।
+
+[pop-gis-and-rs.participants-practise-on-real]
+en: Participants practise on real data and receive a certificate from BlueGreen based on attendance.
+bn: অংশগ্রহণকারীরা বাস্তব ডেটা দিয়ে অনুশীলন করেন এবং উপস্থিতির ভিত্তিতে ব্লুগ্রিন থেকে সার্টিফিকেট পান।
+
+[pop-gis-and-rs.at-a-glance]
+en: At a glance
+bn: এক নজরে
+
+[pop-gis-and-rs.status]
+en: Status
+bn: অবস্থা
+
+[pop-gis-and-rs.client-type]
+en: Client type
+bn: ক্লায়েন্টের ধরন
+
+[pop-gis-and-rs.students-and-researchers]
+en: Students and researchers
+bn: শিক্ষার্থী ও গবেষক
+
+[pop-gis-and-rs.services]
+en: Services
+bn: সেবাসমূহ
+
+[pop-gis-and-rs.client-details-are-kept]
+en: Client details are kept confidential.
+bn: ক্লায়েন্টের তথ্য গোপন রাখা হয়।
+
+[pop-gis-and-rs.ask-about-similar-work]
+en: Ask about similar work
+bn: এমন কাজ সম্পর্কে জানুন
+
+[pop-gis-and-rs.email-projects-bgrcbd-com]
+en: Email {{@email_projects}}
+bn: {{@email_projects}}-এ ইমেইল করুন
+
+[pop-gis-and-rs.see-the-training-courses]
+en: See the training courses
+bn: প্রশিক্ষণ কোর্সগুলো দেখুন
+
+
+# ======================================================================
+# Call to action: Have a project in mind?
+# ======================================================================
+
+[cta-have-a-project.have-a-project-in]
+en: Have a project in mind?
+bn: মনে কোনো প্রকল্প আছে?
+
+[cta-have-a-project.send-a-short-description]
+en: Send a short description of what you need. We reply within one working day, usually with questions and a rough plan.
+bn: আপনার কী প্রয়োজন, সংক্ষেপে লিখে পাঠান। আমরা এক কর্মদিবসের মধ্যে উত্তর দিই, সাধারণত কিছু প্রশ্ন ও একটি প্রাথমিক পরিকল্পনাসহ।
+
+[cta-have-a-project.request-a-quote]
+en: Request a quote
+bn: কোটেশন চান
+
+[cta-have-a-project.message-on-whatsapp]
+en: Message on WhatsApp
+bn: হোয়াটসঅ্যাপে বার্তা দিন

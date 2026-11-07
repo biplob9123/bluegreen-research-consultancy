@@ -1,0 +1,1130 @@
+# Text of the Insights page  (template: templates/insights.html)
+#
+# HOW TO EDIT THIS FILE
+# - Each text has a name in [square brackets], then two lines: 'en:' (English) and 'bn:' (Bangla).
+# - Change only the words after 'en:' or 'bn:'. Never change the names in [square brackets].
+# - Type & as it is; the website adds the special code by itself.
+# - Words like {{@email}} are values from content/_site.txt. Keep them as they are.
+# - Lines that start with # are notes and are ignored.
+# - After you save (commit) the file, the website rebuilds itself in 1-2 minutes.
+
+
+# ======================================================================
+# Page title and description (browser tab and search engines)
+# ======================================================================
+
+[meta.title]
+en: Insights | BlueGreen Research and Consultancy
+bn: ইনসাইটস | ব্লুগ্রিন রিসার্চ অ্যান্ড কনসালটেন্সি
+
+[meta.description]
+en: Explainers from BlueGreen on IEE and EIA, effluent treatment plants, environmental clearance, GIS, remote sensing, flood and drought, water quality, ESG and thesis research.
+bn: ব্লুগ্রিনের সহজবোধ্য ব্যাখ্যা: আইইই ও ইআইএ, ইফ্লুয়েন্ট ট্রিটমেন্ট প্ল্যান্ট, পরিবেশগত ছাড়পত্র, জিআইএস, রিমোট সেন্সিং, বন্যা ও খরা, পানির গুণমান, ইএসজি এবং থিসিস গবেষণা।
+
+
+# ======================================================================
+# Page title banner
+# ======================================================================
+
+[banner.insights]
+en: Insights
+bn: ইনসাইটস
+
+[banner.clear-explainers-from-our]
+en: Clear explainers from our team on the topics we work on every day.
+bn: যে বিষয়গুলো নিয়ে আমরা প্রতিদিন কাজ করি, সেগুলোর সহজবোধ্য ব্যাখ্যা।
+
+
+# ======================================================================
+# Section: All insights
+# ======================================================================
+
+[sec-all-insights.all-insights]
+en: All insights
+bn: সব ইনসাইটস
+
+[sec-all-insights.insight-topics]
+en: Insight topics
+bn: ইনসাইটসের বিষয়
+
+[sec-all-insights.all]
+en: All
+bn: সব
+
+[sec-all-insights.regulation]
+en: Regulation
+bn: নিয়মকানুন
+
+[sec-all-insights.water]
+en: Water
+bn: পানি
+
+[sec-all-insights.geospatial]
+en: Geospatial
+bn: জিওস্প্যাশিয়াল
+
+[sec-all-insights.climate-and-esg]
+en: Climate and ESG
+bn: জলবায়ু ও ইএসজি
+
+[sec-all-insights.research]
+en: Research
+bn: গবেষণা
+
+
+# ======================================================================
+# Card: IEE or EIA: which one does your project need?
+# ======================================================================
+
+[card-iee-or-eia.regulation]
+# Also used in: Popup: IEE or EIA: which one does your project need?  (one change updates all of them)
+en: Regulation
+bn: নিয়মকানুন
+
+[card-iee-or-eia.iee-or-eia-which]
+# Also used in: Popup: IEE or EIA: which one does your project need?  (one change updates all of them)
+en: IEE or EIA: which one does your project need?
+bn: আইইই নাকি ইআইএ: আপনার প্রকল্পে কোনটি লাগবে?
+
+[card-iee-or-eia.the-category-your-project]
+# Also used in: Popup: IEE or EIA: which one does your project need?  (one change updates all of them)
+en: The category your project falls in decides the scope, the cost and the time.
+bn: আপনার প্রকল্প কোন শ্রেণিতে পড়ে, তা-ই ঠিক করে কাজের পরিধি, খরচ ও সময়।
+
+[card-iee-or-eia.read-more]
+en: Read more
+bn: আরও পড়ুন
+
+
+# ======================================================================
+# Card: Why does a factory need an ETP?
+# ======================================================================
+
+[card-why-does-a.regulation]
+# Also used in: Popup: Why does a factory need an ETP?  (one change updates all of them)
+en: Regulation
+bn: নিয়মকানুন
+
+[card-why-does-a.why-does-a-factory]
+# Also used in: Popup: Why does a factory need an ETP?  (one change updates all of them)
+en: Why does a factory need an ETP?
+bn: কারখানায় কেন ইটিপি দরকার?
+
+[card-why-does-a.an-effluent-treatment-plant]
+# Also used in: Popup: Why does a factory need an ETP?  (one change updates all of them)
+en: An effluent treatment plant protects rivers and communities and keeps your clearance valid.
+bn: ইফ্লুয়েন্ট ট্রিটমেন্ট প্ল্যান্ট নদী ও জনগোষ্ঠীকে সুরক্ষা দেয় এবং আপনার ছাড়পত্র বহাল রাখে।
+
+[card-why-does-a.read-more]
+en: Read more
+bn: আরও পড়ুন
+
+
+# ======================================================================
+# Card: Environmental clearance: from application to...
+# ======================================================================
+
+[card-environmental.regulation]
+# Also used in: Popup: Environmental clearance: from application to...  (one change updates all of them)
+en: Regulation
+bn: নিয়মকানুন
+
+[card-environmental.environmental-clearance-from]
+# Also used in: Popup: Environmental clearance: from application to...  (one change updates all of them)
+en: Environmental clearance: from application to renewal
+bn: পরিবেশগত ছাড়পত্র: আবেদন থেকে নবায়ন পর্যন্ত
+
+[card-environmental.the-steps-are-easier]
+# Also used in: Popup: Environmental clearance: from application to...  (one change updates all of them)
+en: The steps are easier when you know them in advance, and renewal needs attention too.
+bn: ধাপগুলো আগে থেকে জানা থাকলে কাজ সহজ হয়, আর নবায়নেও মনোযোগ দিতে হয়।
+
+[card-environmental.read-more]
+en: Read more
+bn: আরও পড়ুন
+
+
+# ======================================================================
+# Card: What an Environmental Management Plan contains
+# ======================================================================
+
+[card-what-an.regulation]
+# Also used in: Popup: What an Environmental Management Plan contains  (one change updates all of them)
+en: Regulation
+bn: নিয়মকানুন
+
+[card-what-an.what-an-environmental]
+# Also used in: Popup: What an Environmental Management Plan contains  (one change updates all of them)
+en: What an Environmental Management Plan contains
+bn: পরিবেশ ব্যবস্থাপনা পরিকল্পনায় কী থাকে
+
+[card-what-an.a-plan-that-sets]
+# Also used in: Popup: What an Environmental Management Plan contains  (one change updates all of them)
+en: A plan that sets out who does what to limit impacts, and how it will be checked.
+bn: প্রভাব কমাতে কে কী করবে এবং তা কীভাবে যাচাই হবে, তার একটি পরিকল্পনা।
+
+[card-what-an.read-more]
+en: Read more
+bn: আরও পড়ুন
+
+
+# ======================================================================
+# Card: What is GIS, and why do environmental studies...
+# ======================================================================
+
+[card-what-is-gis.geospatial]
+# Also used in: Popup: What is GIS, and why do environmental studies...  (one change updates all of them)
+en: Geospatial
+bn: জিওস্প্যাশিয়াল
+
+[card-what-is-gis.what-is-gis-and]
+# Also used in: Popup: What is GIS, and why do environmental studies...  (one change updates all of them)
+en: What is GIS, and why do environmental studies depend on it?
+bn: জিআইএস কী, আর পরিবেশ গবেষণা কেন এর ওপর নির্ভর করে?
+
+[card-what-is-gis.putting-data-on-a]
+# Also used in: Popup: What is GIS, and why do environmental studies...  (one change updates all of them)
+en: Putting data on a map shows where things happen and makes findings easy to check.
+bn: ডেটা মানচিত্রে বসালে বোঝা যায় কোথায় কী ঘটছে, আর ফলাফল যাচাই করাও সহজ হয়।
+
+[card-what-is-gis.read-more]
+en: Read more
+bn: আরও পড়ুন
+
+
+# ======================================================================
+# Card: What can satellite images tell us about water...
+# ======================================================================
+
+[card-what-can-satellite.geospatial]
+# Also used in: Popup: What can satellite images tell us about water...  (one change updates all of them)
+en: Geospatial
+bn: জিওস্প্যাশিয়াল
+
+[card-what-can-satellite.what-can-satellite-images]
+# Also used in: Popup: What can satellite images tell us about water...  (one change updates all of them)
+en: What can satellite images tell us about water and land?
+bn: স্যাটেলাইট চিত্র পানি ও ভূমি সম্পর্কে কী জানাতে পারে?
+
+[card-what-can-satellite.satellites-record-the-same]
+# Also used in: Popup: What can satellite images tell us about water...  (one change updates all of them)
+en: Satellites record the same place again and again, so change can be measured.
+bn: স্যাটেলাইট একই জায়গার ছবি বারবার তোলে, তাই পরিবর্তন পরিমাপ করা যায়।
+
+[card-what-can-satellite.read-more]
+en: Read more
+bn: আরও পড়ুন
+
+
+# ======================================================================
+# Card: How flood risk is mapped
+# ======================================================================
+
+[card-how-flood-risk.water]
+# Also used in: Popup: How flood risk is mapped  (one change updates all of them)
+en: Water
+bn: পানি
+
+[card-how-flood-risk.how-flood-risk-is]
+# Also used in: Popup: How flood risk is mapped  (one change updates all of them)
+en: How flood risk is mapped
+bn: বন্যা ঝুঁকির মানচিত্র যেভাবে তৈরি হয়
+
+[card-how-flood-risk.hazard-exposure-and]
+# Also used in: Popup: How flood risk is mapped  (one change updates all of them)
+en: Hazard, exposure and vulnerability are combined to show which areas need attention first.
+bn: দুর্যোগ, উন্মুক্ততা ও ঝুঁকিপূর্ণতা মিলিয়ে দেখানো হয় কোন এলাকায় আগে নজর দিতে হবে।
+
+[card-how-flood-risk.read-more]
+en: Read more
+bn: আরও পড়ুন
+
+
+# ======================================================================
+# Card: Measuring drought with climate indices
+# ======================================================================
+
+[card-measuring-drought.water]
+# Also used in: Popup: Measuring drought with climate indices  (one change updates all of them)
+en: Water
+bn: পানি
+
+[card-measuring-drought.measuring-drought-with-climate]
+# Also used in: Popup: Measuring drought with climate indices  (one change updates all of them)
+en: Measuring drought with climate indices
+bn: জলবায়ু সূচক দিয়ে খরা পরিমাপ
+
+[card-measuring-drought.indices-such-as-spi]
+# Also used in: Popup: Measuring drought with climate indices  (one change updates all of them)
+en: Indices such as SPI and SPEI turn long rainfall and temperature records into a drought signal.
+bn: SPI ও SPEI-এর মতো সূচক দীর্ঘমেয়াদি বৃষ্টিপাত ও তাপমাত্রার রেকর্ডকে খরার সংকেতে রূপ দেয়।
+
+[card-measuring-drought.read-more]
+en: Read more
+bn: আরও পড়ুন
+
+
+# ======================================================================
+# Card: Water quality sampling: what to measure and...
+# ======================================================================
+
+[card-water-quality.water]
+# Also used in: Popup: Water quality sampling: what to measure and...  (one change updates all of them)
+en: Water
+bn: পানি
+
+[card-water-quality.water-quality-sampling-what]
+# Also used in: Popup: Water quality sampling: what to measure and...  (one change updates all of them)
+en: Water quality sampling: what to measure and how
+bn: পানির গুণমান পরীক্ষার নমুনা সংগ্রহ: কী মাপবেন, কীভাবে মাপবেন
+
+[card-water-quality.a-sampling-plan-decides]
+# Also used in: Popup: Water quality sampling: what to measure and...  (one change updates all of them)
+en: A sampling plan decides whether your results can be trusted.
+bn: নমুনা সংগ্রহের পরিকল্পনাই ঠিক করে দেয় আপনার ফলাফল বিশ্বাসযোগ্য কিনা।
+
+[card-water-quality.read-more]
+en: Read more
+bn: আরও পড়ুন
+
+
+# ======================================================================
+# Card: Climate, carbon and ESG reporting: where to...
+# ======================================================================
+
+[card-climate-carbon-and.climate-and-esg]
+# Also used in: Popup: Climate, carbon and ESG reporting: where to...  (one change updates all of them)
+en: Climate and ESG
+bn: জলবায়ু ও ইএসজি
+
+[card-climate-carbon-and.climate-carbon-and-esg]
+# Also used in: Popup: Climate, carbon and ESG reporting: where to...  (one change updates all of them)
+en: Climate, carbon and ESG reporting: where to begin
+bn: জলবায়ু, কার্বন ও ইএসজি প্রতিবেদন: কোথা থেকে শুরু করবেন
+
+[card-climate-carbon-and.start-with-a-clear]
+# Also used in: Popup: Climate, carbon and ESG reporting: where to...  (one change updates all of them)
+en: Start with a clear boundary and good data, then choose a reporting framework.
+bn: স্পষ্ট সীমানা ও ভালো ডেটা দিয়ে শুরু করুন, তারপর একটি প্রতিবেদন কাঠামো বেছে নিন।
+
+[card-climate-carbon-and.read-more]
+en: Read more
+bn: আরও পড়ুন
+
+
+# ======================================================================
+# Card: Choosing a thesis topic in environment or...
+# ======================================================================
+
+[card-choosing-a-thesis.research]
+# Also used in: Popup: Choosing a thesis topic in environment or...  (one change updates all of them)
+en: Research
+bn: গবেষণা
+
+[card-choosing-a-thesis.choosing-a-thesis-topic]
+# Also used in: Popup: Choosing a thesis topic in environment or...  (one change updates all of them)
+en: Choosing a thesis topic in environment or water research
+bn: পরিবেশ বা পানি গবেষণায় থিসিসের বিষয় নির্বাচন
+
+[card-choosing-a-thesis.start-from-data-you]
+# Also used in: Popup: Choosing a thesis topic in environment or...  (one change updates all of them)
+en: Start from data you can get, keep the question narrow and agree the plan early.
+bn: যে ডেটা পাওয়া যায় তা দিয়ে শুরু করুন, প্রশ্ন সুনির্দিষ্ট রাখুন এবং শুরুতেই পরিকল্পনা চূড়ান্ত করুন।
+
+[card-choosing-a-thesis.read-more]
+en: Read more
+bn: আরও পড়ুন
+
+
+# ======================================================================
+# Card: From thesis to journal paper
+# ======================================================================
+
+[card-from-thesis-to.research]
+# Also used in: Popup: From thesis to journal paper  (one change updates all of them)
+en: Research
+bn: গবেষণা
+
+[card-from-thesis-to.from-thesis-to-journal]
+# Also used in: Popup: From thesis to journal paper  (one change updates all of them)
+en: From thesis to journal paper
+bn: থিসিস থেকে জার্নাল গবেষণাপত্র
+
+[card-from-thesis-to.a-thesis-is-not]
+# Also used in: Popup: From thesis to journal paper  (one change updates all of them)
+en: A thesis is not yet a paper. Here is how to turn one into the other.
+bn: থিসিস মানেই গবেষণাপত্র নয়। একটিকে কীভাবে অন্যটিতে রূপ দেবেন, তা এখানে।
+
+[card-from-thesis-to.read-more]
+en: Read more
+bn: আরও পড়ুন
+
+
+# ======================================================================
+# Section: All insights
+# ======================================================================
+
+[sec-all-insights.need-our-company-profile]
+en: Need our company profile or a sample report outline?
+bn: আমাদের কোম্পানি প্রোফাইল বা নমুনা প্রতিবেদনের রূপরেখা দরকার?
+
+[sec-all-insights.ask-us]
+en: Ask us
+bn: আমাদের জানান
+
+[sec-all-insights.and-we-will-send]
+en: and we will send it.
+bn: আমরা পাঠিয়ে দেব।
+
+
+# ======================================================================
+# Popup: IEE or EIA: which one does your project need?
+# ======================================================================
+
+[pop-iee-or-eia.bluegreen-insights]
+en: BlueGreen Insights
+bn: ব্লুগ্রিন ইনসাইটস
+
+[pop-iee-or-eia.close-window]
+en: Close window
+bn: উইন্ডো বন্ধ করুন
+
+[pop-iee-or-eia.what-they-are]
+en: What they are
+bn: এগুলো কী
+
+[pop-iee-or-eia.an-initial-environmental]
+en: An Initial Environmental Examination (IEE) is a shorter study for projects with a moderate impact. An Environmental Impact Assessment (EIA) is a deeper study for projects with a bigger impact.
+bn: প্রাথমিক পরিবেশগত পরীক্ষা (আইইই) হলো মাঝারি প্রভাবের প্রকল্পের জন্য একটি সংক্ষিপ্ত সমীক্ষা। পরিবেশগত প্রভাব নিরূপণ (ইআইএ) হলো বেশি প্রভাবের প্রকল্পের জন্য একটি বিস্তারিত সমীক্ষা।
+
+[pop-iee-or-eia.what-decides-which-one]
+en: What decides which one you need
+bn: কোনটি প্রয়োজন, তা কীভাবে ঠিক হয়
+
+[pop-iee-or-eia.it-depends-on-the]
+en: It depends on the category the Department of Environment gives your project, which follows from the type and size of the activity. If you are unsure, ask before you start, because the category decides the scope, the cost and the time.
+bn: পরিবেশ অধিদপ্তর আপনার প্রকল্পকে কোন শ্রেণিতে ফেলে, তার ওপর এটি নির্ভর করে। শ্রেণি নির্ধারিত হয় কার্যক্রমের ধরন ও আকার অনুযায়ী। নিশ্চিত না হলে কাজ শুরুর আগেই জেনে নিন, কারণ শ্রেণিই ঠিক করে কাজের পরিধি, খরচ ও সময়।
+
+[pop-iee-or-eia.what-a-report-usually]
+en: What a report usually contains
+bn: একটি প্রতিবেদনে সাধারণত যা থাকে
+
+[pop-iee-or-eia.a-description-of-the]
+en: A description of the project and its site, baseline data on air, water, noise, soil and ecology, the expected impacts, measures to reduce them, and an environmental management plan. An EIA is more detailed and usually involves consultation with the people affected.
+bn: প্রকল্প ও তার সাইটের বিবরণ; বায়ু, পানি, শব্দ, মাটি ও প্রতিবেশের বেসলাইন ডেটা; সম্ভাব্য প্রভাব; সেগুলো কমানোর ব্যবস্থা; এবং একটি পরিবেশ ব্যবস্থাপনা পরিকল্পনা। ইআইএ আরও বিস্তারিত হয় এবং সাধারণত ক্ষতিগ্রস্ত হতে পারেন এমন মানুষের সাথে পরামর্শ সভা অন্তর্ভুক্ত থাকে।
+
+[pop-iee-or-eia.key-points]
+en: Key points
+bn: মূল বিষয়
+
+[pop-iee-or-eia.check-the-category-first]
+en: Check the category first, then plan the study
+bn: আগে শ্রেণি যাচাই করুন, তারপর সমীক্ষার পরিকল্পনা করুন
+
+[pop-iee-or-eia.baseline-data-takes-time]
+en: Baseline data takes time, so start early
+bn: বেসলাইন ডেটা সংগ্রহে সময় লাগে, তাই আগেভাগে শুরু করুন
+
+[pop-iee-or-eia.the-report-must-match]
+en: The report must match the real site and process
+bn: প্রতিবেদন অবশ্যই প্রকৃত সাইট ও প্রক্রিয়ার সাথে মিলতে হবে
+
+[pop-iee-or-eia.talk-to-us-about]
+en: Talk to us about this
+bn: এ বিষয়ে আমাদের সাথে কথা বলুন
+
+[pop-iee-or-eia.see-our-services]
+en: See our services
+bn: আমাদের সেবাসমূহ দেখুন
+
+
+# ======================================================================
+# Popup: Why does a factory need an ETP?
+# ======================================================================
+
+[pop-why-does-a.bluegreen-insights]
+en: BlueGreen Insights
+bn: ব্লুগ্রিন ইনসাইটস
+
+[pop-why-does-a.close-window]
+en: Close window
+bn: উইন্ডো বন্ধ করুন
+
+[pop-why-does-a.what-an-etp-does]
+en: What an ETP does
+bn: ইটিপি কী করে
+
+[pop-why-does-a.an-effluent-treatment-plant]
+en: An effluent treatment plant cleans industrial wastewater before it is released. This protects rivers, soil and nearby communities, and it is required to get and keep environmental clearance.
+bn: ইফ্লুয়েন্ট ট্রিটমেন্ট প্ল্যান্ট শিল্পের বর্জ্যপানি নির্গমনের আগে পরিশোধন করে। এটি নদী, মাটি ও আশপাশের জনগোষ্ঠীকে সুরক্ষা দেয়, আর পরিবেশগত ছাড়পত্র পাওয়া ও বহাল রাখার জন্য এটি বাধ্যতামূলক।
+
+[pop-why-does-a.why-design-starts-with]
+en: Why design starts with your effluent
+bn: কেন ডিজাইন শুরু হয় আপনার ইফ্লুয়েন্ট থেকে
+
+[pop-why-does-a.a-good-etp-is]
+en: A good ETP is designed for the wastewater your factory really produces, not for a generic figure. That is why we start with the characterisation of your effluent: its flow, its load and how both change over a day.
+bn: একটি ভালো ইটিপি ডিজাইন করা হয় আপনার কারখানা প্রকৃতপক্ষে যে বর্জ্যপানি তৈরি করে তার জন্য, কোনো গড়পড়তা হিসাবের জন্য নয়। তাই আমরা শুরু করি আপনার ইফ্লুয়েন্টের বৈশিষ্ট্য নিরূপণ দিয়ে: এর প্রবাহ, দূষণের মাত্রা এবং দিনের বিভিন্ন সময়ে দুটোই কীভাবে বদলায়।
+
+[pop-why-does-a.what-to-expect-from]
+en: What to expect from a design
+bn: একটি ডিজাইনে যা পাবেন
+
+[pop-why-does-a.the-treatment-units-their]
+en: The treatment units, their sizes, a layout that fits your site, an operating guide for your staff, and the monitoring that shows the plant is working.
+bn: শোধন ইউনিট ও তাদের আকার, আপনার সাইটের উপযোগী লেআউট, কর্মীদের জন্য পরিচালনা নির্দেশিকা, এবং প্ল্যান্ট ঠিকমতো চলছে কিনা দেখানোর পরিবীক্ষণ ব্যবস্থা।
+
+[pop-why-does-a.key-points]
+en: Key points
+bn: মূল বিষয়
+
+[pop-why-does-a.start-from-measured-effluent]
+en: Start from measured effluent, not assumptions
+bn: অনুমান নয়, মাপা ইফ্লুয়েন্ট থেকে শুরু করুন
+
+[pop-why-does-a.plan-for-staff-training]
+en: Plan for staff training and monitoring
+bn: কর্মী প্রশিক্ষণ ও পরিবীক্ষণের পরিকল্পনা রাখুন
+
+[pop-why-does-a.a-plant-that-runs]
+en: A plant that runs poorly can fail an inspection
+bn: ঠিকমতো না চলা প্ল্যান্ট পরিদর্শনে অকৃতকার্য হতে পারে
+
+[pop-why-does-a.talk-to-us-about]
+en: Talk to us about this
+bn: এ বিষয়ে আমাদের সাথে কথা বলুন
+
+[pop-why-does-a.see-our-services]
+en: See our services
+bn: আমাদের সেবাসমূহ দেখুন
+
+
+# ======================================================================
+# Popup: Environmental clearance: from application to...
+# ======================================================================
+
+[pop-environmental.bluegreen-insights]
+en: BlueGreen Insights
+bn: ব্লুগ্রিন ইনসাইটস
+
+[pop-environmental.close-window]
+en: Close window
+bn: উইন্ডো বন্ধ করুন
+
+[pop-environmental.the-usual-steps]
+en: The usual steps
+bn: সাধারণ ধাপগুলো
+
+[pop-environmental.confirm-the-category-of]
+en: Confirm the category of your project, prepare the application with site and process details, complete an IEE or EIA where one is required, submit to the Department of Environment, respond to the review and any site visit, and receive the clearance.
+bn: আপনার প্রকল্পের শ্রেণি নিশ্চিত করুন, সাইট ও প্রক্রিয়ার বিবরণসহ আবেদন প্রস্তুত করুন, প্রয়োজন হলে আইইই বা ইআইএ সম্পন্ন করুন, পরিবেশ অধিদপ্তরে জমা দিন, পর্যালোচনা ও সাইট পরিদর্শনের জবাব দিন, তারপর ছাড়পত্র গ্রহণ করুন।
+
+[pop-environmental.after-the-clearance]
+en: After the clearance
+bn: ছাড়পত্র পাওয়ার পর
+
+[pop-environmental.clearance-is-not-a]
+en: Clearance is not a one-time job. Conditions must be followed, monitoring kept up and the certificate renewed on time. Missing a renewal can stop operations.
+bn: ছাড়পত্র একবারের কাজ নয়। শর্তগুলো মেনে চলতে হয়, পরিবীক্ষণ চালু রাখতে হয় এবং সময়মতো সনদ নবায়ন করতে হয়। নবায়ন বাদ পড়লে কার্যক্রম বন্ধ হয়ে যেতে পারে।
+
+[pop-environmental.rules-change]
+en: Rules change
+bn: নিয়ম বদলায়
+
+[pop-environmental.requirements-and-forms-are]
+en: Requirements and forms are updated from time to time. We check the current requirements for each case rather than rely on an old checklist.
+bn: শর্ত ও ফরম সময়ে সময়ে হালনাগাদ হয়। তাই পুরনো চেকলিস্টের ওপর নির্ভর না করে আমরা প্রতিটি ক্ষেত্রে বর্তমান শর্তাবলি যাচাই করি।
+
+[pop-environmental.key-points]
+en: Key points
+bn: মূল বিষয়
+
+[pop-environmental.keep-a-calendar-of]
+en: Keep a calendar of renewal dates
+bn: নবায়নের তারিখগুলোর একটি ক্যালেন্ডার রাখুন
+
+[pop-environmental.keep-monitoring-records-ready]
+en: Keep monitoring records ready for inspection
+bn: পরিবীক্ষণের রেকর্ড পরিদর্শনের জন্য প্রস্তুত রাখুন
+
+[pop-environmental.ask-us-to-check]
+en: Ask us to check the current requirements
+bn: বর্তমান শর্তাবলি যাচাই করতে আমাদের বলুন
+
+[pop-environmental.talk-to-us-about]
+en: Talk to us about this
+bn: এ বিষয়ে আমাদের সাথে কথা বলুন
+
+[pop-environmental.see-our-services]
+en: See our services
+bn: আমাদের সেবাসমূহ দেখুন
+
+
+# ======================================================================
+# Popup: What an Environmental Management Plan contains
+# ======================================================================
+
+[pop-what-an.bluegreen-insights]
+en: BlueGreen Insights
+bn: ব্লুগ্রিন ইনসাইটস
+
+[pop-what-an.close-window]
+en: Close window
+bn: উইন্ডো বন্ধ করুন
+
+[pop-what-an.the-purpose]
+en: The purpose
+bn: উদ্দেশ্য
+
+[pop-what-an.an-environmental-management]
+en: An Environmental Management Plan (EMP) turns the findings of an assessment into actions. It says what will be done to avoid or reduce each impact, who is responsible, when, and at what cost.
+bn: পরিবেশ ব্যবস্থাপনা পরিকল্পনা (ইএমপি) একটি মূল্যায়নের ফলাফলকে কার্যকর পদক্ষেপে রূপ দেয়। এতে বলা থাকে প্রতিটি প্রভাব এড়াতে বা কমাতে কী করা হবে, কে দায়িত্বে থাকবেন, কখন এবং কত খরচে।
+
+[pop-what-an.the-main-parts]
+en: The main parts
+bn: প্রধান অংশগুলো
+
+[pop-what-an.mitigation-measures-for-each]
+en: Mitigation measures for each impact, a monitoring plan with parameters and frequency, roles and responsibilities, an emergency response outline, and a budget.
+bn: প্রতিটি প্রভাবের জন্য প্রশমন ব্যবস্থা, প্যারামিটার ও পুনরাবৃত্তিসহ পরিবীক্ষণ পরিকল্পনা, দায়িত্ব ও ভূমিকা, জরুরি সাড়াদানের রূপরেখা এবং বাজেট।
+
+[pop-what-an.what-makes-one-useful]
+en: What makes one useful
+bn: কীসে এটি কার্যকর হয়
+
+[pop-what-an.actions-that-the-site]
+en: Actions that the site team can actually carry out, with clear owners and dates, and monitoring that is simple enough to keep up.
+bn: এমন পদক্ষেপ যা সাইটের টিম সত্যিই বাস্তবায়ন করতে পারে, যার স্পষ্ট দায়িত্বপ্রাপ্ত ব্যক্তি ও তারিখ আছে, আর এমন সহজ পরিবীক্ষণ যা নিয়মিত চালিয়ে যাওয়া যায়।
+
+[pop-what-an.key-points]
+en: Key points
+bn: মূল বিষয়
+
+[pop-what-an.one-action-one-owner]
+en: One action, one owner, one date
+bn: একটি পদক্ষেপ, একজন দায়িত্বপ্রাপ্ত, একটি তারিখ
+
+[pop-what-an.monitoring-should-be-easy]
+en: Monitoring should be easy to repeat
+bn: পরিবীক্ষণ যেন সহজে বারবার করা যায়
+
+[pop-what-an.review-the-plan-when]
+en: Review the plan when the operation changes
+bn: কার্যক্রম বদলালে পরিকল্পনা পর্যালোচনা করুন
+
+[pop-what-an.talk-to-us-about]
+en: Talk to us about this
+bn: এ বিষয়ে আমাদের সাথে কথা বলুন
+
+[pop-what-an.see-our-services]
+en: See our services
+bn: আমাদের সেবাসমূহ দেখুন
+
+
+# ======================================================================
+# Popup: What is GIS, and why do environmental studies...
+# ======================================================================
+
+[pop-what-is-gis.bluegreen-insights]
+en: BlueGreen Insights
+bn: ব্লুগ্রিন ইনসাইটস
+
+[pop-what-is-gis.close-window]
+en: Close window
+bn: উইন্ডো বন্ধ করুন
+
+[pop-what-is-gis.what-gis-does]
+en: What GIS does
+bn: জিআইএস কী করে
+
+[pop-what-is-gis.gis-geographic-information]
+en: GIS (geographic information systems) lets you put data on a map and analyse it by place. In environmental work it answers questions such as which areas flood, where land use is changing, or which site is suitable for a plant.
+bn: জিআইএস (ভৌগোলিক তথ্য ব্যবস্থা) দিয়ে ডেটা মানচিত্রে বসানো যায় এবং স্থানভিত্তিক বিশ্লেষণ করা যায়। পরিবেশ বিষয়ক কাজে এটি এমন প্রশ্নের উত্তর দেয়: কোন এলাকা প্লাবিত হয়, কোথায় ভূমি ব্যবহার বদলাচ্ছে, বা প্ল্যান্টের জন্য কোন সাইট উপযুক্ত।
+
+[pop-what-is-gis.why-it-helps-a]
+en: Why it helps a report
+bn: প্রতিবেদনে কেন এটি সহায়ক
+
+[pop-what-is-gis.because-every-result-is]
+en: Because every result is tied to a location, a map also makes findings easier for a regulator, a donor or a community to check.
+bn: প্রতিটি ফলাফল একটি নির্দিষ্ট স্থানের সাথে যুক্ত থাকে, তাই নিয়ন্ত্রক সংস্থা, দাতা বা স্থানীয় জনগোষ্ঠীর পক্ষে মানচিত্র দেখে ফলাফল যাচাই করা সহজ হয়।
+
+[pop-what-is-gis.typical-outputs]
+en: Typical outputs
+bn: সাধারণ আউটপুট
+
+[pop-what-is-gis.site-and-land-use]
+en: Site and land-use maps, suitability and risk maps, change maps from satellite images, and clear figures for reports and presentations.
+bn: সাইট ও ভূমি ব্যবহারের মানচিত্র, উপযুক্ততা ও ঝুঁকির মানচিত্র, স্যাটেলাইট চিত্র থেকে পরিবর্তনের মানচিত্র, আর প্রতিবেদন ও উপস্থাপনার জন্য স্পষ্ট চিত্র।
+
+[pop-what-is-gis.key-points]
+en: Key points
+bn: মূল বিষয়
+
+[pop-what-is-gis.every-result-is-tied]
+en: Every result is tied to a place
+bn: প্রতিটি ফলাফল একটি স্থানের সাথে যুক্ত
+
+[pop-what-is-gis.maps-make-findings-easier]
+en: Maps make findings easier to verify
+bn: মানচিত্রে ফলাফল যাচাই করা সহজ হয়
+
+[pop-what-is-gis.good-data-matters-more]
+en: Good data matters more than complex tools
+bn: জটিল টুলের চেয়ে ভালো ডেটা বেশি গুরুত্বপূর্ণ
+
+[pop-what-is-gis.talk-to-us-about]
+en: Talk to us about this
+bn: এ বিষয়ে আমাদের সাথে কথা বলুন
+
+[pop-what-is-gis.see-our-services]
+en: See our services
+bn: আমাদের সেবাসমূহ দেখুন
+
+
+# ======================================================================
+# Popup: What can satellite images tell us about water...
+# ======================================================================
+
+[pop-what-can-satellite.bluegreen-insights]
+en: BlueGreen Insights
+bn: ব্লুগ্রিন ইনসাইটস
+
+[pop-what-can-satellite.close-window]
+en: Close window
+bn: উইন্ডো বন্ধ করুন
+
+[pop-what-can-satellite.what-the-images-show]
+en: What the images show
+bn: ছবিগুলো যা দেখায়
+
+[pop-what-can-satellite.satellites-record-the-same]
+en: Satellites record the same place again and again. From those images we can map land cover, track changes in rivers and wetlands, and estimate vegetation condition and drought.
+bn: স্যাটেলাইট একই জায়গার ছবি বারবার তোলে। সেই ছবি থেকে আমরা ভূমি আচ্ছাদনের মানচিত্র তৈরি করতে, নদী ও জলাভূমির পরিবর্তন অনুসরণ করতে এবং উদ্ভিদের অবস্থা ও খরা নিরূপণ করতে পারি।
+
+[pop-what-can-satellite.where-it-is-useful]
+en: Where it is useful
+bn: কোথায় এটি কাজে লাগে
+
+[pop-what-can-satellite.shoreline-and-river-change]
+en: Shoreline and river change, crop and vegetation condition, urban growth, flood extent and water bodies over many years.
+bn: বহু বছর ধরে উপকূলরেখা ও নদীর পরিবর্তন, ফসল ও উদ্ভিদের অবস্থা, নগরায়ণ, বন্যার বিস্তার এবং জলাশয়।
+
+[pop-what-can-satellite.its-limits]
+en: Its limits
+bn: এর সীমাবদ্ধতা
+
+[pop-what-can-satellite.remote-sensing-does-not]
+en: Remote sensing does not replace fieldwork. It tells you where to look, and fieldwork tells you what you are looking at.
+bn: রিমোট সেন্সিং মাঠপর্যায়ের কাজের বিকল্প নয়। এটি বলে দেয় কোথায় দেখতে হবে, আর মাঠের কাজ বলে দেয় আপনি আসলে কী দেখছেন।
+
+[pop-what-can-satellite.key-points]
+en: Key points
+bn: মূল বিষয়
+
+[pop-what-can-satellite.use-images-to-decide]
+en: Use images to decide where to survey
+bn: কোথায় জরিপ করবেন তা ঠিক করতে ছবি ব্যবহার করুন
+
+[pop-what-can-satellite.compare-the-same-season]
+en: Compare the same season across years
+bn: বিভিন্ন বছরের একই ঋতুর ছবি তুলনা করুন
+
+[pop-what-can-satellite.check-results-against-ground]
+en: Check results against ground data
+bn: মাঠের ডেটার সাথে ফলাফল মিলিয়ে দেখুন
+
+[pop-what-can-satellite.talk-to-us-about]
+en: Talk to us about this
+bn: এ বিষয়ে আমাদের সাথে কথা বলুন
+
+[pop-what-can-satellite.see-our-services]
+en: See our services
+bn: আমাদের সেবাসমূহ দেখুন
+
+
+# ======================================================================
+# Popup: How flood risk is mapped
+# ======================================================================
+
+[pop-how-flood-risk.bluegreen-insights]
+en: BlueGreen Insights
+bn: ব্লুগ্রিন ইনসাইটস
+
+[pop-how-flood-risk.close-window]
+en: Close window
+bn: উইন্ডো বন্ধ করুন
+
+[pop-how-flood-risk.three-ingredients]
+en: Three ingredients
+bn: তিনটি উপাদান
+
+[pop-how-flood-risk.flood-risk-maps-usually]
+en: Flood risk maps usually combine how likely and how deep flooding is (hazard), what lies in the flood zone (exposure), and how well people and assets can cope (vulnerability).
+bn: বন্যা ঝুঁকির মানচিত্রে সাধারণত তিনটি বিষয় মেলানো হয়: বন্যা কতটা সম্ভাব্য ও কতটা গভীর (দুর্যোগ), প্লাবন এলাকায় কী আছে (উন্মুক্ততা), আর মানুষ ও সম্পদ কতটা সামলে উঠতে পারে (ঝুঁকিপূর্ণতা)।
+
+[pop-how-flood-risk.methods]
+en: Methods
+bn: পদ্ধতি
+
+[pop-how-flood-risk.hydrological-and-hydraulic]
+en: Hydrological and hydraulic models simulate how water moves. Where data is limited, multi-criteria methods such as the Analytic Hierarchy Process (AHP) combine factors like elevation, rainfall, land use and distance to rivers into a single map.
+bn: হাইড্রোলজিক্যাল ও হাইড্রোলিক মডেল পানির চলাচল অনুকরণ করে। যেখানে ডেটা সীমিত, সেখানে অ্যানালিটিক হায়ারার্কি প্রসেস (AHP)-এর মতো বহু-মানদণ্ড পদ্ধতিতে উচ্চতা, বৃষ্টিপাত, ভূমি ব্যবহার ও নদী থেকে দূরত্বের মতো বিষয় মিলিয়ে একটি মানচিত্র তৈরি করা হয়।
+
+[pop-how-flood-risk.using-the-map]
+en: Using the map
+bn: মানচিত্রের ব্যবহার
+
+[pop-how-flood-risk.the-result-helps-planners]
+en: The result helps planners choose where to build, where to protect and where to prepare communities first.
+bn: এর ফলে পরিকল্পনাবিদরা ঠিক করতে পারেন কোথায় নির্মাণ করবেন, কোথায় সুরক্ষা দেবেন এবং কোন জনগোষ্ঠীকে আগে প্রস্তুত করবেন।
+
+[pop-how-flood-risk.key-points]
+en: Key points
+bn: মূল বিষয়
+
+[pop-how-flood-risk.say-clearly-what-the]
+en: Say clearly what the map shows and what it does not
+bn: মানচিত্র কী দেখায় আর কী দেখায় না, তা স্পষ্ট করে বলুন
+
+[pop-how-flood-risk.check-the-model-against]
+en: Check the model against past floods
+bn: অতীতের বন্যার সাথে মডেল মিলিয়ে দেখুন
+
+[pop-how-flood-risk.share-the-map-in]
+en: Share the map in a form people can use
+bn: মানুষ ব্যবহার করতে পারে এমনভাবে মানচিত্র শেয়ার করুন
+
+[pop-how-flood-risk.talk-to-us-about]
+en: Talk to us about this
+bn: এ বিষয়ে আমাদের সাথে কথা বলুন
+
+[pop-how-flood-risk.see-our-services]
+en: See our services
+bn: আমাদের সেবাসমূহ দেখুন
+
+
+# ======================================================================
+# Popup: Measuring drought with climate indices
+# ======================================================================
+
+[pop-measuring-drought.bluegreen-insights]
+en: BlueGreen Insights
+bn: ব্লুগ্রিন ইনসাইটস
+
+[pop-measuring-drought.close-window]
+en: Close window
+bn: উইন্ডো বন্ধ করুন
+
+[pop-measuring-drought.why-use-an-index]
+en: Why use an index
+bn: কেন সূচক ব্যবহার করবেন
+
+[pop-measuring-drought.drought-is-not-just]
+en: Drought is not just low rainfall. Indices such as the Standardised Precipitation Index (SPI) and the Standardised Precipitation-Evapotranspiration Index (SPEI) compare current conditions with the long-term record so that dry and wet periods can be compared across places.
+bn: খরা মানে শুধু কম বৃষ্টি নয়। স্ট্যান্ডার্ডাইজড প্রেসিপিটেশন ইনডেক্স (SPI) ও স্ট্যান্ডার্ডাইজড প্রেসিপিটেশন-ইভাপোট্রান্সপিরেশন ইনডেক্স (SPEI)-এর মতো সূচক বর্তমান অবস্থাকে দীর্ঘমেয়াদি রেকর্ডের সাথে তুলনা করে, ফলে বিভিন্ন জায়গার শুষ্ক ও আর্দ্র সময় পাশাপাশি তুলনা করা যায়।
+
+[pop-measuring-drought.what-spei-adds]
+en: What SPEI adds
+bn: SPEI বাড়তি যা দেয়
+
+[pop-measuring-drought.spei-also-includes-temperature]
+en: SPEI also includes temperature, so it reflects the effect of a warming climate on water demand as well as on rainfall.
+bn: SPEI তাপমাত্রাকেও বিবেচনায় নেয়, তাই এটি বৃষ্টিপাতের পাশাপাশি উষ্ণ হয়ে ওঠা জলবায়ুতে পানির চাহিদার ওপর প্রভাবও তুলে ধরে।
+
+[pop-measuring-drought.what-you-can-do]
+en: What you can do with it
+bn: এ দিয়ে কী করা যায়
+
+[pop-measuring-drought.find-how-often-and]
+en: Find how often and how severely droughts occurred, map where they were worst, and look for trends over several decades.
+bn: কত ঘন ঘন ও কত তীব্রভাবে খরা হয়েছে তা বের করা, কোথায় সবচেয়ে বেশি হয়েছে তার মানচিত্র তৈরি, এবং কয়েক দশকের প্রবণতা খোঁজা।
+
+[pop-measuring-drought.key-points]
+en: Key points
+bn: মূল বিষয়
+
+[pop-measuring-drought.use-a-long-consistent]
+en: Use a long, consistent record
+bn: দীর্ঘ ও সামঞ্জস্যপূর্ণ রেকর্ড ব্যবহার করুন
+
+[pop-measuring-drought.pick-the-time-scale]
+en: Pick the time scale to match your question
+bn: প্রশ্নের সাথে মিলিয়ে সময়ের মাপকাঠি বেছে নিন
+
+[pop-measuring-drought.check-stations-and-gaps]
+en: Check stations and gaps in the data
+bn: স্টেশন ও ডেটার ফাঁক যাচাই করুন
+
+[pop-measuring-drought.talk-to-us-about]
+en: Talk to us about this
+bn: এ বিষয়ে আমাদের সাথে কথা বলুন
+
+[pop-measuring-drought.see-our-services]
+en: See our services
+bn: আমাদের সেবাসমূহ দেখুন
+
+
+# ======================================================================
+# Popup: Water quality sampling: what to measure and...
+# ======================================================================
+
+[pop-water-quality.bluegreen-insights]
+en: BlueGreen Insights
+bn: ব্লুগ্রিন ইনসাইটস
+
+[pop-water-quality.close-window]
+en: Close window
+bn: উইন্ডো বন্ধ করুন
+
+[pop-water-quality.start-with-a-plan]
+en: Start with a plan
+bn: পরিকল্পনা দিয়ে শুরু করুন
+
+[pop-water-quality.decide-the-purpose-the]
+en: Decide the purpose, the sampling points, the parameters and the frequency before going to the field. The plan should match the question you need to answer.
+bn: মাঠে যাওয়ার আগে উদ্দেশ্য, নমুনা সংগ্রহের স্থান, প্যারামিটার ও কতবার সংগ্রহ করবেন তা ঠিক করুন। আপনাকে যে প্রশ্নের উত্তর দিতে হবে, পরিকল্পনা যেন তার সাথে মেলে।
+
+[pop-water-quality.common-parameters]
+en: Common parameters
+bn: সাধারণ প্যারামিটার
+
+[pop-water-quality.ph-temperature-dissolved]
+en: pH, temperature, dissolved oxygen, turbidity, total suspended and dissolved solids, BOD, COD, nutrients and, where relevant, metals. Some are measured on site and others in a laboratory.
+bn: pH, তাপমাত্রা, দ্রবীভূত অক্সিজেন, ঘোলাত্ব, মোট ভাসমান ও দ্রবীভূত কঠিন পদার্থ, BOD, COD, পুষ্টি উপাদান এবং প্রাসঙ্গিক ক্ষেত্রে ধাতু। কিছু মাঠেই মাপা হয়, বাকিগুলো ল্যাবরেটরিতে।
+
+[pop-water-quality.getting-reliable-results]
+en: Getting reliable results
+bn: নির্ভরযোগ্য ফলাফল পেতে
+
+[pop-water-quality.use-clean-containers-preserve]
+en: Use clean containers, preserve and label samples correctly, keep them cool and reach the laboratory in time. Record what you saw at each point.
+bn: পরিষ্কার পাত্র ব্যবহার করুন, নমুনা সঠিকভাবে সংরক্ষণ ও লেবেল করুন, ঠান্ডা রাখুন এবং সময়মতো ল্যাবরেটরিতে পৌঁছান। প্রতিটি স্থানে যা দেখেছেন তা লিখে রাখুন।
+
+[pop-water-quality.key-points]
+en: Key points
+bn: মূল বিষয়
+
+[pop-water-quality.write-the-plan-before]
+en: Write the plan before sampling
+bn: নমুনা সংগ্রহের আগে পরিকল্পনা লিখুন
+
+[pop-water-quality.measure-unstable-parameters-on]
+en: Measure unstable parameters on site
+bn: অস্থিতিশীল প্যারামিটার মাঠেই মাপুন
+
+[pop-water-quality.compare-results-with-the]
+en: Compare results with the relevant standard
+bn: ফলাফল প্রাসঙ্গিক মানমাত্রার সাথে তুলনা করুন
+
+[pop-water-quality.talk-to-us-about]
+en: Talk to us about this
+bn: এ বিষয়ে আমাদের সাথে কথা বলুন
+
+[pop-water-quality.see-our-services]
+en: See our services
+bn: আমাদের সেবাসমূহ দেখুন
+
+
+# ======================================================================
+# Popup: Climate, carbon and ESG reporting: where to...
+# ======================================================================
+
+[pop-climate-carbon-and.bluegreen-insights]
+en: BlueGreen Insights
+bn: ব্লুগ্রিন ইনসাইটস
+
+[pop-climate-carbon-and.close-window]
+en: Close window
+bn: উইন্ডো বন্ধ করুন
+
+[pop-climate-carbon-and.set-the-boundary]
+en: Set the boundary
+bn: সীমানা নির্ধারণ করুন
+
+[pop-climate-carbon-and.decide-which-sites-activities]
+en: Decide which sites, activities and years the report covers. A clear boundary keeps the numbers comparable year after year.
+bn: প্রতিবেদনে কোন সাইট, কার্যক্রম ও বছর অন্তর্ভুক্ত থাকবে তা ঠিক করুন। স্পষ্ট সীমানা থাকলে বছরের পর বছর সংখ্যাগুলো তুলনা করা যায়।
+
+[pop-climate-carbon-and.count-your-emissions]
+en: Count your emissions
+bn: নির্গমন হিসাব করুন
+
+[pop-climate-carbon-and.carbon-accounting-usually]
+en: Carbon accounting usually groups emissions into scope 1 (direct, such as fuel burned on site), scope 2 (purchased electricity) and scope 3 (other indirect sources such as transport and purchased goods).
+bn: কার্বন হিসাবে সাধারণত নির্গমনকে তিন ভাগে ভাগ করা হয়: স্কোপ ১ (প্রত্যক্ষ, যেমন সাইটে পোড়ানো জ্বালানি), স্কোপ ২ (কেনা বিদ্যুৎ) এবং স্কোপ ৩ (অন্যান্য পরোক্ষ উৎস, যেমন পরিবহন ও কেনা পণ্য)।
+
+[pop-climate-carbon-and.choose-a-framework]
+en: Choose a framework
+bn: একটি কাঠামো বেছে নিন
+
+[pop-climate-carbon-and.buyers-donors-and-lenders]
+en: Buyers, donors and lenders often ask for a recognised framework such as the GHG Protocol for emissions or GRI for wider sustainability reporting. Tell us who will read the report and we can suggest one.
+bn: ক্রেতা, দাতা ও ঋণদাতারা প্রায়ই স্বীকৃত কাঠামো চান, যেমন নির্গমনের জন্য GHG প্রোটোকল বা বৃহত্তর টেকসইতা প্রতিবেদনের জন্য GRI। প্রতিবেদনটি কারা পড়বেন জানালে আমরা একটি কাঠামো প্রস্তাব করতে পারি।
+
+[pop-climate-carbon-and.key-points]
+en: Key points
+bn: মূল বিষয়
+
+[pop-climate-carbon-and.begin-with-scope-1]
+en: Begin with scope 1 and 2
+bn: স্কোপ ১ ও ২ দিয়ে শুরু করুন
+
+[pop-climate-carbon-and.keep-records-of-data]
+en: Keep records of data sources
+bn: ডেটার উৎসের রেকর্ড রাখুন
+
+[pop-climate-carbon-and.report-the-same-way]
+en: Report the same way each year
+bn: প্রতি বছর একই পদ্ধতিতে প্রতিবেদন দিন
+
+[pop-climate-carbon-and.talk-to-us-about]
+en: Talk to us about this
+bn: এ বিষয়ে আমাদের সাথে কথা বলুন
+
+[pop-climate-carbon-and.see-our-services]
+en: See our services
+bn: আমাদের সেবাসমূহ দেখুন
+
+
+# ======================================================================
+# Popup: Choosing a thesis topic in environment or...
+# ======================================================================
+
+[pop-choosing-a-thesis.bluegreen-insights]
+en: BlueGreen Insights
+bn: ব্লুগ্রিন ইনসাইটস
+
+[pop-choosing-a-thesis.close-window]
+en: Close window
+bn: উইন্ডো বন্ধ করুন
+
+[pop-choosing-a-thesis.start-from-data]
+en: Start from data
+bn: ডেটা দিয়ে শুরু করুন
+
+[pop-choosing-a-thesis.a-topic-is-only]
+en: A topic is only as good as the data behind it, so check availability before you commit. Open satellite and climate datasets, government records and your own field data are common sources.
+bn: একটি বিষয় ততটাই ভালো, যতটা ভালো তার পেছনের ডেটা। তাই চূড়ান্ত করার আগে ডেটা পাওয়া যাবে কিনা যাচাই করুন। উন্মুক্ত স্যাটেলাইট ও জলবায়ু ডেটাসেট, সরকারি রেকর্ড এবং নিজের মাঠের ডেটা সাধারণ উৎস।
+
+[pop-choosing-a-thesis.keep-it-narrow]
+en: Keep it narrow
+bn: প্রশ্ন সুনির্দিষ্ট রাখুন
+
+[pop-choosing-a-thesis.a-narrow-question-with]
+en: A narrow question with methods you can explain is better than a broad one you cannot finish. Agree the plan with your supervisor early.
+bn: ব্যাখ্যা করতে পারেন এমন পদ্ধতিসহ একটি সুনির্দিষ্ট প্রশ্ন, শেষ করতে পারবেন না এমন বিস্তৃত প্রশ্নের চেয়ে ভালো। শুরুতেই তত্ত্বাবধায়কের সাথে পরিকল্পনা চূড়ান্ত করুন।
+
+[pop-choosing-a-thesis.ask-for-a-second]
+en: Ask for a second opinion
+bn: দ্বিতীয় মতামত নিন
+
+[pop-choosing-a-thesis.if-you-want-a]
+en: If you want a second opinion on a topic, our team is happy to talk.
+bn: কোনো বিষয়ে দ্বিতীয় মতামত চাইলে আমাদের টিম আলোচনা করতে আগ্রহী।
+
+[pop-choosing-a-thesis.key-points]
+en: Key points
+bn: মূল বিষয়
+
+[pop-choosing-a-thesis.check-the-data-first]
+en: Check the data first
+bn: আগে ডেটা যাচাই করুন
+
+[pop-choosing-a-thesis.choose-methods-you-can]
+en: Choose methods you can explain
+bn: ব্যাখ্যা করতে পারেন এমন পদ্ধতি বেছে নিন
+
+[pop-choosing-a-thesis.agree-the-plan-with]
+en: Agree the plan with your supervisor
+bn: তত্ত্বাবধায়কের সাথে পরিকল্পনা চূড়ান্ত করুন
+
+[pop-choosing-a-thesis.talk-to-us-about]
+en: Talk to us about this
+bn: এ বিষয়ে আমাদের সাথে কথা বলুন
+
+[pop-choosing-a-thesis.see-our-services]
+en: See our services
+bn: আমাদের সেবাসমূহ দেখুন
+
+
+# ======================================================================
+# Popup: From thesis to journal paper
+# ======================================================================
+
+[pop-from-thesis-to.bluegreen-insights]
+en: BlueGreen Insights
+bn: ব্লুগ্রিন ইনসাইটস
+
+[pop-from-thesis-to.close-window]
+en: Close window
+bn: উইন্ডো বন্ধ করুন
+
+[pop-from-thesis-to.pick-the-paper]
+en: Pick the paper
+bn: গবেষণাপত্র বেছে নিন
+
+[pop-from-thesis-to.a-thesis-holds-several]
+en: A thesis holds several results. Choose the one that tells a complete story and write that one first.
+bn: একটি থিসিসে কয়েকটি ফলাফল থাকে। যেটি একটি পূর্ণাঙ্গ গল্প বলে, সেটি বেছে নিয়ে আগে লিখুন।
+
+[pop-from-thesis-to.fit-the-journal]
+en: Fit the journal
+bn: জার্নালের সাথে মিলিয়ে নিন
+
+[pop-from-thesis-to.read-the-aims-and]
+en: Read the aims and scope and a few recent papers. Match the length, structure and referencing style, and prepare clear figures.
+bn: জার্নালের লক্ষ্য ও পরিধি এবং সাম্প্রতিক কয়েকটি গবেষণাপত্র পড়ুন। দৈর্ঘ্য, কাঠামো ও রেফারেন্সের ধরন মিলিয়ে নিন, আর স্পষ্ট চিত্র প্রস্তুত করুন।
+
+[pop-from-thesis-to.plan-for-revision]
+en: Plan for revision
+bn: সংশোধনের প্রস্তুতি রাখুন
+
+[pop-from-thesis-to.reviewers-nearly-always-ask]
+en: Reviewers nearly always ask for changes. Answer every comment politely and specifically, and show what you changed.
+bn: পর্যালোচকরা প্রায় সবসময় পরিবর্তন চান। প্রতিটি মন্তব্যের ভদ্র ও সুনির্দিষ্ট উত্তর দিন, আর কী বদলেছেন তা দেখান।
+
+[pop-from-thesis-to.key-points]
+en: Key points
+bn: মূল বিষয়
+
+[pop-from-thesis-to.one-paper-one-clear]
+en: One paper, one clear message
+bn: একটি গবেষণাপত্র, একটি স্পষ্ট বার্তা
+
+[pop-from-thesis-to.choose-the-journal-before]
+en: Choose the journal before you write
+bn: লেখার আগে জার্নাল বেছে নিন
+
+[pop-from-thesis-to.treat-reviews-as-help]
+en: Treat reviews as help, not as rejection
+bn: পর্যালোচনাকে প্রত্যাখ্যান নয়, সহায়তা হিসেবে নিন
+
+[pop-from-thesis-to.talk-to-us-about]
+en: Talk to us about this
+bn: এ বিষয়ে আমাদের সাথে কথা বলুন
+
+[pop-from-thesis-to.see-our-services]
+en: See our services
+bn: আমাদের সেবাসমূহ দেখুন
+
+
+# ======================================================================
+# Call to action: Tell us about your project
+# ======================================================================
+
+[cta-tell-us-about.tell-us-about-your]
+en: Tell us about your project
+bn: আপনার প্রকল্পের কথা জানান
+
+[cta-tell-us-about.send-a-short-description]
+en: Send a short description of what you need. We reply within one working day, usually with questions and a rough plan.
+bn: আপনার কী প্রয়োজন, সংক্ষেপে লিখে পাঠান। আমরা এক কর্মদিবসের মধ্যে উত্তর দিই, সাধারণত কিছু প্রশ্ন ও একটি প্রাথমিক পরিকল্পনাসহ।
+
+[cta-tell-us-about.request-a-quote]
+en: Request a quote
+bn: কোটেশন চান
+
+[cta-tell-us-about.message-on-whatsapp]
+en: Message on WhatsApp
+bn: হোয়াটসঅ্যাপে বার্তা দিন

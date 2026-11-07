@@ -1,0 +1,72 @@
+# Text of the Terms page  (template: templates/terms.html)
+#
+# HOW TO EDIT THIS FILE
+# - Each text has a name in [square brackets], then two lines: 'en:' (English) and 'bn:' (Bangla).
+# - Change only the words after 'en:' or 'bn:'. Never change the names in [square brackets].
+# - Type & as it is; the website adds the special code by itself.
+# - Words like {{@email}} are values from content/_site.txt. Keep them as they are.
+# - Lines that start with # are notes and are ignored.
+# - After you save (commit) the file, the website rebuilds itself in 1-2 minutes.
+
+
+# ======================================================================
+# Page title and description (browser tab and search engines)
+# ======================================================================
+
+[meta.title]
+en: Terms of use | BlueGreen Research and Consultancy
+bn: ব্যবহারের শর্তাবলি | ব্লুগ্রিন রিসার্চ অ্যান্ড কনসালটেন্সি
+
+[meta.description]
+en: Terms for using the BlueGreen Research and Consultancy website.
+bn: ব্লুগ্রিন রিসার্চ অ্যান্ড কনসালটেন্সি ওয়েবসাইট ব্যবহারের শর্তাবলি।
+
+
+# ======================================================================
+# Page title banner
+# ======================================================================
+
+[banner.terms-of-use]
+en: Terms of use
+bn: ব্যবহারের শর্তাবলি
+
+[banner.last-updated-october-2026]
+en: Last updated October 2026.
+bn: সর্বশেষ হালনাগাদ: অক্টোবর ২০২৬।
+
+
+# ======================================================================
+# Section: Information on this site
+# ======================================================================
+
+[sec-information-on.information-on-this-site]
+en: Information on this site
+bn: এই সাইটের তথ্য
+
+[sec-information-on.the-content-is-general]
+en: The content is general information about our services. It is not a substitute for a written proposal or contract, and it does not give legal or regulatory advice. Regulatory requirements change, so confirm them with the relevant authority.
+bn: এখানকার বিষয়বস্তু আমাদের সেবা সম্পর্কে সাধারণ তথ্য। এটি লিখিত প্রস্তাবনা বা চুক্তির বিকল্প নয়, এবং এতে কোনো আইনি বা নিয়ন্ত্রক পরামর্শ দেওয়া হয় না। নিয়ন্ত্রক শর্তাবলি বদলায়, তাই সংশ্লিষ্ট কর্তৃপক্ষের কাছ থেকে নিশ্চিত হয়ে নিন।
+
+[sec-information-on.our-work]
+en: Our work
+bn: আমাদের কাজ
+
+[sec-information-on.fees-scope-and-deliverables]
+en: Fees, scope and deliverables for any project are agreed in writing before work starts.
+bn: যেকোনো প্রকল্পের ফি, পরিধি ও প্রদেয় বিষয় কাজ শুরুর আগে লিখিতভাবে চূড়ান্ত করা হয়।
+
+[sec-information-on.ownership]
+en: Ownership
+bn: মালিকানা
+
+[sec-information-on.the-text-logo-images]
+en: The text, logo, images and design of this site belong to BlueGreen Research and Consultancy. Please ask before you reuse them.
+bn: এই সাইটের লেখা, লোগো, ছবি ও ডিজাইনের মালিক ব্লুগ্রিন রিসার্চ অ্যান্ড কনসালটেন্সি। পুনরায় ব্যবহারের আগে অনুগ্রহ করে অনুমতি নিন।
+
+[sec-information-on.contact]
+en: Contact
+bn: যোগাযোগ
+
+[sec-information-on.questions-about-these-terms]
+en: Questions about these terms:
+bn: এই শর্তাবলি সম্পর্কে প্রশ্ন:

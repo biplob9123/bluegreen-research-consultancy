@@ -1,0 +1,592 @@
+# Text of the Services page  (template: templates/services.html)
+#
+# HOW TO EDIT THIS FILE
+# - Each text has a name in [square brackets], then two lines: 'en:' (English) and 'bn:' (Bangla).
+# - Change only the words after 'en:' or 'bn:'. Never change the names in [square brackets].
+# - Type & as it is; the website adds the special code by itself.
+# - Words like {{@email}} are values from content/_site.txt. Keep them as they are.
+# - Lines that start with # are notes and are ignored.
+# - After you save (commit) the file, the website rebuilds itself in 1-2 minutes.
+
+
+# ======================================================================
+# Page title and description (browser tab and search engines)
+# ======================================================================
+
+[meta.title]
+en: Services | BlueGreen Research and Consultancy
+bn: সেবাসমূহ | ব্লুগ্রিন রিসার্চ অ্যান্ড কনসালটেন্সি
+
+[meta.description]
+en: ETP design, IEE and EIA reports, feasibility studies, GIS and remote sensing, hydrological modelling, training and research support from BlueGreen in Gazipur.
+bn: গাজীপুরের ব্লুগ্রিন থেকে ইটিপি ডিজাইন, আইইই ও ইআইএ প্রতিবেদন, সম্ভাব্যতা সমীক্ষা, জিআইএস ও রিমোট সেন্সিং, হাইড্রোলজিক্যাল মডেলিং, প্রশিক্ষণ ও গবেষণা সহায়তা।
+
+
+# ======================================================================
+# Page title banner
+# ======================================================================
+
+[banner.services]
+en: Services
+bn: সেবাসমূহ
+
+[banner.consultancy-for-industry]
+en: Consultancy for industry, spatial and water analysis, and training and support for researchers.
+bn: শিল্পের জন্য পরামর্শ, স্থানিক ও পানি বিশ্লেষণ এবং গবেষকদের জন্য প্রশিক্ষণ ও সহায়তা।
+
+
+# ======================================================================
+# Section: Industrial compliance
+# ======================================================================
+
+[sec-industrial.industrial-compliance]
+en: Industrial compliance
+bn: শিল্প কমপ্লায়েন্স
+
+
+# ======================================================================
+# Card: ETP design
+# ======================================================================
+
+[card-etp-design.etp-design]
+en: ETP design
+bn: ইটিপি ডিজাইন
+
+[card-etp-design.clean-wastewater-compliant]
+en: Clean wastewater, compliant discharge
+bn: পরিশোধিত বর্জ্যপানি, মানসম্মত নির্গমন
+
+[card-etp-design.we-design-effluent-treatment]
+en: We design effluent treatment plants that fit your factory's actual wastewater and space, and that your operators can run day to day.
+bn: আমরা এমন ইফ্লুয়েন্ট ট্রিটমেন্ট প্ল্যান্ট ডিজাইন করি, যা আপনার কারখানার প্রকৃত বর্জ্যপানি ও জায়গার সাথে মানানসই এবং যা আপনার অপারেটররা প্রতিদিন চালাতে পারেন।
+
+[card-etp-design.wastewater-characterisation]
+en: Wastewater characterisation and flow estimation
+bn: বর্জ্যপানির বৈশিষ্ট্য নিরূপণ ও প্রবাহ হিসাব
+
+[card-etp-design.treatment-process-selection]
+en: Treatment process selection and sizing
+bn: শোধন প্রক্রিয়া নির্বাচন ও আকার নির্ধারণ
+
+[card-etp-design.layout-process-drawings-and]
+en: Layout, process drawings and design report
+bn: লেআউট, প্রসেস ড্রয়িং ও ডিজাইন প্রতিবেদন
+
+[card-etp-design.check-against-department-of]
+en: Check against Department of Environment discharge standards
+bn: পরিবেশ অধিদপ্তরের নির্গমন মানমাত্রার সাথে মিলিয়ে দেখা
+
+[card-etp-design.guidance-on-operation-and]
+en: Guidance on operation and monitoring
+bn: পরিচালনা ও পরিবীক্ষণ বিষয়ে দিকনির্দেশনা
+
+[card-etp-design.ask-about-this-service]
+en: Ask about this service
+bn: এই সেবা সম্পর্কে জানুন
+
+
+# ======================================================================
+# Card: IEE and EIA reports
+# ======================================================================
+
+[card-iee-and-eia.iee-and-eia-reports]
+en: IEE and EIA reports
+bn: আইইই ও ইআইএ প্রতিবেদন
+
+[card-iee-and-eia.reports-for-environmental]
+en: Reports for environmental clearance
+bn: পরিবেশগত ছাড়পত্রের জন্য প্রতিবেদন
+
+[card-iee-and-eia.we-prepare-the-environmental]
+en: We prepare the environmental study your project needs for clearance, from the first screening to the final report. Which study applies depends on the category the Department of Environment gives the project.
+bn: ছাড়পত্রের জন্য আপনার প্রকল্পের যে পরিবেশগত সমীক্ষা প্রয়োজন, প্রাথমিক স্ক্রিনিং থেকে চূড়ান্ত প্রতিবেদন পর্যন্ত আমরা তা প্রস্তুত করি। কোন সমীক্ষা প্রযোজ্য, তা নির্ভর করে পরিবেশ অধিদপ্তর প্রকল্পটিকে কোন শ্রেণিতে ফেলে তার ওপর।
+
+[card-iee-and-eia.screening-and-scoping]
+en: Screening and scoping
+bn: স্ক্রিনিং ও স্কোপিং
+
+[card-iee-and-eia.baseline-environmental-and]
+en: Baseline environmental and social data
+bn: পরিবেশগত ও সামাজিক বেসলাইন ডেটা
+
+[card-iee-and-eia.impact-assessment-and]
+en: Impact assessment and mitigation measures
+bn: প্রভাব নিরূপণ ও প্রশমন ব্যবস্থা
+
+[card-iee-and-eia.environmental-management-and]
+en: Environmental management and monitoring plan
+bn: পরিবেশ ব্যবস্থাপনা ও পরিবীক্ষণ পরিকল্পনা
+
+[card-iee-and-eia.report-prepared-for-submission]
+en: Report prepared for submission
+bn: জমাদানের জন্য প্রস্তুত প্রতিবেদন
+
+[card-iee-and-eia.ask-about-this-service]
+en: Ask about this service
+bn: এই সেবা সম্পর্কে জানুন
+
+
+# ======================================================================
+# Card: Environmental Management Plan (EMP)
+# ======================================================================
+
+[card-environmental.environmental-management-plan]
+en: Environmental Management Plan (EMP)
+bn: পরিবেশ ব্যবস্থাপনা পরিকল্পনা (ইএমপি)
+
+[card-environmental.actions-to-limit-and]
+en: Actions to limit and monitor impact
+bn: প্রভাব কমানো ও তদারকির পদক্ষেপ
+
+[card-environmental.an-emp-turns-the]
+en: An EMP turns the findings of an IEE or EIA into actions that site teams can follow.
+bn: ইএমপি আইইই বা ইআইএর ফলাফলকে এমন পদক্ষেপে রূপ দেয়, যা সাইটের টিম অনুসরণ করতে পারে।
+
+[card-environmental.mitigation-measures-for-each]
+en: Mitigation measures for each identified impact
+bn: চিহ্নিত প্রতিটি প্রভাবের জন্য প্রশমন ব্যবস্থা
+
+[card-environmental.roles-schedule-and-cost]
+en: Roles, schedule and cost of the measures
+bn: পদক্ষেপগুলোর দায়িত্ব, সময়সূচি ও ব্যয়
+
+[card-environmental.monitoring-indicators-and]
+en: Monitoring indicators and reporting
+bn: পরিবীক্ষণ সূচক ও প্রতিবেদন
+
+[card-environmental.plan-prepared-to-accompany]
+en: Plan prepared to accompany the IEE or EIA report
+bn: আইইই বা ইআইএ প্রতিবেদনের সাথে সংযুক্ত করার জন্য প্রস্তুত পরিকল্পনা
+
+[card-environmental.ask-about-this-service]
+en: Ask about this service
+bn: এই সেবা সম্পর্কে জানুন
+
+
+# ======================================================================
+# Card: Environmental compliance and clearance support
+# ======================================================================
+
+[card-environmental.environmental-compliance-and]
+en: Environmental compliance and clearance support
+bn: পরিবেশগত কমপ্লায়েন্স ও ছাড়পত্র সহায়তা
+
+[card-environmental.clearance-renewals-and]
+en: Clearance, renewals and inspections
+bn: ছাড়পত্র, নবায়ন ও পরিদর্শন
+
+[card-environmental.we-help-operators-understand]
+en: We help operators understand what applies to their site and prepare what the authority will ask for.
+bn: আপনার সাইটে কোন নিয়ম প্রযোজ্য তা বুঝতে এবং কর্তৃপক্ষ যা চাইবে তা প্রস্তুত করতে আমরা পরিচালনাকারীদের সহায়তা করি।
+
+[card-environmental.check-which-clearance-category]
+en: Check which clearance category applies
+bn: কোন ছাড়পত্র শ্রেণি প্রযোজ্য তা যাচাই
+
+[card-environmental.prepare-and-review-application]
+en: Prepare and review application documents
+bn: আবেদনের কাগজপত্র প্রস্তুত ও পর্যালোচনা
+
+[card-environmental.compliance-gap-review-against]
+en: Compliance gap review against requirements
+bn: বাধ্যবাধকতার সাথে ঘাটতি পর্যালোচনা
+
+[card-environmental.support-when-preparing-for]
+en: Support when preparing for inspections and renewals
+bn: পরিদর্শন ও নবায়নের প্রস্তুতিতে সহায়তা
+
+[card-environmental.ask-about-this-service-2]
+en: Ask about this service
+bn: এই সেবা সম্পর্কে জানুন
+
+
+# ======================================================================
+# Card: Waste management and air emission advisory
+# ======================================================================
+
+[card-waste-management.waste-management-and-air]
+en: Waste management and air emission advisory
+bn: বর্জ্য ব্যবস্থাপনা ও বায়ু নির্গমন বিষয়ক পরামর্শ
+
+[card-waste-management.less-waste-cleaner-emissions]
+en: Less waste, cleaner emissions
+bn: কম বর্জ্য, পরিচ্ছন্ন নির্গমন
+
+[card-waste-management.advice-for-operators-who]
+en: Advice for operators who want to handle waste better and bring emissions down.
+bn: যে পরিচালনাকারীরা বর্জ্য আরও ভালোভাবে ব্যবস্থাপনা করতে এবং নির্গমন কমাতে চান, তাদের জন্য পরামর্শ।
+
+[card-waste-management.waste-review-and-handling]
+en: Waste review and handling plan
+bn: বর্জ্য পর্যালোচনা ও ব্যবস্থাপনা পরিকল্পনা
+
+[card-waste-management.emission-sources-and-control]
+en: Emission sources and control options
+bn: নির্গমনের উৎস ও নিয়ন্ত্রণের উপায়
+
+[card-waste-management.improvement-roadmap-with]
+en: Improvement roadmap with priorities
+bn: অগ্রাধিকারসহ উন্নয়নের রূপরেখা
+
+[card-waste-management.support-with-compliance]
+en: Support with compliance reporting
+bn: কমপ্লায়েন্স প্রতিবেদনে সহায়তা
+
+[card-waste-management.ask-about-this-service]
+en: Ask about this service
+bn: এই সেবা সম্পর্কে জানুন
+
+
+# ======================================================================
+# Section: Industrial compliance
+# ======================================================================
+
+[sec-industrial.environmental-engineering-and]
+en: Environmental engineering and data
+bn: পরিবেশ প্রকৌশল ও ডেটা
+
+
+# ======================================================================
+# Card: Feasibility studies
+# ======================================================================
+
+[card-feasibility.feasibility-studies]
+en: Feasibility studies
+bn: সম্ভাব্যতা সমীক্ষা
+
+[card-feasibility.test-the-project-before]
+en: Test the project before you invest
+bn: বিনিয়োগের আগে প্রকল্প যাচাই করুন
+
+[card-feasibility.before-money-is-committed]
+en: Before money is committed, we test whether the site, process and environmental conditions support the project.
+bn: অর্থ বিনিয়োগের আগে আমরা যাচাই করি সাইট, প্রক্রিয়া ও পরিবেশগত অবস্থা প্রকল্পটির উপযোগী কিনা।
+
+[card-feasibility.site-and-process-review]
+en: Site and process review
+bn: সাইট ও প্রক্রিয়া পর্যালোচনা
+
+[card-feasibility.environmental-constraints-and]
+en: Environmental constraints and risks
+bn: পরিবেশগত সীমাবদ্ধতা ও ঝুঁকি
+
+[card-feasibility.comparison-of-options]
+en: Comparison of options
+bn: বিকল্পগুলোর তুলনা
+
+[card-feasibility.a-clear-recommendation-you]
+en: A clear recommendation you can take to your board or donor
+bn: একটি স্পষ্ট সুপারিশ, যা আপনি বোর্ড বা দাতা সংস্থার কাছে উপস্থাপন করতে পারেন
+
+[card-feasibility.ask-about-this-service]
+en: Ask about this service
+bn: এই সেবা সম্পর্কে জানুন
+
+
+# ======================================================================
+# Card: Environmental monitoring and baseline survey
+# ======================================================================
+
+[card-environmental.environmental-monitoring-and]
+en: Environmental monitoring and baseline survey
+bn: পরিবেশ পরিবীক্ষণ ও বেসলাইন জরিপ
+
+[card-environmental.water-air-soil-and]
+en: Water, air, soil and noise data
+bn: পানি, বায়ু, মাটি ও শব্দের ডেটা
+
+[card-environmental.we-plan-the-sampling]
+en: We plan the sampling and analyse the results, working with laboratories where tests are needed.
+bn: আমরা নমুনা সংগ্রহের পরিকল্পনা করি ও ফলাফল বিশ্লেষণ করি, পরীক্ষার প্রয়োজনে ল্যাবরেটরির সাথে কাজ করি।
+
+[card-environmental.site-survey-and-sampling]
+en: Site survey and sampling plan
+bn: সাইট জরিপ ও নমুনা সংগ্রহ পরিকল্পনা
+
+[card-environmental.baselines-for-water-air]
+en: Baselines for water, air, soil and noise
+bn: পানি, বায়ু, মাটি ও শব্দের বেসলাইন
+
+[card-environmental.data-analysis-and]
+en: Data analysis and interpretation
+bn: ডেটা বিশ্লেষণ ও ব্যাখ্যা
+
+[card-environmental.baseline-chapter-for-an]
+en: Baseline chapter for an IEE or EIA report
+bn: আইইই বা ইআইএ প্রতিবেদনের বেসলাইন অধ্যায়
+
+[card-environmental.ask-about-this-service-3]
+en: Ask about this service
+bn: এই সেবা সম্পর্কে জানুন
+
+
+# ======================================================================
+# Card: GIS, remote sensing and mapping
+# ======================================================================
+
+[card-gis-remote-sensing.gis-remote-sensing-and]
+en: GIS, remote sensing and mapping
+bn: জিআইএস, রিমোট সেন্সিং ও ম্যাপিং
+
+[card-gis-remote-sensing.maps-and-satellite-analysis]
+en: Maps and satellite analysis
+bn: মানচিত্র ও স্যাটেলাইট বিশ্লেষণ
+
+[card-gis-remote-sensing.maps-and-spatial-analysis]
+en: Maps and spatial analysis that stand up in a report, built from open and project data.
+bn: উন্মুক্ত ও প্রকল্পের ডেটা থেকে তৈরি মানচিত্র ও স্থানিক বিশ্লেষণ, যা প্রতিবেদনে টিকে থাকে।
+
+[card-gis-remote-sensing.land-use-and-land]
+en: Land use and land cover mapping
+bn: ভূমি ব্যবহার ও ভূমি আচ্ছাদন ম্যাপিং
+
+[card-gis-remote-sensing.flood-drought-and]
+en: Flood, drought and vulnerability mapping
+bn: বন্যা, খরা ও ঝুঁকিপূর্ণতা ম্যাপিং
+
+[card-gis-remote-sensing.site-suitability-analysis]
+en: Site suitability analysis
+bn: সাইটের উপযুক্ততা বিশ্লেষণ
+
+[card-gis-remote-sensing.satellite-image-processing]
+en: Satellite image processing
+bn: স্যাটেলাইট চিত্র প্রক্রিয়াকরণ
+
+[card-gis-remote-sensing.statistical-analysis-charts]
+en: Statistical analysis, charts and report-ready map layouts
+bn: পরিসংখ্যানগত বিশ্লেষণ, চার্ট ও প্রতিবেদন-উপযোগী মানচিত্র লেআউট
+
+[card-gis-remote-sensing.ask-about-this-service]
+en: Ask about this service
+bn: এই সেবা সম্পর্কে জানুন
+
+
+# ======================================================================
+# Card: Hydrological modelling
+# ======================================================================
+
+[card-hydrological.hydrological-modelling]
+en: Hydrological modelling
+bn: হাইড্রোলজিক্যাল মডেলিং
+
+[card-hydrological.rainfall-runoff-and-water]
+en: Rainfall, runoff and water balance
+bn: বৃষ্টিপাত, পানিপ্রবাহ ও পানির ভারসাম্য
+
+[card-hydrological.hydrological-modelling-for]
+en: Hydrological modelling for water resource and climate studies, delivered as results you can interpret and use.
+bn: পানিসম্পদ ও জলবায়ু গবেষণার জন্য হাইড্রোলজিক্যাল মডেলিং, এমন ফলাফলসহ যা আপনি বুঝতে ও ব্যবহার করতে পারেন।
+
+[card-hydrological.model-set-up-calibration]
+en: Model set-up, calibration and checking
+bn: মডেল তৈরি, ক্যালিব্রেশন ও যাচাই
+
+[card-hydrological.rainfall-runoff-and-water-2]
+en: Rainfall, runoff and water balance analysis
+bn: বৃষ্টিপাত, পানিপ্রবাহ ও পানির ভারসাম্য বিশ্লেষণ
+
+[card-hydrological.clear-reporting-of-assumptions]
+en: Clear reporting of assumptions and limits
+bn: অনুমান ও সীমাবদ্ধতার স্পষ্ট বিবরণ
+
+[card-hydrological.ask-about-this-service]
+en: Ask about this service
+bn: এই সেবা সম্পর্কে জানুন
+
+
+# ======================================================================
+# Card: Climate, carbon and ESG reporting
+# ======================================================================
+
+[card-climate-carbon-and.climate-carbon-and-esg]
+en: Climate, carbon and ESG reporting
+bn: জলবায়ু, কার্বন ও ইএসজি প্রতিবেদন
+
+[card-climate-carbon-and.footprint-risk-and]
+en: Footprint, risk and sustainability reports
+bn: ফুটপ্রিন্ট, ঝুঁকি ও টেকসইতা প্রতিবেদন
+
+[card-climate-carbon-and.support-for-organisations-that]
+en: Support for organisations that need to measure their footprint and report on it clearly.
+bn: যে প্রতিষ্ঠানগুলোর নিজেদের ফুটপ্রিন্ট পরিমাপ করে স্পষ্টভাবে প্রতিবেদন দিতে হয়, তাদের জন্য সহায়তা।
+
+[card-climate-carbon-and.greenhouse-gas-inventory]
+en: Greenhouse gas inventory
+bn: গ্রিনহাউস গ্যাস তালিকা (ইনভেন্টরি)
+
+[card-climate-carbon-and.climate-and-hazard-risk]
+en: Climate and hazard risk screening
+bn: জলবায়ু ও দুর্যোগ ঝুঁকি যাচাই
+
+[card-climate-carbon-and.drafting-of-sustainability-and]
+en: Drafting of sustainability and ESG reports
+bn: টেকসইতা ও ইএসজি প্রতিবেদনের খসড়া প্রণয়ন
+
+[card-climate-carbon-and.data-collection-templates-for]
+en: Data collection templates for your team
+bn: আপনার টিমের জন্য ডেটা সংগ্রহের টেমপ্লেট
+
+[card-climate-carbon-and.ask-about-this-service]
+en: Ask about this service
+bn: এই সেবা সম্পর্কে জানুন
+
+
+# ======================================================================
+# Section: Industrial compliance
+# ======================================================================
+
+[sec-industrial.training-and-academia]
+en: Training and academia
+bn: প্রশিক্ষণ ও একাডেমিক সেবা
+
+
+# ======================================================================
+# Card: GIS and remote sensing training
+# ======================================================================
+
+[card-gis-and-remote.gis-and-remote-sensing]
+en: GIS and remote sensing training
+bn: জিআইএস ও রিমোট সেন্সিং প্রশিক্ষণ
+
+[card-gis-and-remote.gis-and-remote-sensing-2]
+en: GIS and remote sensing courses
+bn: জিআইএস ও রিমোট সেন্সিং কোর্স
+
+[card-gis-and-remote.our-gis-and-rs]
+en: Our GIS and RS Certification Course has run for six batches, online and on campus. We also train hydrological modelling.
+bn: আমাদের জিআইএস ও আরএস সার্টিফিকেশন কোর্সের ছয়টি ব্যাচ সম্পন্ন হয়েছে, অনলাইনে ও ক্যাম্পাসে। আমরা হাইড্রোলজিক্যাল মডেলিংয়েও প্রশিক্ষণ দিই।
+
+[card-gis-and-remote.online-or-on-campus]
+en: Online or on-campus delivery
+bn: অনলাইনে বা ক্যাম্পাসে
+
+[card-gis-and-remote.hands-on-practice-flexible]
+en: Hands-on practice, flexible schedule
+bn: হাতে-কলমে অনুশীলন, নমনীয় সময়সূচি
+
+[card-gis-and-remote.certificates-awarded-by]
+en: Certificates awarded by BlueGreen based on attendance
+bn: উপস্থিতির ভিত্তিতে ব্লুগ্রিন প্রদত্ত সার্টিফিকেট
+
+[card-gis-and-remote.ask-about-this-service]
+en: Ask about this service
+bn: এই সেবা সম্পর্কে জানুন
+
+[card-gis-and-remote.see-the-training-course]
+en: See the training course
+bn: প্রশিক্ষণ কোর্সটি দেখুন
+
+
+# ======================================================================
+# Card: Thesis and publication support
+# ======================================================================
+
+[card-thesis-and.thesis-and-publication-support]
+en: Thesis and publication support
+bn: থিসিস ও প্রকাশনা সহায়তা
+
+[card-thesis-and.from-topic-to-published]
+en: From topic to published paper
+bn: বিষয় নির্বাচন থেকে প্রকাশিত গবেষণাপত্র পর্যন্ত
+
+[card-thesis-and.guidance-for-bsc-and]
+en: Guidance for BSc and MSc students from choosing a topic to defending the thesis, and for researchers who want their papers published.
+bn: বিএসসি ও এমএসসি শিক্ষার্থীদের জন্য বিষয় নির্বাচন থেকে থিসিস ডিফেন্স পর্যন্ত দিকনির্দেশনা, আর যে গবেষকরা তাদের গবেষণাপত্র প্রকাশ করতে চান তাদের জন্য সহায়তা।
+
+[card-thesis-and.topic-selection-and-research]
+en: Topic selection and research design
+bn: বিষয় নির্বাচন ও গবেষণা নকশা
+
+[card-thesis-and.methods-and-data-analysis]
+en: Methods and data analysis
+bn: পদ্ধতি ও ডেটা বিশ্লেষণ
+
+[card-thesis-and.writing-editing-and-figure]
+en: Writing, editing and figure preparation
+bn: লেখা, সম্পাদনা ও চিত্র প্রস্তুত
+
+[card-thesis-and.journal-selection-submission]
+en: Journal selection, submission and responding to reviewers
+bn: জার্নাল নির্বাচন, জমাদান ও পর্যালোচকদের উত্তর
+
+[card-thesis-and.ask-about-this-service]
+en: Ask about this service
+bn: এই সেবা সম্পর্কে জানুন
+
+
+# ======================================================================
+# Section: How a project runs
+# ======================================================================
+
+[sec-how-a-project.how-a-project-runs]
+en: How a project runs
+bn: একটি প্রকল্প যেভাবে এগোয়
+
+[sec-how-a-project.brief]
+en: Brief
+bn: প্রাথমিক আলোচনা
+
+[sec-how-a-project.you-tell-us-what]
+en: You tell us what the project is and what you need to show.
+bn: প্রকল্পটি কী এবং আপনার কী দেখাতে হবে, তা আমাদের জানান।
+
+[sec-how-a-project.proposal]
+en: Proposal
+bn: প্রস্তাবনা
+
+[sec-how-a-project.we-send-a-scope]
+en: We send a scope, timeline and fee for your approval.
+bn: আমরা কাজের পরিধি, সময়সূচি ও ফি অনুমোদনের জন্য পাঠাই।
+
+[sec-how-a-project.data-and-fieldwork]
+en: Data and fieldwork
+bn: ডেটা ও মাঠপর্যায়ের কাজ
+
+[sec-how-a-project.we-collect-or-receive]
+en: We collect or receive the data and visit the site where needed.
+bn: আমরা ডেটা সংগ্রহ করি বা গ্রহণ করি, প্রয়োজনে সাইট পরিদর্শন করি।
+
+[sec-how-a-project.analysis-and-design]
+en: Analysis and design
+bn: বিশ্লেষণ ও ডিজাইন
+
+[sec-how-a-project.we-run-the-analysis]
+en: We run the analysis or prepare the design.
+bn: আমরা বিশ্লেষণ করি বা ডিজাইন প্রস্তুত করি।
+
+[sec-how-a-project.report-and-submission]
+en: Report and submission
+bn: প্রতিবেদন ও জমাদান
+
+[sec-how-a-project.you-get-the-report]
+en: You get the report, and we support submission.
+bn: আপনি প্রতিবেদন পান, আর জমাদানে আমরা সহায়তা করি।
+
+[sec-how-a-project.follow-up]
+en: Follow-up
+bn: পরবর্তী সহায়তা
+
+[sec-how-a-project.we-answer-questions-from]
+en: We answer questions from reviewers, inspectors or your team.
+bn: পর্যালোচক, পরিদর্শক বা আপনার টিমের প্রশ্নের উত্তর আমরা দিই।
+
+
+# ======================================================================
+# Call to action: Need something not listed?
+# ======================================================================
+
+[cta-need-something-not.need-something-not-listed]
+en: Need something not listed?
+bn: তালিকায় নেই এমন কিছু দরকার?
+
+[cta-need-something-not.if-your-work-involves]
+en: If your work involves environment, water or GIS, describe it and we will tell you how we can help.
+bn: আপনার কাজ যদি পরিবেশ, পানি বা জিআইএস সংশ্লিষ্ট হয়, বিস্তারিত জানান, আমরা জানাব কীভাবে সহায়তা করতে পারি।
+
+[cta-need-something-not.request-a-quote]
+en: Request a quote
+bn: কোটেশন চান
+
+[cta-need-something-not.message-on-whatsapp]
+en: Message on WhatsApp
+bn: হোয়াটসঅ্যাপে বার্তা দিন
