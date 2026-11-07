@@ -1,0 +1,32 @@
+{{! ============================================================
+    PAGE LAYOUT: Page-not-found page   (web address: /404)
+    This file holds the layout only. The words are in content/404.txt:
+    each name in double curly brackets below is a [name] in that file.
+    Colours and sizes are in static/style.css. Search for ===== to jump between sections.
+    ============================================================ !}}
+
+{{include head}}
+<body>
+
+{{include header}}
+
+  <main id="main">
+    <!-- ===== Page title banner ===== -->
+    <div class="page-head">
+      <div class="wrap">
+        <h1>{{banner.page-not-found}}</h1>
+        <p class="lead">{{banner.the-page-you-opened}}</p>
+      </div>
+    </div>
+
+    <!-- ===== Section: Go to the home page ===== -->
+    <section>
+      <div class="wrap">
+        <div class="btn-row" style="margin:0"><a class="btn" href="./">{{sec-go-to-the.go-to-the-home}}</a><a class="btn btn-line" href="contact">{{sec-go-to-the.contact-us}}</a></div>
+      </div>
+    </section>
+  </main>
+
+{{include footer}}
+</body>
+</html>

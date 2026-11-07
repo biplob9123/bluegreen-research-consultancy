@@ -1,0 +1,388 @@
+{{! ============================================================
+    PAGE LAYOUT: Team page   (web address: /team)
+    This file holds the layout only. The words are in content/team.txt:
+    each name in double curly brackets below is a [name] in that file.
+    Colours and sizes are in static/style.css. Search for ===== to jump between sections.
+    ============================================================ !}}
+
+{{include head}}
+<body>
+
+{{include header}}
+
+  <main id="main">
+    <!-- ===== Page title banner ===== -->
+    <div class="page-head">
+      <div class="wrap">
+        <h1>{{banner.our-team}}</h1>
+        <p class="lead">{{banner.engineers-and-scientists-in}}</p>
+      </div>
+    </div>
+
+    <!-- ===== Section: Admin Panel ===== -->
+    <section class="team-panel">
+      <div class="wrap">
+        <div class="sec-head center">
+          <span class="kicker">{{sec-admin-panel.bluegreen}}</span>
+          <h2>{{sec-admin-panel.admin-panel}}</h2>
+          <p class="lead">{{sec-admin-panel.leadership-and-overall}}</p>
+        </div>
+        <div class="team-row">
+          <!-- ===== Card: Md. Showkat Osman, PhD ===== -->
+          <article id="p-showkat-osman" class="member lead" data-open="m-showkat-osman">
+            <button type="button" class="m-photo" data-open="m-showkat-osman" aria-label="{{card-md-showkat-osman.open-profile-of-md}}"><img class="ph" src="images/team/showkat-osman.jpg" width="132" height="132" alt="{{card-md-showkat-osman.md-showkat-osman-phd}}" loading="lazy"></button>
+            <h3><button type="button" class="m-name" data-open="m-showkat-osman">{{card-md-showkat-osman.md-showkat-osman-phd}}</button></h3>
+            <p class="role">{{card-md-showkat-osman.managing-director}}</p>
+            <p class="affil">{{card-md-showkat-osman.professor-department-of-civil}}</p>
+            <p class="qual">{{card-md-showkat-osman.phd-in-environmental}}</p>
+            <div class="tags"><span>{{card-md-showkat-osman.environmental-engineering}}</span><span>{{card-md-showkat-osman.wastewater-treatment}}</span><span>{{card-md-showkat-osman.environmental-impact}}</span></div>
+            <button type="button" class="m-more" data-open="m-showkat-osman">{{card-md-showkat-osman.view-profile}}</button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Section: Advisory Panel ===== -->
+    <section class="team-panel mist">
+      <div class="wrap">
+        <div class="sec-head center">
+          <span class="kicker">{{sec-advisory-panel.bluegreen}}</span>
+          <h2>{{sec-advisory-panel.advisory-panel}}</h2>
+          <p class="lead">{{sec-advisory-panel.academic-and-technical}}</p>
+        </div>
+        <div class="team-row">
+          <!-- ===== Card: Md. Rabiul Islam ===== -->
+          <article id="p-rabiul-islam" class="member" data-open="m-rabiul-islam">
+            <button type="button" class="m-photo" data-open="m-rabiul-islam" aria-label="{{card-md-rabiul-islam.open-profile-of-md}}"><img class="ph" src="images/team/rabiul-islam.jpg" width="132" height="132" alt="{{card-md-rabiul-islam.md-rabiul-islam}}" loading="lazy"></button>
+            <h3><button type="button" class="m-name" data-open="m-rabiul-islam">{{card-md-rabiul-islam.md-rabiul-islam}}</button></h3>
+            <p class="role">{{card-md-rabiul-islam.advisor}}</p>
+            <p class="affil">{{card-md-rabiul-islam.assistant-professor-institute}}</p>
+            <p class="qual">{{card-md-rabiul-islam.m-sc-in-water}}</p>
+            <div class="tags"><span>{{card-md-rabiul-islam.water-resources}}</span><span>{{card-md-rabiul-islam.hydrology}}</span><span>{{card-md-rabiul-islam.hydrological-modelling}}</span></div>
+            <div class="plinks"><a href="https://scholar.google.com/citations?user=ld2kMVgAAAAJ&hl=en" target="_blank" rel="noopener" aria-label="{{card-md-rabiul-islam.md-rabiul-islam-on}}" title="{{card-md-rabiul-islam.google-scholar}}">{{svg:gs}}</a><a href="https://www.researchgate.net/profile/Md-Islam-1271" target="_blank" rel="noopener" aria-label="{{card-md-rabiul-islam.md-rabiul-islam-on-2}}" title="{{card-md-rabiul-islam.researchgate}}">{{svg:rg}}</a><a href="https://www.linkedin.com/in/md-rabiul-islam-8223102b5/" target="_blank" rel="noopener" aria-label="{{card-md-rabiul-islam.md-rabiul-islam-on-3}}" title="{{card-md-rabiul-islam.linkedin}}">{{svg:li}}</a></div>
+            <button type="button" class="m-more" data-open="m-rabiul-islam">{{card-md-rabiul-islam.view-profile}}</button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Section: Executive Team ===== -->
+    <section class="team-panel">
+      <div class="wrap">
+        <div class="sec-head center">
+          <span class="kicker">{{sec-executive-team.bluegreen}}</span>
+          <h2>{{sec-executive-team.executive-team}}</h2>
+          <p class="lead">{{sec-executive-team.the-people-who-deliver}}</p>
+        </div>
+        <div class="team-row">
+          <!-- ===== Card: Md. Biplob Hosen ===== -->
+          <article id="p-biplob-hosen" class="member" data-open="m-biplob-hosen">
+            <button type="button" class="m-photo" data-open="m-biplob-hosen" aria-label="{{card-md-biplob-hosen.open-profile-of-md}}"><img class="ph" src="images/team/biplob-hosen.jpg" width="132" height="132" alt="{{card-md-biplob-hosen.md-biplob-hosen}}" loading="lazy"></button>
+            <h3><button type="button" class="m-name" data-open="m-biplob-hosen">{{card-md-biplob-hosen.md-biplob-hosen}}</button></h3>
+            <p class="role">{{card-md-biplob-hosen.lead-consultant-environmental}}</p>
+            <p class="qual">{{card-md-biplob-hosen.m-sc-ongoing-institute}}</p>
+            <div class="tags"><span>{{card-md-biplob-hosen.gis-and-remote-sensing}}</span><span>{{card-md-biplob-hosen.hydrological-modelling}}</span><span>{{card-md-biplob-hosen.iee-and-eia}}</span><span>{{card-md-biplob-hosen.flood-and-drought-risk}}</span></div>
+            <div class="plinks"><a href="https://scholar.google.com/citations?user=9BasENkAAAAJ&hl=en" target="_blank" rel="noopener" aria-label="{{card-md-biplob-hosen.md-biplob-hosen-on}}" title="{{card-md-biplob-hosen.google-scholar}}">{{svg:gs}}</a><a href="https://www.researchgate.net/profile/Md-Biplob-Hosen-3?ev=hdr_xprf" target="_blank" rel="noopener" aria-label="{{card-md-biplob-hosen.md-biplob-hosen-on-2}}" title="{{card-md-biplob-hosen.researchgate}}">{{svg:rg}}</a><a href="https://www.linkedin.com/in/biplob-hosen-9aba1b254/" target="_blank" rel="noopener" aria-label="{{card-md-biplob-hosen.md-biplob-hosen-on-3}}" title="{{card-md-biplob-hosen.linkedin}}">{{svg:li}}</a></div>
+            <button type="button" class="m-more" data-open="m-biplob-hosen">{{card-md-biplob-hosen.view-profile}}</button>
+          </article>
+
+          <!-- ===== Card: Md. Manik Miah ===== -->
+          <article id="p-manik-miah" class="member" data-open="m-manik-miah">
+            <button type="button" class="m-photo" data-open="m-manik-miah" aria-label="{{card-md-manik-miah.open-profile-of-md}}"><img class="ph" src="images/team/manik-miah.jpg" width="132" height="132" alt="{{card-md-manik-miah.md-manik-miah}}" loading="lazy"></button>
+            <h3><button type="button" class="m-name" data-open="m-manik-miah">{{card-md-manik-miah.md-manik-miah}}</button></h3>
+            <p class="role">{{card-md-manik-miah.environmental-consultant}}</p>
+            <p class="qual">{{card-md-manik-miah.m-sc-institute-of}}</p>
+            <div class="tags"><span>{{card-md-manik-miah.gis}}</span><span>{{card-md-manik-miah.soil-erosion}}</span><span>{{card-md-manik-miah.rusle-modelling}}</span><span>{{card-md-manik-miah.groundwater-recharge-modelling}}</span></div>
+            <div class="plinks"><a href="https://scholar.google.com/citations?user=zyfW6AgAAAAJ&hl=en" target="_blank" rel="noopener" aria-label="{{card-md-manik-miah.md-manik-miah-on}}" title="{{card-md-manik-miah.google-scholar}}">{{svg:gs}}</a><a href="https://www.researchgate.net/profile/Md-Manik-Miah" target="_blank" rel="noopener" aria-label="{{card-md-manik-miah.md-manik-miah-on-2}}" title="{{card-md-manik-miah.researchgate}}">{{svg:rg}}</a><a href="https://www.linkedin.com/in/manik-miah-996070175/" target="_blank" rel="noopener" aria-label="{{card-md-manik-miah.md-manik-miah-on-3}}" title="{{card-md-manik-miah.linkedin}}">{{svg:li}}</a></div>
+            <button type="button" class="m-more" data-open="m-manik-miah">{{card-md-manik-miah.view-profile}}</button>
+          </article>
+
+          <!-- ===== Card: Umme Tahera Tun Humayra ===== -->
+          <article id="p-umme-tahera" class="member" data-open="m-umme-tahera">
+            <button type="button" class="m-photo" data-open="m-umme-tahera" aria-label="{{card-umme-tahera-tun.open-profile-of-umme}}"><img class="ph" src="images/team/umme-tahera.jpg" width="132" height="132" alt="{{card-umme-tahera-tun.umme-tahera-tun-humayra}}" loading="lazy"></button>
+            <h3><button type="button" class="m-name" data-open="m-umme-tahera">{{card-umme-tahera-tun.umme-tahera-tun-humayra}}</button></h3>
+            <p class="role">{{card-umme-tahera-tun.environmental-consultant}}</p>
+            <p class="qual">{{card-umme-tahera-tun.m-sc-ongoing-institute}}</p>
+            <div class="tags"><span>{{card-umme-tahera-tun.environmental-assessment}}</span><span>{{card-umme-tahera-tun.disaster-management}}</span><span>{{card-umme-tahera-tun.hydrology}}</span></div>
+            <div class="plinks"><a href="https://scholar.google.com/citations?user=ct-vCCsAAAAJ&hl=en" target="_blank" rel="noopener" aria-label="{{card-umme-tahera-tun.umme-tahera-tun-humayra-2}}" title="{{card-umme-tahera-tun.google-scholar}}">{{svg:gs}}</a><a href="https://www.researchgate.net/profile/Umme-Tahera-Tun-Humayra-2" target="_blank" rel="noopener" aria-label="{{card-umme-tahera-tun.umme-tahera-tun-humayra-3}}" title="{{card-umme-tahera-tun.researchgate}}">{{svg:rg}}</a><a href="https://www.linkedin.com/in/umme-tahera-tun-humayra-a5a00230a/" target="_blank" rel="noopener" aria-label="{{card-umme-tahera-tun.umme-tahera-tun-humayra-4}}" title="{{card-umme-tahera-tun.linkedin}}">{{svg:li}}</a></div>
+            <button type="button" class="m-more" data-open="m-umme-tahera">{{card-umme-tahera-tun.view-profile}}</button>
+          </article>
+
+          <!-- ===== Card: Md. Tareq Aziz ===== -->
+          <article id="p-tareq-aziz" class="member" data-open="m-tareq-aziz">
+            <button type="button" class="m-photo" data-open="m-tareq-aziz" aria-label="{{card-md-tareq-aziz.open-profile-of-md}}"><img class="ph" src="images/team/tareq-aziz.jpg" width="132" height="132" alt="{{card-md-tareq-aziz.md-tareq-aziz}}" loading="lazy"></button>
+            <h3><button type="button" class="m-name" data-open="m-tareq-aziz">{{card-md-tareq-aziz.md-tareq-aziz}}</button></h3>
+            <p class="role">{{card-md-tareq-aziz.research-associate-remote}}</p>
+            <p class="qual">{{card-md-tareq-aziz.phd-student-hokkaido}}</p>
+            <div class="tags"><span>{{card-md-tareq-aziz.environmental-science}}</span><span>{{card-md-tareq-aziz.water-and-environment}}</span><span>{{card-md-tareq-aziz.remote-sensing}}</span></div>
+            <div class="plinks"><a href="https://scholar.google.com/citations?user=nIFHf8kAAAAJ&hl=en" target="_blank" rel="noopener" aria-label="{{card-md-tareq-aziz.md-tareq-aziz-on}}" title="{{card-md-tareq-aziz.google-scholar}}">{{svg:gs}}</a><a href="https://www.researchgate.net/profile/Md-Tareq-Aziz-4" target="_blank" rel="noopener" aria-label="{{card-md-tareq-aziz.md-tareq-aziz-on-2}}" title="{{card-md-tareq-aziz.researchgate}}">{{svg:rg}}</a><a href="https://www.linkedin.com/in/tareqaziz021/" target="_blank" rel="noopener" aria-label="{{card-md-tareq-aziz.md-tareq-aziz-on-3}}" title="{{card-md-tareq-aziz.linkedin}}">{{svg:li}}</a></div>
+            <button type="button" class="m-more" data-open="m-tareq-aziz">{{card-md-tareq-aziz.view-profile}}</button>
+          </article>
+
+          <!-- ===== Card: Zarjes Kader ===== -->
+          <article id="p-zarjes-kader" class="member" data-open="m-zarjes-kader">
+            <button type="button" class="m-photo" data-open="m-zarjes-kader" aria-label="{{card-zarjes-kader.open-profile-of-zarjes}}"><img class="ph" src="images/team/zarjes-kader.jpg" width="132" height="132" alt="{{card-zarjes-kader.zarjes-kader}}" loading="lazy"></button>
+            <h3><button type="button" class="m-name" data-open="m-zarjes-kader">{{card-zarjes-kader.zarjes-kader}}</button></h3>
+            <p class="role">{{card-zarjes-kader.research-associate}}</p>
+            <p class="qual">{{card-zarjes-kader.m-sc-institute-of}}</p>
+            <div class="tags"><span>{{card-zarjes-kader.gis}}</span><span>{{card-zarjes-kader.groundwater-modelling}}</span><span>{{card-zarjes-kader.flood-management}}</span><span>{{card-zarjes-kader.random-forest}}</span></div>
+            <div class="plinks"><a href="https://scholar.google.com/citations?user=-Ty_FpIAAAAJ&hl=en" target="_blank" rel="noopener" aria-label="{{card-zarjes-kader.zarjes-kader-on-google}}" title="{{card-zarjes-kader.google-scholar}}">{{svg:gs}}</a><a href="https://www.researchgate.net/profile/Zarjes-Kader" target="_blank" rel="noopener" aria-label="{{card-zarjes-kader.zarjes-kader-on-researchgate}}" title="{{card-zarjes-kader.researchgate}}">{{svg:rg}}</a><a href="https://www.linkedin.com/in/zarjes-kader-208298203/" target="_blank" rel="noopener" aria-label="{{card-zarjes-kader.zarjes-kader-on-linkedin}}" title="{{card-zarjes-kader.linkedin}}">{{svg:li}}</a></div>
+            <button type="button" class="m-more" data-open="m-zarjes-kader">{{card-zarjes-kader.view-profile}}</button>
+          </article>
+
+          <!-- ===== Card: Md. Abdullah Al Mamun ===== -->
+          <article id="p-abdullah-al-mamun" class="member" data-open="m-abdullah-al-mamun">
+            <button type="button" class="m-photo" data-open="m-abdullah-al-mamun" aria-label="{{card-md-abdullah-al.open-profile-of-md}}"><img class="ph" src="images/team/abdullah-al-mamun.jpg" width="132" height="132" alt="{{card-md-abdullah-al.md-abdullah-al-mamun}}" loading="lazy"></button>
+            <h3><button type="button" class="m-name" data-open="m-abdullah-al-mamun">{{card-md-abdullah-al.md-abdullah-al-mamun}}</button></h3>
+            <p class="role">{{card-md-abdullah-al.research-associate-remote}}</p>
+            <p class="qual">{{card-md-abdullah-al.phd-student-2nd-year}}</p>
+            <div class="tags"><span>{{card-md-abdullah-al.watershed-hydrology}}</span><span>{{card-md-abdullah-al.soil-biogeochemistry}}</span><span>{{card-md-abdullah-al.digital-soil-mapping}}</span><span>{{card-md-abdullah-al.remote-sensing}}</span></div>
+            <div class="plinks"><a href="https://scholar.google.com/citations?user=_aIe3OcAAAAJ&hl=en" target="_blank" rel="noopener" aria-label="{{card-md-abdullah-al.md-abdullah-al-mamun-2}}" title="{{card-md-abdullah-al.google-scholar}}">{{svg:gs}}</a><a href="https://www.linkedin.com/in/mamun-duet/" target="_blank" rel="noopener" aria-label="{{card-md-abdullah-al.md-abdullah-al-mamun-3}}" title="{{card-md-abdullah-al.linkedin}}">{{svg:li}}</a></div>
+            <button type="button" class="m-more" data-open="m-abdullah-al-mamun">{{card-md-abdullah-al.view-profile}}</button>
+          </article>
+
+          <!-- ===== Card: Arun Roy ===== -->
+          <article id="p-arun-roy" class="member" data-open="m-arun-roy">
+            <button type="button" class="m-photo" data-open="m-arun-roy" aria-label="{{card-arun-roy.open-profile-of-arun}}"><img class="ph" src="images/team/arun-roy.jpg" width="132" height="132" alt="{{card-arun-roy.arun-roy}}" loading="lazy"></button>
+            <h3><button type="button" class="m-name" data-open="m-arun-roy">{{card-arun-roy.arun-roy}}</button></h3>
+            <p class="role">{{card-arun-roy.research-associate}}</p>
+            <p class="qual">{{card-arun-roy.m-sc-ongoing-institute}}</p>
+            <div class="tags"><span>{{card-arun-roy.environmental-science}}</span><span>{{card-arun-roy.disaster-management}}</span><span>{{card-arun-roy.hydrology}}</span></div>
+            <button type="button" class="m-more" data-open="m-arun-roy">{{card-arun-roy.view-profile}}</button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Popup: Md. Showkat Osman, PhD ===== -->
+    <dialog class="mdl" id="m-showkat-osman" aria-labelledby="mt-showkat-osman">
+      <div class="mdl-head">
+        <img src="images/team/showkat-osman.jpg" width="112" height="112" alt="{{card-md-showkat-osman.md-showkat-osman-phd}}">
+        <div>
+          <h3 id="mt-showkat-osman">{{card-md-showkat-osman.md-showkat-osman-phd}}</h3>
+          <p class="role">{{card-md-showkat-osman.managing-director}}</p>
+          <p class="affil">{{card-md-showkat-osman.professor-department-of-civil}}</p>
+          <p class="at">{{pop-md-showkat-osman.bluegreen-research-and}}</p>
+        </div>
+        <button type="button" class="mdl-x" data-close aria-label="{{pop-md-showkat-osman.close-profile}}">&times;</button>
+      </div>
+      <div class="mdl-body">
+        <h4>{{pop-md-showkat-osman.education}}</h4>
+        <ul class="edu">
+          <li>{{pop-md-showkat-osman.phd-environmental-engineering}}</li>
+          <li>{{pop-md-showkat-osman.m-sc-in-engineering}}</li>
+          <li>{{pop-md-showkat-osman.b-sc-in-engineering}}</li>
+        </ul>
+        <h4>{{pop-md-showkat-osman.areas-of-expertise}}</h4>
+        <div class="tags"><span>{{card-md-showkat-osman.environmental-engineering}}</span><span>{{card-md-showkat-osman.wastewater-treatment}}</span><span>{{card-md-showkat-osman.environmental-impact}}</span></div>
+      </div>
+    </dialog>
+
+    <!-- ===== Popup: Md. Rabiul Islam ===== -->
+    <dialog class="mdl" id="m-rabiul-islam" aria-labelledby="mt-rabiul-islam">
+      <div class="mdl-head">
+        <img src="images/team/rabiul-islam.jpg" width="112" height="112" alt="{{card-md-rabiul-islam.md-rabiul-islam}}">
+        <div>
+          <h3 id="mt-rabiul-islam">{{card-md-rabiul-islam.md-rabiul-islam}}</h3>
+          <p class="role">{{card-md-rabiul-islam.advisor}}</p>
+          <p class="affil">{{card-md-rabiul-islam.assistant-professor-institute}}</p>
+          <p class="at">{{pop-md-rabiul-islam.bluegreen-research-and}}</p>
+        </div>
+        <button type="button" class="mdl-x" data-close aria-label="{{pop-md-rabiul-islam.close-profile}}">&times;</button>
+      </div>
+      <div class="mdl-body">
+        <h4>{{pop-md-rabiul-islam.education}}</h4>
+        <ul class="edu">
+          <li>{{pop-md-rabiul-islam.m-sc-in-engineering}}</li>
+          <li>{{pop-md-rabiul-islam.b-sc-in-engineering}}</li>
+        </ul>
+        <h4>{{pop-md-rabiul-islam.areas-of-expertise}}</h4>
+        <div class="tags"><span>{{card-md-rabiul-islam.water-resources}}</span><span>{{card-md-rabiul-islam.hydrology}}</span><span>{{card-md-rabiul-islam.hydrological-modelling}}</span></div>
+        <h4>{{pop-md-rabiul-islam.profiles}}</h4>
+        <div class="plinks"><a href="https://scholar.google.com/citations?user=ld2kMVgAAAAJ&hl=en" target="_blank" rel="noopener" aria-label="{{card-md-rabiul-islam.md-rabiul-islam-on}}" title="{{card-md-rabiul-islam.google-scholar}}">{{svg:gs}}</a><a href="https://www.researchgate.net/profile/Md-Islam-1271" target="_blank" rel="noopener" aria-label="{{card-md-rabiul-islam.md-rabiul-islam-on-2}}" title="{{card-md-rabiul-islam.researchgate}}">{{svg:rg}}</a><a href="https://www.linkedin.com/in/md-rabiul-islam-8223102b5/" target="_blank" rel="noopener" aria-label="{{card-md-rabiul-islam.md-rabiul-islam-on-3}}" title="{{card-md-rabiul-islam.linkedin}}">{{svg:li}}</a></div>
+      </div>
+    </dialog>
+
+    <!-- ===== Popup: Md. Biplob Hosen ===== -->
+    <dialog class="mdl" id="m-biplob-hosen" aria-labelledby="mt-biplob-hosen">
+      <div class="mdl-head">
+        <img src="images/team/biplob-hosen.jpg" width="112" height="112" alt="{{card-md-biplob-hosen.md-biplob-hosen}}">
+        <div>
+          <h3 id="mt-biplob-hosen">{{card-md-biplob-hosen.md-biplob-hosen}}</h3>
+          <p class="role">{{card-md-biplob-hosen.lead-consultant-environmental}}</p>
+          <p class="at">{{pop-md-biplob-hosen.bluegreen-research-and}}</p>
+        </div>
+        <button type="button" class="mdl-x" data-close aria-label="{{pop-md-biplob-hosen.close-profile}}">&times;</button>
+      </div>
+      <div class="mdl-body">
+        <h4>{{pop-md-biplob-hosen.education}}</h4>
+        <ul class="edu">
+          <li>{{pop-md-biplob-hosen.m-sc-ongoing-institute}}</li>
+          <li>{{pop-md-biplob-hosen.b-sc-environmental-science}}</li>
+        </ul>
+        <h4>{{pop-md-biplob-hosen.areas-of-expertise}}</h4>
+        <div class="tags"><span>{{card-md-biplob-hosen.gis-and-remote-sensing}}</span><span>{{card-md-biplob-hosen.hydrological-modelling}}</span><span>{{card-md-biplob-hosen.iee-and-eia}}</span><span>{{card-md-biplob-hosen.flood-and-drought-risk}}</span><span>{{pop-md-biplob-hosen.drought-analysis-spei-and}}</span><span>{{pop-md-biplob-hosen.multi-criteria-decision}}</span><span>{{pop-md-biplob-hosen.machine-learning-for}}</span><span>{{pop-md-biplob-hosen.air-quality-and-environmental}}</span></div>
+        <h4>{{pop-md-biplob-hosen.profiles}}</h4>
+        <div class="plinks"><a href="https://scholar.google.com/citations?user=9BasENkAAAAJ&hl=en" target="_blank" rel="noopener" aria-label="{{card-md-biplob-hosen.md-biplob-hosen-on}}" title="{{card-md-biplob-hosen.google-scholar}}">{{svg:gs}}</a><a href="https://www.researchgate.net/profile/Md-Biplob-Hosen-3?ev=hdr_xprf" target="_blank" rel="noopener" aria-label="{{card-md-biplob-hosen.md-biplob-hosen-on-2}}" title="{{card-md-biplob-hosen.researchgate}}">{{svg:rg}}</a><a href="https://www.linkedin.com/in/biplob-hosen-9aba1b254/" target="_blank" rel="noopener" aria-label="{{card-md-biplob-hosen.md-biplob-hosen-on-3}}" title="{{card-md-biplob-hosen.linkedin}}">{{svg:li}}</a></div>
+      </div>
+    </dialog>
+
+    <!-- ===== Popup: Md. Manik Miah ===== -->
+    <dialog class="mdl" id="m-manik-miah" aria-labelledby="mt-manik-miah">
+      <div class="mdl-head">
+        <img src="images/team/manik-miah.jpg" width="112" height="112" alt="{{card-md-manik-miah.md-manik-miah}}">
+        <div>
+          <h3 id="mt-manik-miah">{{card-md-manik-miah.md-manik-miah}}</h3>
+          <p class="role">{{card-md-manik-miah.environmental-consultant}}</p>
+          <p class="at">{{pop-md-manik-miah.bluegreen-research-and}}</p>
+        </div>
+        <button type="button" class="mdl-x" data-close aria-label="{{pop-md-manik-miah.close-profile}}">&times;</button>
+      </div>
+      <div class="mdl-body">
+        <h4>{{pop-md-manik-miah.education}}</h4>
+        <ul class="edu">
+          <li>{{pop-md-manik-miah.m-sc-institute-of}}</li>
+          <li>{{pop-md-manik-miah.b-sc-environmental-science}}</li>
+        </ul>
+        <h4>{{pop-md-manik-miah.areas-of-expertise}}</h4>
+        <div class="tags"><span>{{card-md-manik-miah.gis}}</span><span>{{card-md-manik-miah.soil-erosion}}</span><span>{{card-md-manik-miah.rusle-modelling}}</span><span>{{card-md-manik-miah.groundwater-recharge-modelling}}</span><span>{{pop-md-manik-miah.environmental-assessment}}</span><span>{{pop-md-manik-miah.water-and-environment}}</span></div>
+        <h4>{{pop-md-manik-miah.profiles}}</h4>
+        <div class="plinks"><a href="https://scholar.google.com/citations?user=zyfW6AgAAAAJ&hl=en" target="_blank" rel="noopener" aria-label="{{card-md-manik-miah.md-manik-miah-on}}" title="{{card-md-manik-miah.google-scholar}}">{{svg:gs}}</a><a href="https://www.researchgate.net/profile/Md-Manik-Miah" target="_blank" rel="noopener" aria-label="{{card-md-manik-miah.md-manik-miah-on-2}}" title="{{card-md-manik-miah.researchgate}}">{{svg:rg}}</a><a href="https://www.linkedin.com/in/manik-miah-996070175/" target="_blank" rel="noopener" aria-label="{{card-md-manik-miah.md-manik-miah-on-3}}" title="{{card-md-manik-miah.linkedin}}">{{svg:li}}</a></div>
+      </div>
+    </dialog>
+
+    <!-- ===== Popup: Umme Tahera Tun Humayra ===== -->
+    <dialog class="mdl" id="m-umme-tahera" aria-labelledby="mt-umme-tahera">
+      <div class="mdl-head">
+        <img src="images/team/umme-tahera.jpg" width="112" height="112" alt="{{card-umme-tahera-tun.umme-tahera-tun-humayra}}">
+        <div>
+          <h3 id="mt-umme-tahera">{{card-umme-tahera-tun.umme-tahera-tun-humayra}}</h3>
+          <p class="role">{{card-umme-tahera-tun.environmental-consultant}}</p>
+          <p class="at">{{pop-umme-tahera-tun.bluegreen-research-and}}</p>
+        </div>
+        <button type="button" class="mdl-x" data-close aria-label="{{pop-umme-tahera-tun.close-profile}}">&times;</button>
+      </div>
+      <div class="mdl-body">
+        <h4>{{pop-umme-tahera-tun.education}}</h4>
+        <ul class="edu">
+          <li>{{pop-umme-tahera-tun.m-sc-ongoing-institute}}</li>
+          <li>{{pop-umme-tahera-tun.b-sc-environmental-science}}</li>
+        </ul>
+        <h4>{{pop-umme-tahera-tun.areas-of-expertise}}</h4>
+        <div class="tags"><span>{{card-umme-tahera-tun.environmental-assessment}}</span><span>{{card-umme-tahera-tun.disaster-management}}</span><span>{{card-umme-tahera-tun.hydrology}}</span></div>
+        <h4>{{pop-umme-tahera-tun.profiles}}</h4>
+        <div class="plinks"><a href="https://scholar.google.com/citations?user=ct-vCCsAAAAJ&hl=en" target="_blank" rel="noopener" aria-label="{{card-umme-tahera-tun.umme-tahera-tun-humayra-2}}" title="{{card-umme-tahera-tun.google-scholar}}">{{svg:gs}}</a><a href="https://www.researchgate.net/profile/Umme-Tahera-Tun-Humayra-2" target="_blank" rel="noopener" aria-label="{{card-umme-tahera-tun.umme-tahera-tun-humayra-3}}" title="{{card-umme-tahera-tun.researchgate}}">{{svg:rg}}</a><a href="https://www.linkedin.com/in/umme-tahera-tun-humayra-a5a00230a/" target="_blank" rel="noopener" aria-label="{{card-umme-tahera-tun.umme-tahera-tun-humayra-4}}" title="{{card-umme-tahera-tun.linkedin}}">{{svg:li}}</a></div>
+      </div>
+    </dialog>
+
+    <!-- ===== Popup: Md. Tareq Aziz ===== -->
+    <dialog class="mdl" id="m-tareq-aziz" aria-labelledby="mt-tareq-aziz">
+      <div class="mdl-head">
+        <img src="images/team/tareq-aziz.jpg" width="112" height="112" alt="{{card-md-tareq-aziz.md-tareq-aziz}}">
+        <div>
+          <h3 id="mt-tareq-aziz">{{card-md-tareq-aziz.md-tareq-aziz}}</h3>
+          <p class="role">{{card-md-tareq-aziz.research-associate-remote}}</p>
+          <p class="at">{{pop-md-tareq-aziz.bluegreen-research-and}}</p>
+        </div>
+        <button type="button" class="mdl-x" data-close aria-label="{{pop-md-tareq-aziz.close-profile}}">&times;</button>
+      </div>
+      <div class="mdl-body">
+        <h4>{{pop-md-tareq-aziz.education}}</h4>
+        <ul class="edu">
+          <li>{{pop-md-tareq-aziz.phd-ongoing-hokkaido}}</li>
+          <li>{{pop-md-tareq-aziz.m-sc-institute-of}}</li>
+          <li>{{pop-md-tareq-aziz.b-sc-botany-national}}</li>
+        </ul>
+        <h4>{{pop-md-tareq-aziz.areas-of-expertise}}</h4>
+        <div class="tags"><span>{{card-md-tareq-aziz.environmental-science}}</span><span>{{card-md-tareq-aziz.water-and-environment}}</span><span>{{card-md-tareq-aziz.remote-sensing}}</span></div>
+        <h4>{{pop-md-tareq-aziz.profiles}}</h4>
+        <div class="plinks"><a href="https://scholar.google.com/citations?user=nIFHf8kAAAAJ&hl=en" target="_blank" rel="noopener" aria-label="{{card-md-tareq-aziz.md-tareq-aziz-on}}" title="{{card-md-tareq-aziz.google-scholar}}">{{svg:gs}}</a><a href="https://www.researchgate.net/profile/Md-Tareq-Aziz-4" target="_blank" rel="noopener" aria-label="{{card-md-tareq-aziz.md-tareq-aziz-on-2}}" title="{{card-md-tareq-aziz.researchgate}}">{{svg:rg}}</a><a href="https://www.linkedin.com/in/tareqaziz021/" target="_blank" rel="noopener" aria-label="{{card-md-tareq-aziz.md-tareq-aziz-on-3}}" title="{{card-md-tareq-aziz.linkedin}}">{{svg:li}}</a></div>
+      </div>
+    </dialog>
+
+    <!-- ===== Popup: Zarjes Kader ===== -->
+    <dialog class="mdl" id="m-zarjes-kader" aria-labelledby="mt-zarjes-kader">
+      <div class="mdl-head">
+        <img src="images/team/zarjes-kader.jpg" width="112" height="112" alt="{{card-zarjes-kader.zarjes-kader}}">
+        <div>
+          <h3 id="mt-zarjes-kader">{{card-zarjes-kader.zarjes-kader}}</h3>
+          <p class="role">{{card-zarjes-kader.research-associate}}</p>
+          <p class="at">{{pop-zarjes-kader.bluegreen-research-and}}</p>
+        </div>
+        <button type="button" class="mdl-x" data-close aria-label="{{pop-zarjes-kader.close-profile}}">&times;</button>
+      </div>
+      <div class="mdl-body">
+        <h4>{{pop-zarjes-kader.education}}</h4>
+        <ul class="edu">
+          <li>{{pop-zarjes-kader.m-sc-institute-of}}</li>
+          <li>{{pop-zarjes-kader.b-sc-environmental-science}}</li>
+        </ul>
+        <h4>{{pop-zarjes-kader.areas-of-expertise}}</h4>
+        <div class="tags"><span>{{card-zarjes-kader.gis}}</span><span>{{card-zarjes-kader.groundwater-modelling}}</span><span>{{card-zarjes-kader.flood-management}}</span><span>{{card-zarjes-kader.random-forest}}</span><span>{{pop-zarjes-kader.artificial-neural-networks-ann}}</span></div>
+        <h4>{{pop-zarjes-kader.profiles}}</h4>
+        <div class="plinks"><a href="https://scholar.google.com/citations?user=-Ty_FpIAAAAJ&hl=en" target="_blank" rel="noopener" aria-label="{{card-zarjes-kader.zarjes-kader-on-google}}" title="{{card-zarjes-kader.google-scholar}}">{{svg:gs}}</a><a href="https://www.researchgate.net/profile/Zarjes-Kader" target="_blank" rel="noopener" aria-label="{{card-zarjes-kader.zarjes-kader-on-researchgate}}" title="{{card-zarjes-kader.researchgate}}">{{svg:rg}}</a><a href="https://www.linkedin.com/in/zarjes-kader-208298203/" target="_blank" rel="noopener" aria-label="{{card-zarjes-kader.zarjes-kader-on-linkedin}}" title="{{card-zarjes-kader.linkedin}}">{{svg:li}}</a></div>
+      </div>
+    </dialog>
+
+    <!-- ===== Popup: Md. Abdullah Al Mamun ===== -->
+    <dialog class="mdl" id="m-abdullah-al-mamun" aria-labelledby="mt-abdullah-al-mamun">
+      <div class="mdl-head">
+        <img src="images/team/abdullah-al-mamun.jpg" width="112" height="112" alt="{{card-md-abdullah-al.md-abdullah-al-mamun}}">
+        <div>
+          <h3 id="mt-abdullah-al-mamun">{{card-md-abdullah-al.md-abdullah-al-mamun}}</h3>
+          <p class="role">{{card-md-abdullah-al.research-associate-remote}}</p>
+          <p class="at">{{pop-md-abdullah-al.bluegreen-research-and}}</p>
+        </div>
+        <button type="button" class="mdl-x" data-close aria-label="{{pop-md-abdullah-al.close-profile}}">&times;</button>
+      </div>
+      <div class="mdl-body">
+        <h4>{{pop-md-abdullah-al.education}}</h4>
+        <ul class="edu">
+          <li>{{pop-md-abdullah-al.phd-2nd-year-okayama}}</li>
+          <li>{{pop-md-abdullah-al.m-sc-institute-of}}</li>
+          <li>{{pop-md-abdullah-al.b-sc-soil-science}}</li>
+        </ul>
+        <h4>{{pop-md-abdullah-al.areas-of-expertise}}</h4>
+        <div class="tags"><span>{{card-md-abdullah-al.watershed-hydrology}}</span><span>{{card-md-abdullah-al.soil-biogeochemistry}}</span><span>{{card-md-abdullah-al.digital-soil-mapping}}</span><span>{{card-md-abdullah-al.remote-sensing}}</span><span>{{pop-md-abdullah-al.spatial-data-science}}</span></div>
+        <h4>{{pop-md-abdullah-al.profiles}}</h4>
+        <div class="plinks"><a href="https://scholar.google.com/citations?user=_aIe3OcAAAAJ&hl=en" target="_blank" rel="noopener" aria-label="{{card-md-abdullah-al.md-abdullah-al-mamun-2}}" title="{{card-md-abdullah-al.google-scholar}}">{{svg:gs}}</a><a href="https://www.linkedin.com/in/mamun-duet/" target="_blank" rel="noopener" aria-label="{{card-md-abdullah-al.md-abdullah-al-mamun-3}}" title="{{card-md-abdullah-al.linkedin}}">{{svg:li}}</a></div>
+      </div>
+    </dialog>
+
+    <!-- ===== Popup: Arun Roy ===== -->
+    <dialog class="mdl" id="m-arun-roy" aria-labelledby="mt-arun-roy">
+      <div class="mdl-head">
+        <img src="images/team/arun-roy.jpg" width="112" height="112" alt="{{card-arun-roy.arun-roy}}">
+        <div>
+          <h3 id="mt-arun-roy">{{card-arun-roy.arun-roy}}</h3>
+          <p class="role">{{card-arun-roy.research-associate}}</p>
+          <p class="at">{{pop-arun-roy.bluegreen-research-and}}</p>
+        </div>
+        <button type="button" class="mdl-x" data-close aria-label="{{pop-arun-roy.close-profile}}">&times;</button>
+      </div>
+      <div class="mdl-body">
+        <h4>{{pop-arun-roy.education}}</h4>
+        <ul class="edu">
+          <li>{{pop-arun-roy.m-sc-ongoing-institute}}</li>
+          <li>{{pop-arun-roy.b-sc-environmental-science}}</li>
+        </ul>
+        <h4>{{pop-arun-roy.areas-of-expertise}}</h4>
+        <div class="tags"><span>{{card-arun-roy.environmental-science}}</span><span>{{card-arun-roy.disaster-management}}</span><span>{{card-arun-roy.hydrology}}</span></div>
+      </div>
+    </dialog>
+
+    <!-- ===== Call to action: Want to work with us or join the team? ===== -->
+    <section class="cta">
+      <div class="wrap cta-in">
+        <div>
+          <h2>{{cta-want-to-work.want-to-work-with}}</h2>
+          <p>{{cta-want-to-work.tell-us-about-your}}</p>
+        </div>
+        <div class="btn-row"><a class="btn" href="contact">{{cta-want-to-work.request-a-quote}}</a><a class="btn btn-line" href="https://wa.me/{{@whatsapp_number}}?text=Hello%20BlueGreen%2C%20I%20would%20like%20to%20discuss%20a%20project." rel="noopener">{{svg:wa}}{{cta-want-to-work.message-on-whatsapp}}</a></div>
+      </div>
+    </section>
+  </main>
+
+{{include footer}}
+</body>
+</html>

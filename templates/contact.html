@@ -1,0 +1,86 @@
+{{! ============================================================
+    PAGE LAYOUT: Contact page   (web address: /contact)
+    This file holds the layout only. The words are in content/contact.txt:
+    each name in double curly brackets below is a [name] in that file.
+    Colours and sizes are in static/style.css. Search for ===== to jump between sections.
+    ============================================================ !}}
+
+{{include head}}
+<body>
+
+{{include header}}
+
+  <main id="main">
+    <!-- ===== Page title banner ===== -->
+    <div class="page-head dark-head">
+      <div class="wrap">
+        <h1>{{banner.contact-us}}</h1>
+        <p class="lead">{{banner.tell-us-about-your}}</p>
+      </div>
+    </div>
+
+    <!-- ===== Section: Send us a message ===== -->
+    <section class="contact-sec">
+      <div class="wrap contact2">
+        <div class="form-card">
+          <h2>{{sec-send-us-a.send-us-a-message}}</h2>
+          <form id="contact-form" data-key="{{@web3forms_key}}" data-email="{{@email}}">
+            <div class="two">
+              <div class="field"><label for="n">{{sec-send-us-a.name}}</label><input id="n" name="name" autocomplete="name" required></div>
+              <div class="field"><label for="e">{{sec-send-us-a.email}}</label><input id="e" name="email" type="email" autocomplete="email" required></div>
+            </div>
+            <div class="two">
+              <div class="field"><label for="p">{{sec-send-us-a.phone-or-whatsapp}} <small>{{sec-send-us-a.optional}}</small></label><input id="p" name="phone" type="tel" autocomplete="tel"></div>
+              <div class="field"><label for="o">{{sec-send-us-a.organisation}} <small>{{sec-send-us-a.optional}}</small></label><input id="o" name="organisation" autocomplete="organization"></div>
+            </div>
+            <div class="field">
+              <label for="i">{{sec-send-us-a.i-am-interested-in}}</label>
+              <select id="i" name="interest">
+                <option data-key="etp">{{sec-send-us-a.etp-design}}</option>
+                <option data-key="iee">{{sec-send-us-a.iee-or-eia-report}}</option>
+                <option data-key="feasibility">{{sec-send-us-a.feasibility-study}}</option>
+                <option data-key="gis">{{sec-send-us-a.gis-and-remote-sensing}}</option>
+                <option data-key="training">{{sec-send-us-a.training-courses}}</option>
+                <option data-key="hydrology">{{sec-send-us-a.hydrological-modelling}}</option>
+                <option data-key="thesis">{{sec-send-us-a.thesis-or-publication-support}}</option>
+                <option data-key="other">{{sec-send-us-a.something-else}}</option>
+              </select>
+            </div>
+            <div class="field"><label for="m">{{sec-send-us-a.message}}</label><textarea id="m" name="message" required placeholder="{{sec-send-us-a.what-do-you-need}}"></textarea></div>
+            <input class="hp" type="checkbox" name="botcheck" tabindex="-1" autocomplete="off" aria-hidden="true">
+            <div class="form-foot">
+              <button class="btn" type="submit">{{sec-send-us-a.send-message}}</button>
+              <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+            </div>
+          </form>
+        </div>
+
+        <!-- ===== Side panel: Visit and contact ===== -->
+        <aside class="info-card">
+          <h2>{{aside-visit-and-contact.visit-and-contact}}</h2>
+          <div class="info">
+            <b>{{aside-visit-and-contact.office}}</b>
+            <address>{{aside-visit-and-contact.402-5-west-bhurolia}}<br>{{aside-visit-and-contact.gazipur-1707-bangladesh}}</address>
+          </div>
+          <div class="info"><b>{{aside-visit-and-contact.phone}}</b><a href="tel:{{@phone_link}}">{{@phone}}</a></div>
+          <div class="info"><b>{{aside-visit-and-contact.whatsapp}}</b><a href="https://wa.me/{{@whatsapp_number}}?text=Hello%20BlueGreen%2C%20I%20would%20like%20to%20discuss%20a%20project." rel="noopener">{{@whatsapp_show}}</a></div>
+          <div class="info"><b>{{aside-visit-and-contact.email}}</b><a href="mailto:{{@email}}">{{@email}}</a><br><a href="mailto:{{@email_projects}}">{{@email_projects}}</a> {{aside-visit-and-contact.for-projects}}<br><a href="mailto:{{@email_training}}">{{@email_training}}</a> {{aside-visit-and-contact.for-training}}</div>
+          <div class="info">
+            <b>{{aside-visit-and-contact.follow-us}}</b>
+            <div class="socials"><a href="{{@facebook_url}}" rel="noopener" aria-label="{{aside-visit-and-contact.facebook}}">{{svg:fb}}</a><a href="{{@linkedin_url}}" rel="noopener" aria-label="{{aside-visit-and-contact.linkedin}}">{{svg:li}}</a><a href="{{@youtube_url}}" rel="noopener" aria-label="{{aside-visit-and-contact.youtube}}">{{svg:yt}}</a><a href="https://wa.me/{{@whatsapp_number}}?text=Hello%20BlueGreen%2C%20I%20would%20like%20to%20discuss%20a%20project." rel="noopener" aria-label="{{aside-visit-and-contact.whatsapp}}">{{svg:wa}}</a></div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ===== Section: map-sec ===== -->
+    <section class="map-sec">
+      <div class="wrap">
+        <div class="map"><iframe title="{{sec-map-sec.map-showing-the-bluegreen}}" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=DUET%20Gazipur&amp;output=embed"></iframe></div>
+      </div>
+    </section>
+  </main>
+
+{{include footer}}
+</body>
+</html>

@@ -1,0 +1,57 @@
+{{! ============================================================
+    SHARED PART: bottom of every page (footer)
+    Used by all pages. Its words are in content/_shared.txt (each name in
+    double curly brackets here is a [name] in that file).
+    Change it once and every page changes. Search for ===== to jump between parts.
+    ============================================================ !}}
+  <!-- ===== Footer ===== -->
+  <footer class="wtop" style="--bg:var(--ink)">
+    <div class="wrap">
+      <div class="foot-grid">
+        <div>
+          <a class="brand-box" href="./"><img src="logo.png" width="113" height="40" alt="{{site.name}}"></a>
+          <p>{{ftr.environmental-research-and}}</p>
+          <a class="btn btn-leaf btn-sm" href="contact">{{ftr.contact-now}}</a>
+          <div class="socials"><a href="{{@facebook_url}}" rel="noopener" aria-label="{{top.facebook}}">{{svg:fb}}</a><a href="{{@linkedin_url}}" rel="noopener" aria-label="{{top.linkedin}}">{{svg:li}}</a><a href="{{@youtube_url}}" rel="noopener" aria-label="{{top.youtube}}">{{svg:yt}}</a><a href="https://wa.me/{{@whatsapp_number}}?text=Hello%20BlueGreen%2C%20I%20would%20like%20to%20discuss%20a%20project." rel="noopener" aria-label="{{ftr.whatsapp}}">{{svg:wa}}</a></div>
+        </div>
+        <div>
+          <h2 class="ft">{{ftr.quick-links}}</h2>
+          <ul>
+            <li><a href="./">{{hdr.home}}</a></li>
+            <li><a href="about">{{ftr.about-us}}</a></li>
+            <li><a href="services">{{hdr.services}}</a></li>
+            <li><a href="training">{{hdr.training}}</a></li>
+            <li><a href="projects">{{hdr.projects}}</a></li>
+            <li><a href="team">{{hdr.team}}</a></li>
+            <li><a href="insights">{{hdr.insights}}</a></li>
+            <li><a href="contact">{{ftr.contact}}</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2 class="ft">{{hdr.services}}</h2>
+          <ul>
+            <li><a href="services#etp">{{hdr.etp-design}}</a></li>
+            <li><a href="services#iee-eia">{{hdr.iee-and-eia-reports}}</a></li>
+            <li><a href="services#emp">{{hdr.environmental-management-plan}}</a></li>
+            <li><a href="services#compliance">{{hdr.compliance-and-clearance}}</a></li>
+            <li><a href="services#feasibility">{{hdr.feasibility-studies}}</a></li>
+            <li><a href="services#monitoring">{{hdr.monitoring-and-baseline-survey}}</a></li>
+            <li><a href="services">{{ftr.all-services}}</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2 class="ft">{{ftr.visit-and-contact}}</h2>
+          <ul>
+            <li>{{ftr.402-5-west-bhurolia}}<br>{{ftr.gazipur-1707-bangladesh}}</li>
+            <li><a href="tel:{{@phone_link}}">{{@phone}}</a></li>
+            <li><a href="https://wa.me/{{@whatsapp_number}}?text=Hello%20BlueGreen%2C%20I%20would%20like%20to%20discuss%20a%20project." rel="noopener">{{top.whatsapp-880-1737-129123}}</a></li>
+            <li><a href="mailto:{{@email}}">{{@email}}</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="foot-base"><span>&copy; <span id="year">2026</span> {{ftr.bluegreen-research-and}}</span> <span>{{ftr.trade-licence-no-20420}}</span> <span><a href="privacy">{{ftr.privacy}}</a> &nbsp; <a href="terms">{{ftr.terms}}</a></span></div>
+      <div class="credit">{{ftr.developed-and-powered-by}} <a href="team#p-biplob-hosen">{{ftr.biplob-hosen}}</a></div>
+    </div>
+  </footer>
+  <a class="wa" href="https://wa.me/{{@whatsapp_number}}?text=Hello%20BlueGreen%2C%20I%20would%20like%20to%20discuss%20a%20project." rel="noopener" aria-label="{{ftr.chat-with-us-on}}">{{svg:wa}}</a>
+  <script src="script.js"></script>

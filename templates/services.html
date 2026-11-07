@@ -1,0 +1,318 @@
+{{! ============================================================
+    PAGE LAYOUT: Services page   (web address: /services)
+    This file holds the layout only. The words are in content/services.txt:
+    each name in double curly brackets below is a [name] in that file.
+    Colours and sizes are in static/style.css. Search for ===== to jump between sections.
+    ============================================================ !}}
+
+{{include head}}
+<body>
+
+{{include header}}
+
+  <main id="main">
+    <!-- ===== Page title banner ===== -->
+    <div class="page-head">
+      <div class="wrap">
+        <h1>{{banner.services}}</h1>
+        <p class="lead">{{banner.consultancy-for-industry}}</p>
+      </div>
+    </div>
+
+    <!-- ===== Section: Industrial compliance ===== -->
+    <section>
+      <div class="wrap">
+        <div class="group-head">
+          <h2>{{sec-industrial.industrial-compliance}}</h2>
+        </div>
+        <div class="srows">
+          <!-- ===== Card: ETP design ===== -->
+          <article class="srow" id="etp">
+            <div class="sart"><img src="images/art/etp.svg" width="320" height="220" alt="" loading="lazy"><span class="ico-badge big">{{svg:drop}}</span></div>
+            <div class="sbody">
+              <h3 class="sname">{{card-etp-design.etp-design}}</h3>
+              <p class="stag">{{card-etp-design.clean-wastewater-compliant}}</p>
+              <div class="scard">
+                <p>{{card-etp-design.we-design-effluent-treatment}}</p>
+                <ul class="ticks">
+                  <li>{{card-etp-design.wastewater-characterisation}}</li>
+                  <li>{{card-etp-design.treatment-process-selection}}</li>
+                  <li>{{card-etp-design.layout-process-drawings-and}}</li>
+                  <li>{{card-etp-design.check-against-department-of}}</li>
+                  <li>{{card-etp-design.guidance-on-operation-and}}</li>
+                </ul>
+                <div class="btn-row"><a class="btn btn-sm" href="contact?topic=etp">{{card-etp-design.ask-about-this-service}}</a></div>
+              </div>
+            </div>
+          </article>
+
+          <!-- ===== Card: IEE and EIA reports ===== -->
+          <article class="srow" id="iee-eia">
+            <div class="sart"><img src="images/art/iee-eia.svg" width="320" height="220" alt="" loading="lazy"><span class="ico-badge big">{{svg:doc}}</span></div>
+            <div class="sbody">
+              <h3 class="sname">{{card-iee-and-eia.iee-and-eia-reports}}</h3>
+              <p class="stag">{{card-iee-and-eia.reports-for-environmental}}</p>
+              <div class="scard">
+                <p>{{card-iee-and-eia.we-prepare-the-environmental}}</p>
+                <ul class="ticks">
+                  <li>{{card-iee-and-eia.screening-and-scoping}}</li>
+                  <li>{{card-iee-and-eia.baseline-environmental-and}}</li>
+                  <li>{{card-iee-and-eia.impact-assessment-and}}</li>
+                  <li>{{card-iee-and-eia.environmental-management-and}}</li>
+                  <li>{{card-iee-and-eia.report-prepared-for-submission}}</li>
+                </ul>
+                <div class="btn-row"><a class="btn btn-sm" href="contact?topic=iee">{{card-iee-and-eia.ask-about-this-service}}</a></div>
+              </div>
+            </div>
+          </article>
+
+          <!-- ===== Card: Environmental Management Plan (EMP) ===== -->
+          <article class="srow" id="emp">
+            <div class="sart"><img src="images/art/emp.svg" width="320" height="220" alt="" loading="lazy"><span class="ico-badge big">{{svg:plan}}</span></div>
+            <div class="sbody">
+              <h3 class="sname">{{card-environmental.environmental-management-plan}}</h3>
+              <p class="stag">{{card-environmental.actions-to-limit-and}}</p>
+              <div class="scard">
+                <p>{{card-environmental.an-emp-turns-the}}</p>
+                <ul class="ticks">
+                  <li>{{card-environmental.mitigation-measures-for-each}}</li>
+                  <li>{{card-environmental.roles-schedule-and-cost}}</li>
+                  <li>{{card-environmental.monitoring-indicators-and}}</li>
+                  <li>{{card-environmental.plan-prepared-to-accompany}}</li>
+                </ul>
+                <div class="btn-row"><a class="btn btn-sm" href="contact?topic=other">{{card-environmental.ask-about-this-service}}</a></div>
+              </div>
+            </div>
+          </article>
+
+          <!-- ===== Card: Environmental compliance and clearance support ===== -->
+          <article class="srow" id="compliance">
+            <div class="sart"><img src="images/art/compliance.svg" width="320" height="220" alt="" loading="lazy"><span class="ico-badge big">{{svg:shield}}</span></div>
+            <div class="sbody">
+              <h3 class="sname">{{card-environmental.environmental-compliance-and}}</h3>
+              <p class="stag">{{card-environmental.clearance-renewals-and}}</p>
+              <div class="scard">
+                <p>{{card-environmental.we-help-operators-understand}}</p>
+                <ul class="ticks">
+                  <li>{{card-environmental.check-which-clearance-category}}</li>
+                  <li>{{card-environmental.prepare-and-review-application}}</li>
+                  <li>{{card-environmental.compliance-gap-review-against}}</li>
+                  <li>{{card-environmental.support-when-preparing-for}}</li>
+                </ul>
+                <div class="btn-row"><a class="btn btn-sm" href="contact?topic=other">{{card-environmental.ask-about-this-service-2}}</a></div>
+              </div>
+            </div>
+          </article>
+
+          <!-- ===== Card: Waste management and air emission advisory ===== -->
+          <article class="srow" id="waste-air">
+            <div class="sart"><img src="images/art/waste-air.svg" width="320" height="220" alt="" loading="lazy"><span class="ico-badge big">{{svg:factory}}</span></div>
+            <div class="sbody">
+              <h3 class="sname">{{card-waste-management.waste-management-and-air}}</h3>
+              <p class="stag">{{card-waste-management.less-waste-cleaner-emissions}}</p>
+              <div class="scard">
+                <p>{{card-waste-management.advice-for-operators-who}}</p>
+                <ul class="ticks">
+                  <li>{{card-waste-management.waste-review-and-handling}}</li>
+                  <li>{{card-waste-management.emission-sources-and-control}}</li>
+                  <li>{{card-waste-management.improvement-roadmap-with}}</li>
+                  <li>{{card-waste-management.support-with-compliance}}</li>
+                </ul>
+                <div class="btn-row"><a class="btn btn-sm" href="contact?topic=other">{{card-waste-management.ask-about-this-service}}</a></div>
+              </div>
+            </div>
+          </article>
+        </div>
+        <div class="group-head">
+          <h2>{{sec-industrial.environmental-engineering-and}}</h2>
+        </div>
+        <div class="srows">
+          <!-- ===== Card: Feasibility studies ===== -->
+          <article class="srow" id="feasibility">
+            <div class="sart"><img src="images/art/feasibility.svg" width="320" height="220" alt="" loading="lazy"><span class="ico-badge big">{{svg:check}}</span></div>
+            <div class="sbody">
+              <h3 class="sname">{{card-feasibility.feasibility-studies}}</h3>
+              <p class="stag">{{card-feasibility.test-the-project-before}}</p>
+              <div class="scard">
+                <p>{{card-feasibility.before-money-is-committed}}</p>
+                <ul class="ticks">
+                  <li>{{card-feasibility.site-and-process-review}}</li>
+                  <li>{{card-feasibility.environmental-constraints-and}}</li>
+                  <li>{{card-feasibility.comparison-of-options}}</li>
+                  <li>{{card-feasibility.a-clear-recommendation-you}}</li>
+                </ul>
+                <div class="btn-row"><a class="btn btn-sm" href="contact?topic=feasibility">{{card-feasibility.ask-about-this-service}}</a></div>
+              </div>
+            </div>
+          </article>
+
+          <!-- ===== Card: Environmental monitoring and baseline survey ===== -->
+          <article class="srow" id="monitoring">
+            <div class="sart"><img src="images/art/monitoring.svg" width="320" height="220" alt="" loading="lazy"><span class="ico-badge big">{{svg:gauge}}</span></div>
+            <div class="sbody">
+              <h3 class="sname">{{card-environmental.environmental-monitoring-and}}</h3>
+              <p class="stag">{{card-environmental.water-air-soil-and}}</p>
+              <div class="scard">
+                <p>{{card-environmental.we-plan-the-sampling}}</p>
+                <ul class="ticks">
+                  <li>{{card-environmental.site-survey-and-sampling}}</li>
+                  <li>{{card-environmental.baselines-for-water-air}}</li>
+                  <li>{{card-environmental.data-analysis-and}}</li>
+                  <li>{{card-environmental.baseline-chapter-for-an}}</li>
+                </ul>
+                <div class="btn-row"><a class="btn btn-sm" href="contact?topic=other">{{card-environmental.ask-about-this-service-3}}</a></div>
+              </div>
+            </div>
+          </article>
+
+          <!-- ===== Card: GIS, remote sensing and mapping ===== -->
+          <article class="srow" id="gis">
+            <div class="sart"><img src="images/art/gis.svg" width="320" height="220" alt="" loading="lazy"><span class="ico-badge big">{{svg:layers}}</span></div>
+            <div class="sbody">
+              <h3 class="sname">{{card-gis-remote-sensing.gis-remote-sensing-and}}</h3>
+              <p class="stag">{{card-gis-remote-sensing.maps-and-satellite-analysis}}</p>
+              <div class="scard">
+                <p>{{card-gis-remote-sensing.maps-and-spatial-analysis}}</p>
+                <ul class="ticks">
+                  <li>{{card-gis-remote-sensing.land-use-and-land}}</li>
+                  <li>{{card-gis-remote-sensing.flood-drought-and}}</li>
+                  <li>{{card-gis-remote-sensing.site-suitability-analysis}}</li>
+                  <li>{{card-gis-remote-sensing.satellite-image-processing}}</li>
+                  <li>{{card-gis-remote-sensing.statistical-analysis-charts}}</li>
+                </ul>
+                <div class="btn-row"><a class="btn btn-sm" href="contact?topic=gis">{{card-gis-remote-sensing.ask-about-this-service}}</a></div>
+              </div>
+            </div>
+          </article>
+
+          <!-- ===== Card: Hydrological modelling ===== -->
+          <article class="srow" id="hydrology">
+            <div class="sart"><img src="images/art/hydrology.svg" width="320" height="220" alt="" loading="lazy"><span class="ico-badge big">{{svg:waves}}</span></div>
+            <div class="sbody">
+              <h3 class="sname">{{card-hydrological.hydrological-modelling}}</h3>
+              <p class="stag">{{card-hydrological.rainfall-runoff-and-water}}</p>
+              <div class="scard">
+                <p>{{card-hydrological.hydrological-modelling-for}}</p>
+                <ul class="ticks">
+                  <li>{{card-hydrological.model-set-up-calibration}}</li>
+                  <li>{{card-hydrological.rainfall-runoff-and-water-2}}</li>
+                  <li>{{card-hydrological.clear-reporting-of-assumptions}}</li>
+                </ul>
+                <div class="btn-row"><a class="btn btn-sm" href="contact?topic=hydrology">{{card-hydrological.ask-about-this-service}}</a></div>
+              </div>
+            </div>
+          </article>
+
+          <!-- ===== Card: Climate, carbon and ESG reporting ===== -->
+          <article class="srow" id="climate-esg">
+            <div class="sart"><img src="images/art/climate-esg.svg" width="320" height="220" alt="" loading="lazy"><span class="ico-badge big">{{svg:globe}}</span></div>
+            <div class="sbody">
+              <h3 class="sname">{{card-climate-carbon-and.climate-carbon-and-esg}}</h3>
+              <p class="stag">{{card-climate-carbon-and.footprint-risk-and}}</p>
+              <div class="scard">
+                <p>{{card-climate-carbon-and.support-for-organisations-that}}</p>
+                <ul class="ticks">
+                  <li>{{card-climate-carbon-and.greenhouse-gas-inventory}}</li>
+                  <li>{{card-climate-carbon-and.climate-and-hazard-risk}}</li>
+                  <li>{{card-climate-carbon-and.drafting-of-sustainability-and}}</li>
+                  <li>{{card-climate-carbon-and.data-collection-templates-for}}</li>
+                </ul>
+                <div class="btn-row"><a class="btn btn-sm" href="contact?topic=other">{{card-climate-carbon-and.ask-about-this-service}}</a></div>
+              </div>
+            </div>
+          </article>
+        </div>
+        <div class="group-head">
+          <h2>{{sec-industrial.training-and-academia}}</h2>
+        </div>
+        <div class="srows">
+          <!-- ===== Card: GIS and remote sensing training ===== -->
+          <article class="srow" id="training">
+            <div class="sart"><img src="images/art/training.svg" width="320" height="220" alt="" loading="lazy"><span class="ico-badge big">{{svg:cap}}</span></div>
+            <div class="sbody">
+              <h3 class="sname">{{card-gis-and-remote.gis-and-remote-sensing}}</h3>
+              <p class="stag">{{card-gis-and-remote.gis-and-remote-sensing-2}}</p>
+              <div class="scard">
+                <p>{{card-gis-and-remote.our-gis-and-rs}}</p>
+                <ul class="ticks">
+                  <li>{{card-gis-and-remote.online-or-on-campus}}</li>
+                  <li>{{card-gis-and-remote.hands-on-practice-flexible}}</li>
+                  <li>{{card-gis-and-remote.certificates-awarded-by}}</li>
+                </ul>
+                <div class="btn-row"><a class="btn btn-sm" href="contact?topic=training">{{card-gis-and-remote.ask-about-this-service}}</a><a class="btn btn-sm btn-line" href="training">{{card-gis-and-remote.see-the-training-course}}</a></div>
+              </div>
+            </div>
+          </article>
+
+          <!-- ===== Card: Thesis and publication support ===== -->
+          <article class="srow" id="thesis">
+            <div class="sart"><img src="images/art/thesis.svg" width="320" height="220" alt="" loading="lazy"><span class="ico-badge big">{{svg:book}}</span></div>
+            <div class="sbody">
+              <h3 class="sname">{{card-thesis-and.thesis-and-publication-support}}</h3>
+              <p class="stag">{{card-thesis-and.from-topic-to-published}}</p>
+              <div class="scard">
+                <p>{{card-thesis-and.guidance-for-bsc-and}}</p>
+                <ul class="ticks">
+                  <li>{{card-thesis-and.topic-selection-and-research}}</li>
+                  <li>{{card-thesis-and.methods-and-data-analysis}}</li>
+                  <li>{{card-thesis-and.writing-editing-and-figure}}</li>
+                  <li>{{card-thesis-and.journal-selection-submission}}</li>
+                </ul>
+                <div class="btn-row"><a class="btn btn-sm" href="contact?topic=thesis">{{card-thesis-and.ask-about-this-service}}</a></div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Section: How a project runs ===== -->
+    <section class="mist">
+      <div class="wrap">
+        <div class="sec-head">
+          <h2>{{sec-how-a-project.how-a-project-runs}}</h2>
+        </div>
+        <ol class="steps">
+          <li>
+            <h3>{{sec-how-a-project.brief}}</h3>
+            <p>{{sec-how-a-project.you-tell-us-what}}</p>
+          </li>
+          <li>
+            <h3>{{sec-how-a-project.proposal}}</h3>
+            <p>{{sec-how-a-project.we-send-a-scope}}</p>
+          </li>
+          <li>
+            <h3>{{sec-how-a-project.data-and-fieldwork}}</h3>
+            <p>{{sec-how-a-project.we-collect-or-receive}}</p>
+          </li>
+          <li>
+            <h3>{{sec-how-a-project.analysis-and-design}}</h3>
+            <p>{{sec-how-a-project.we-run-the-analysis}}</p>
+          </li>
+          <li>
+            <h3>{{sec-how-a-project.report-and-submission}}</h3>
+            <p>{{sec-how-a-project.you-get-the-report}}</p>
+          </li>
+          <li>
+            <h3>{{sec-how-a-project.follow-up}}</h3>
+            <p>{{sec-how-a-project.we-answer-questions-from}}</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===== Call to action: Need something not listed? ===== -->
+    <section class="cta">
+      <div class="wrap cta-in">
+        <div>
+          <h2>{{cta-need-something-not.need-something-not-listed}}</h2>
+          <p>{{cta-need-something-not.if-your-work-involves}}</p>
+        </div>
+        <div class="btn-row"><a class="btn" href="contact">{{cta-need-something-not.request-a-quote}}</a><a class="btn btn-line" href="https://wa.me/{{@whatsapp_number}}?text=Hello%20BlueGreen%2C%20I%20would%20like%20to%20discuss%20a%20project." rel="noopener">{{svg:wa}}{{cta-need-something-not.message-on-whatsapp}}</a></div>
+      </div>
+    </section>
+  </main>
+
+{{include footer}}
+</body>
+</html>

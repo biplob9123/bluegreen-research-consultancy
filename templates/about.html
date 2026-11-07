@@ -1,0 +1,110 @@
+{{! ============================================================
+    PAGE LAYOUT: About page   (web address: /about)
+    This file holds the layout only. The words are in content/about.txt:
+    each name in double curly brackets below is a [name] in that file.
+    Colours and sizes are in static/style.css. Search for ===== to jump between sections.
+    ============================================================ !}}
+
+{{include head}}
+<body>
+
+{{include header}}
+
+  <main id="main">
+    <!-- ===== Page title banner ===== -->
+    <div class="page-head">
+      <div class="wrap">
+        <h1>{{banner.about-bluegreen}}</h1>
+        <p class="lead">{{banner.a-licensed-environmental}}</p>
+      </div>
+    </div>
+
+    <!-- ===== Section: Who we are ===== -->
+    <section>
+      <div class="wrap split" style="grid-template-columns:1.1fr .9fr">
+        <div>
+          <h2>{{sec-who-we-are.who-we-are}}</h2>
+          <p class="lead">{{sec-who-we-are.our-team-combines}}</p>
+          <p>{{sec-who-we-are.we-are-based-beside}}</p>
+        </div>
+
+        <!-- ===== Picture: Green rice field and a line of trees under a... ===== -->
+        <figure class="photo"><img src="images/landscape-field.jpg" width="1600" height="1054" loading="lazy" alt="{{pic-green-rice-field.green-rice-field-and}}"></figure>
+      </div>
+    </section>
+
+    <!-- ===== Section: Mission ===== -->
+    <section class="mist" id="mission">
+      <div class="wrap">
+        <div class="three">
+          <div>
+            <h3>{{sec-mission.mission}}</h3>
+            <p>{{sec-mission.to-provide-reliable-practical}}</p>
+          </div>
+          <div>
+            <h3>{{sec-mission.vision}}</h3>
+            <p>{{sec-mission.a-bangladesh-where-industry}}</p>
+          </div>
+          <div>
+            <h3>{{sec-mission.values}}</h3>
+            <p>{{sec-mission.integrity-scientific-accuracy}}</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Section: Why clients choose us ===== -->
+    <section>
+      <div class="wrap split">
+        <div>
+          <h2>{{sec-why-clients-choose.why-clients-choose-us}}</h2>
+          <ul class="ticks" style="margin-top:22px;gap:14px">
+            <li><b>{{sec-why-clients-choose.academic-roots}}</b> {{sec-why-clients-choose.we-work-close-to}}</li>
+            <li><b>{{sec-why-clients-choose.practical-focus}}</b> {{sec-why-clients-choose.we-deliver-designs-reports}}</li>
+            <li><b>{{sec-why-clients-choose.support-from-start-to}}</b> {{sec-why-clients-choose.from-the-first-idea}}</li>
+            <li><b>{{sec-why-clients-choose.clear-communication}}</b> {{sec-why-clients-choose.plain-language-written-scopes}}</li>
+          </ul>
+        </div>
+        <div id="registration">
+          <h2>{{sec-why-clients-choose.registration}}</h2>
+          <dl class="ledger light">
+            <div>
+              <dt>{{sec-why-clients-choose.trade-licence-no}}</dt>
+              <dd>{{@licence_no}}</dd>
+            </div>
+            <div>
+              <dt>{{sec-why-clients-choose.issued-by}}</dt>
+              <dd>{{sec-why-clients-choose.gazipur-city-corporation-ward}}</dd>
+            </div>
+            <div>
+              <dt>{{sec-why-clients-choose.valid-for}}</dt>
+              <dd>{{sec-why-clients-choose.financial-year-2026-to}}</dd>
+            </div>
+            <div>
+              <dt>{{sec-why-clients-choose.business-type}}</dt>
+              <dd>{{sec-why-clients-choose.consultancy-firm}}</dd>
+            </div>
+            <div>
+              <dt>{{sec-why-clients-choose.registered-address}}</dt>
+              <dd>{{sec-why-clients-choose.402-5-west-bhurolia}}</dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Call to action: Work with us ===== -->
+    <section class="cta">
+      <div class="wrap cta-in">
+        <div>
+          <h2>{{cta-work-with-us.work-with-us}}</h2>
+          <p>{{cta-work-with-us.send-a-short-description}}</p>
+        </div>
+        <div class="btn-row"><a class="btn" href="contact">{{cta-work-with-us.request-a-quote}}</a><a class="btn btn-line" href="https://wa.me/{{@whatsapp_number}}?text=Hello%20BlueGreen%2C%20I%20would%20like%20to%20discuss%20a%20project." rel="noopener">{{svg:wa}}{{cta-work-with-us.message-on-whatsapp}}</a></div>
+      </div>
+    </section>
+  </main>
+
+{{include footer}}
+</body>
+</html>

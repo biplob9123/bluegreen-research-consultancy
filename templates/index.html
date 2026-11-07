@@ -1,0 +1,416 @@
+{{! ============================================================
+    PAGE LAYOUT: Home page   (web address: /)
+    This file holds the layout only. The words are in content/index.txt:
+    each name in double curly brackets below is a [name] in that file.
+    Colours and sizes are in static/style.css. Search for ===== to jump between sections.
+    ============================================================ !}}
+
+{{#extra_head}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "BlueGreen Research and Consultancy",
+  "url": "{{@site_url}}",
+  "logo": "{{@site_url}}/logo.png",
+  "email": "{{@email}}",
+  "telephone": "{{@phone_link}}",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "402/5 West Bhurolia, Monir Chemical Road, DUET",
+    "addressLocality": "Gazipur",
+    "postalCode": "1707",
+    "addressCountry": "BD"
+  },
+  "sameAs": [
+    "{{@facebook_url}}",
+    "{{@linkedin_url}}",
+    "{{@youtube_url}}"
+  ],
+  "description": "Environmental research and consultancy: ETP design, IEE/EIA, GIS and remote sensing, training."
+}
+</script>
+{{/extra_head}}
+
+{{include head}}
+<body>
+
+{{include header}}
+
+  <main id="main">
+    <!-- ===== Hero banner: Environmental research and consultancy for a ===== -->
+    <section class="hero">
+      <div class="hero-deco" aria-hidden="true"><i class="b1"></i><i class="b2"></i><i class="b3"></i><i class="b4"></i></div>
+      <div class="wrap hero-grid">
+        <div>
+          <h1>{{hero-environmental.environmental-research-and}} <span class="grad">{{hero-environmental.cleaner-greener}}</span> {{hero-environmental.bangladesh}}</h1>
+          <p class="lead">{{hero-environmental.from-effluent-treatment-plant}}</p>
+          <div class="btn-row"><a class="btn" href="contact">{{hero-environmental.request-a-quote}}</a><a class="btn btn-line" href="services">{{hero-environmental.explore-services}}</a></div>
+          <p class="hero-note"><b>{{hero-environmental.licensed-in-gazipur}}</b> {{hero-environmental.trade-licence-no-20420}}</p>
+        </div>
+        <div class="emblem" aria-hidden="false"><span class="fl f1" aria-hidden="true">{{svg:leaf}}</span><span class="fl f2" aria-hidden="true">{{svg:drop}}</span><span class="fl f3" aria-hidden="true">{{svg:pin}}</span><span class="fl f4" aria-hidden="true">{{svg:chart}}</span> {{svg:hero-contours}} <img src="logo.png" width="900" height="319" alt="{{hero-environmental.bluegreen-research-and}}"></div>
+      </div>
+    </section>
+
+    <!-- ===== Section: What we do ===== -->
+    <section class="wtop" style="--bg:#fff">
+      <div class="wrap">
+        <div class="sec-head center">
+          <span class="kicker">{{sec-what-we-do.our-services}}</span>
+          <h2>{{sec-what-we-do.what-we-do}}</h2>
+          <p class="lead">{{sec-what-we-do.consultancy-for-industry-and}}</p>
+        </div>
+        <div class="svc-grid3">
+          <a class="svc-card" href="services#etp">
+            <span class="art"><img src="images/art/etp.svg" width="320" height="220" alt="" loading="lazy"></span><span class="ico-badge">{{svg:drop}}</span>
+            <h3>{{sec-what-we-do.etp-design}}</h3>
+            <p>{{sec-what-we-do.effluent-treatment-plants}}</p>
+            <span class="go">{{sec-what-we-do.learn-more}}{{svg:arrow}}</span>
+          </a>
+          <a class="svc-card" href="services#iee-eia">
+            <span class="art"><img src="images/art/iee-eia.svg" width="320" height="220" alt="" loading="lazy"></span><span class="ico-badge">{{svg:doc}}</span>
+            <h3>{{sec-what-we-do.iee-and-eia-reports}}</h3>
+            <p>{{sec-what-we-do.initial-environmental}}</p>
+            <span class="go">{{sec-what-we-do.learn-more}}{{svg:arrow}}</span>
+          </a>
+          <a class="svc-card" href="services#emp">
+            <span class="art"><img src="images/art/emp.svg" width="320" height="220" alt="" loading="lazy"></span><span class="ico-badge">{{svg:plan}}</span>
+            <h3>{{sec-what-we-do.environmental-management-plan}}</h3>
+            <p>{{sec-what-we-do.plans-that-set-out}}</p>
+            <span class="go">{{sec-what-we-do.learn-more}}{{svg:arrow}}</span>
+          </a>
+          <a class="svc-card" href="services#compliance">
+            <span class="art"><img src="images/art/compliance.svg" width="320" height="220" alt="" loading="lazy"></span><span class="ico-badge">{{svg:shield}}</span>
+            <h3>{{sec-what-we-do.environmental-compliance-and}}</h3>
+            <p>{{sec-what-we-do.guidance-and-document-support}}</p>
+            <span class="go">{{sec-what-we-do.learn-more}}{{svg:arrow}}</span>
+          </a>
+          <a class="svc-card" href="services#feasibility">
+            <span class="art"><img src="images/art/feasibility.svg" width="320" height="220" alt="" loading="lazy"></span><span class="ico-badge">{{svg:check}}</span>
+            <h3>{{sec-what-we-do.feasibility-studies}}</h3>
+            <p>{{sec-what-we-do.technical-and-environmental}}</p>
+            <span class="go">{{sec-what-we-do.learn-more}}{{svg:arrow}}</span>
+          </a>
+          <a class="svc-card" href="services#monitoring">
+            <span class="art"><img src="images/art/monitoring.svg" width="320" height="220" alt="" loading="lazy"></span><span class="ico-badge">{{svg:gauge}}</span>
+            <h3>{{sec-what-we-do.environmental-monitoring-and}}</h3>
+            <p>{{sec-what-we-do.sampling-plans-and-baseline}}</p>
+            <span class="go">{{sec-what-we-do.learn-more}}{{svg:arrow}}</span>
+          </a>
+          <a class="svc-card" href="services#waste-air">
+            <span class="art"><img src="images/art/waste-air.svg" width="320" height="220" alt="" loading="lazy"></span><span class="ico-badge">{{svg:factory}}</span>
+            <h3>{{sec-what-we-do.waste-management-and-air}}</h3>
+            <p>{{sec-what-we-do.practical-advice-on-cutting}}</p>
+            <span class="go">{{sec-what-we-do.learn-more}}{{svg:arrow}}</span>
+          </a>
+          <a class="svc-card" href="services#gis">
+            <span class="art"><img src="images/art/gis.svg" width="320" height="220" alt="" loading="lazy"></span><span class="ico-badge">{{svg:layers}}</span>
+            <h3>{{sec-what-we-do.gis-remote-sensing-and}}</h3>
+            <p>{{sec-what-we-do.spatial-analysis-satellite}}</p>
+            <span class="go">{{sec-what-we-do.learn-more}}{{svg:arrow}}</span>
+          </a>
+          <a class="svc-card" href="services#hydrology">
+            <span class="art"><img src="images/art/hydrology.svg" width="320" height="220" alt="" loading="lazy"></span><span class="ico-badge">{{svg:waves}}</span>
+            <h3>{{sec-what-we-do.hydrological-modelling}}</h3>
+            <p>{{sec-what-we-do.building-and-running}}</p>
+            <span class="go">{{sec-what-we-do.learn-more}}{{svg:arrow}}</span>
+          </a>
+          <a class="svc-card" href="services#climate-esg">
+            <span class="art"><img src="images/art/climate-esg.svg" width="320" height="220" alt="" loading="lazy"></span><span class="ico-badge">{{svg:globe}}</span>
+            <h3>{{sec-what-we-do.climate-carbon-and-esg}}</h3>
+            <p>{{sec-what-we-do.carbon-footprint-estimates}}</p>
+            <span class="go">{{sec-what-we-do.learn-more}}{{svg:arrow}}</span>
+          </a>
+          <a class="svc-card" href="services#training">
+            <span class="art"><img src="images/art/training.svg" width="320" height="220" alt="" loading="lazy"></span><span class="ico-badge">{{svg:cap}}</span>
+            <h3>{{sec-what-we-do.gis-and-remote-sensing}}</h3>
+            <p>{{sec-what-we-do.certification-courses-in-gis}}</p>
+            <span class="go">{{sec-what-we-do.learn-more}}{{svg:arrow}}</span>
+          </a>
+          <a class="svc-card" href="services#thesis">
+            <span class="art"><img src="images/art/thesis.svg" width="320" height="220" alt="" loading="lazy"></span><span class="ico-badge">{{svg:book}}</span>
+            <h3>{{sec-what-we-do.thesis-and-publication-support}}</h3>
+            <p>{{sec-what-we-do.guidance-for-students-and}}</p>
+            <span class="go">{{sec-what-we-do.learn-more}}{{svg:arrow}}</span>
+          </a>
+        </div>
+        <p class="more center"><a class="btn btn-line" href="services">{{sec-what-we-do.see-all-services}}</a></p>
+      </div>
+    </section>
+
+    <!-- ===== Section: GIS and RS training batches delivered ===== -->
+    <section class="band wtop" style="--bg:var(--ink)">
+      <div class="wrap">
+        <div class="stats">
+          <div><b class="num" data-to="6">6</b><span>{{sec-gis-and-rs.gis-and-rs-training}}</span></div>
+          <div><b>{{sec-gis-and-rs.30-to-50}}</b><span>{{sec-gis-and-rs.learners-in-each-batch}}</span></div>
+          <div><b class="num" data-to="12">12</b><span>{{sec-gis-and-rs.service-areas-from-etp}}</span></div>
+          <div><b class="num" data-to="2">2</b><span>{{sec-gis-and-rs.thesis-projects-completed-for}}</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Section: Who we work with ===== -->
+    <section class="mist wtop" style="--bg:var(--mist)">
+      <div class="wrap">
+        <div class="sec-head center">
+          <span class="kicker">{{sec-who-we-work.clients}}</span>
+          <h2>{{sec-who-we-work.who-we-work-with}}</h2>
+          <p class="lead">{{sec-who-we-work.our-work-reaches-industry}}</p>
+        </div>
+        <div class="client-grid">
+          <!-- ===== Card: Industries and factories ===== -->
+          <article class="cl-card">
+            <img src="images/art/client-industry.svg" width="320" height="220" alt="" loading="lazy">
+            <div class="cl-body">
+              <h3>{{card-industries-and.industries-and-factories}}</h3>
+              <p>{{card-industries-and.etp-design-iee-and}}</p>
+            </div>
+          </article>
+
+          <!-- ===== Card: Government and regulators ===== -->
+          <article class="cl-card">
+            <img src="images/art/client-government.svg" width="320" height="220" alt="" loading="lazy">
+            <div class="cl-body">
+              <h3>{{card-government-and.government-and-regulators}}</h3>
+              <p>{{card-government-and.technical-studies-and-mapping}}</p>
+            </div>
+          </article>
+
+          <!-- ===== Card: NGOs and development partners ===== -->
+          <article class="cl-card">
+            <img src="images/art/client-ngo.svg" width="320" height="220" alt="" loading="lazy">
+            <div class="cl-body">
+              <h3>{{card-ngos-and.ngos-and-development-partners}}</h3>
+              <p>{{card-ngos-and.environmental-assessments-gis}}</p>
+            </div>
+          </article>
+
+          <!-- ===== Card: Real estate and infrastructure developers ===== -->
+          <article class="cl-card">
+            <img src="images/art/client-developer.svg" width="320" height="220" alt="" loading="lazy">
+            <div class="cl-body">
+              <h3>{{card-real-estate-and.real-estate-and-infrastructure}}</h3>
+              <p>{{card-real-estate-and.environmental-assessments}}</p>
+            </div>
+          </article>
+
+          <!-- ===== Card: Companies and consultants ===== -->
+          <article class="cl-card">
+            <img src="images/art/client-company.svg" width="320" height="220" alt="" loading="lazy">
+            <div class="cl-body">
+              <h3>{{card-companies-and.companies-and-consultants}}</h3>
+              <p>{{card-companies-and.feasibility-studies-baseline}}</p>
+            </div>
+          </article>
+
+          <!-- ===== Card: Universities and researchers ===== -->
+          <article class="cl-card">
+            <img src="images/art/client-university.svg" width="320" height="220" alt="" loading="lazy">
+            <div class="cl-body">
+              <h3>{{card-universities-and.universities-and-researchers}}</h3>
+              <p>{{card-universities-and.training-thesis-guidance}}</p>
+            </div>
+          </article>
+
+          <!-- ===== Card: Students and early-career professionals ===== -->
+          <article class="cl-card">
+            <img src="images/art/client-student.svg" width="320" height="220" alt="" loading="lazy">
+            <div class="cl-body">
+              <h3>{{card-students-and-early.students-and-early-career}}</h3>
+              <p>{{card-students-and-early.gis-remote-sensing-and}}</p>
+            </div>
+          </article>
+
+          <!-- ===== Card: Communities and local groups ===== -->
+          <article class="cl-card">
+            <img src="images/art/client-community.svg" width="320" height="220" alt="" loading="lazy">
+            <div class="cl-body">
+              <h3>{{card-communities-and.communities-and-local-groups}}</h3>
+              <p>{{card-communities-and.water-flood-and-land}}</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Section: On-campus GIS training for final-year Civil... ===== -->
+    <section class="soft">
+      <div class="wrap split">
+        <!-- ===== Picture: On-campus GIS training for final-year Civil... ===== -->
+        <figure class="photo">
+          <img src="images/training-civil-duet.jpg" width="1600" height="1102" loading="lazy" alt="{{pic-on-campus-gis.trainers-and-final-year}}">
+          <figcaption>{{pic-on-campus-gis.on-campus-gis-training}}</figcaption>
+        </figure>
+        <div>
+          <h2>{{sec-on-campus-gis.we-have-taught-gis}}</h2>
+          <p class="lead">{{sec-on-campus-gis.our-gis-and-rs}}</p>
+          <dl class="ledger light">
+            <div>
+              <dt>{{sec-on-campus-gis.batches-delivered}}</dt>
+              <dd>{{sec-on-campus-gis.6-4-online-2}}</dd>
+            </div>
+            <div>
+              <dt>{{sec-on-campus-gis.learners-per-batch}}</dt>
+              <dd>{{sec-on-campus-gis.about-30-to-50}}</dd>
+            </div>
+            <div>
+              <dt>{{sec-on-campus-gis.on-campus-batches}}</dt>
+              <dd>{{sec-on-campus-gis.final-year-civil-engineering}}</dd>
+            </div>
+            <div>
+              <dt>{{sec-on-campus-gis.certificate}}</dt>
+              <dd>{{sec-on-campus-gis.awarded-by-bluegreen-based}}</dd>
+            </div>
+          </dl>
+          <div class="btn-row"><a class="btn btn-leaf" href="training">{{sec-on-campus-gis.see-the-course}}</a><a class="btn btn-line" href="https://wa.me/{{@whatsapp_number}}?text=Hello%20BlueGreen%2C%20please%20tell%20me%20about%20the%20next%20GIS%20and%20RS%20training%20batch." rel="noopener">{{sec-on-campus-gis.ask-about-the-next}}</a></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Section: How a project runs ===== -->
+    <section class="wtop" style="--bg:#fff">
+      <div class="wrap">
+        <div class="sec-head">
+          <span class="kicker">{{sec-how-a-project.process}}</span>
+          <h2>{{sec-how-a-project.how-a-project-runs}}</h2>
+          <p class="lead">{{sec-how-a-project.the-same-six-steps}}</p>
+        </div>
+        <ol class="steps">
+          <li>
+            <h3>{{sec-how-a-project.brief}}</h3>
+            <p>{{sec-how-a-project.you-tell-us-what}}</p>
+          </li>
+          <li>
+            <h3>{{sec-how-a-project.proposal}}</h3>
+            <p>{{sec-how-a-project.we-send-a-scope}}</p>
+          </li>
+          <li>
+            <h3>{{sec-how-a-project.data-and-fieldwork}}</h3>
+            <p>{{sec-how-a-project.we-collect-or-receive}}</p>
+          </li>
+          <li>
+            <h3>{{sec-how-a-project.analysis-and-design}}</h3>
+            <p>{{sec-how-a-project.we-run-the-analysis}}</p>
+          </li>
+          <li>
+            <h3>{{sec-how-a-project.report-and-submission}}</h3>
+            <p>{{sec-how-a-project.you-get-the-report}}</p>
+          </li>
+          <li>
+            <h3>{{sec-how-a-project.follow-up}}</h3>
+            <p>{{sec-how-a-project.we-answer-questions-from}}</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===== Section: Current work ===== -->
+    <section class="mist">
+      <div class="wrap">
+        <div class="sec-head">
+          <span class="kicker">{{sec-current-work.now}}</span>
+          <h2>{{sec-current-work.current-work}}</h2>
+        </div>
+        <div class="strip">
+          <img src="images/photo-industry.jpg" width="1200" height="800" loading="lazy" alt="">
+          <div>
+            <span class="chip">{{sec-current-work.in-progress}}</span>
+            <h3>{{sec-current-work.etp-design-and-iee}}</h3>
+            <p>{{sec-current-work.we-are-designing-the}}</p>
+            <p><a href="projects">{{sec-current-work.see-all-projects}}</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Section: From our team ===== -->
+    <section>
+      <div class="wrap">
+        <div class="sec-head">
+          <span class="kicker">{{sec-from-our-team.insights}}</span>
+          <h2>{{sec-from-our-team.from-our-team}}</h2>
+          <p class="lead">{{sec-from-our-team.short-explainers-on-the}}</p>
+        </div>
+        <ul class="linklist">
+          <li><a href="insights#iee-eia">{{sec-from-our-team.iee-or-eia-which}}<span>{{sec-from-our-team.the-category-the-department}}</span></a></li>
+          <li><a href="insights#etp">{{sec-from-our-team.why-does-a-factory}}<span>{{sec-from-our-team.it-protects-rivers-and}}</span></a></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== Section: The places behind the work ===== -->
+    <section class="gallery">
+      <div class="wrap">
+        <div class="sec-head center">
+          <span class="kicker">{{sec-the-places-behind.gallery}}</span>
+          <h2>{{sec-the-places-behind.the-places-behind-the}}</h2>
+          <p class="lead">{{sec-the-places-behind.rivers-coasts-fields-and}}</p>
+        </div>
+        <div class="carousel" data-carousel role="group" aria-roledescription="carousel" aria-label="{{sec-the-places-behind.photo-gallery}}">
+          <div class="stage">
+            <!-- ===== Slide: Rivers at dusk ===== -->
+            <figure class="slide is-active">
+              <img src="images/landscape-sunset-boat.jpg" width="1600" height="900" alt="{{slide-rivers-at-dusk.rivers-at-dusk}}" style="object-position:78% 50%">
+              <figcaption><b>{{slide-rivers-at-dusk.rivers-at-dusk}}</b><span>{{slide-rivers-at-dusk.rivers-carry-the-life}}</span></figcaption>
+            </figure>
+
+            <!-- ===== Slide: Coast and embankment ===== -->
+            <figure class="slide">
+              <img src="images/aerial-coast.jpg" width="1600" height="900" alt="{{slide-coast-and.coast-and-embankment}}" loading="lazy" style="object-position:50% 38%">
+              <figcaption><b>{{slide-coast-and.coast-and-embankment}}</b><span>{{slide-coast-and.farmland-mangroves-and-coast}}</span></figcaption>
+            </figure>
+
+            <!-- ===== Slide: Calm water at sunset ===== -->
+            <figure class="slide">
+              <img src="images/landscape-sea-sunset.jpg" width="1600" height="900" alt="{{slide-calm-water-at.calm-water-at-sunset}}" loading="lazy" style="object-position:50% 50%">
+              <figcaption><b>{{slide-calm-water-at.calm-water-at-sunset}}</b><span>{{slide-calm-water-at.clean-water-is-the}}</span></figcaption>
+            </figure>
+
+            <!-- ===== Slide: Fields after rain ===== -->
+            <figure class="slide">
+              <img src="images/landscape-field.jpg" width="1600" height="900" alt="{{slide-fields-after-rain.fields-after-rain}}" loading="lazy" style="object-position:50% 50%">
+              <figcaption><b>{{slide-fields-after-rain.fields-after-rain}}</b><span>{{slide-fields-after-rain.agriculture-depends-on-soil}}</span></figcaption>
+            </figure>
+
+            <!-- ===== Slide: Campus and forest from above ===== -->
+            <figure class="slide">
+              <img src="images/aerial-campus.jpg" width="1600" height="900" alt="{{slide-campus-and-forest.campus-and-forest-from}}" loading="lazy" style="object-position:50% 50%">
+              <figcaption><b>{{slide-campus-and-forest.campus-and-forest-from}}</b><span>{{slide-campus-and-forest.research-and-learning-grow}}</span></figcaption>
+            </figure>
+
+            <!-- ===== Slide: Life in small places ===== -->
+            <figure class="slide">
+              <img src="images/landscape-butterfly.jpg" width="1600" height="900" alt="{{slide-life-in-small.life-in-small-places}}" loading="lazy" style="object-position:50% 50%">
+              <figcaption><b>{{slide-life-in-small.life-in-small-places}}</b><span>{{slide-life-in-small.biodiversity-begins-with-one}}</span></figcaption>
+            </figure>
+
+            <!-- ===== Slide: Learning by doing ===== -->
+            <figure class="slide">
+              <img src="images/training-civil-duet.jpg" width="1600" height="900" alt="{{slide-learning-by-doing.learning-by-doing}}" loading="lazy" style="object-position:50% 40%">
+              <figcaption><b>{{slide-learning-by-doing.learning-by-doing}}</b><span>{{slide-learning-by-doing.on-campus-gis-training}}</span></figcaption>
+            </figure>
+          </div>
+          <button type="button" class="car-btn prev" aria-label="{{sec-the-places-behind.previous-photo}}">{{svg:index-graphic}}</button> <button type="button" class="car-btn next" aria-label="{{sec-the-places-behind.next-photo}}">{{svg:index-graphic-2}}</button>
+          <div class="car-count" aria-live="polite"><span class="cur">1</span> / 7</div>
+          <button type="button" class="car-play" aria-label="{{sec-the-places-behind.pause-slideshow}}">{{svg:index-graphic-3}}</button>
+        </div>
+        <div class="thumbs"><button type="button" class="thumb is-active" aria-label="{{sec-the-places-behind.show-photo-rivers-at}}"><img src="images/landscape-sunset-boat.jpg" width="160" height="96" alt="" loading="lazy" style="object-position:78% 50%"></button><button type="button" class="thumb" aria-label="{{sec-the-places-behind.show-photo-coast-and}}"><img src="images/aerial-coast.jpg" width="160" height="96" alt="" loading="lazy" style="object-position:50% 38%"></button><button type="button" class="thumb" aria-label="{{sec-the-places-behind.show-photo-calm-water}}"><img src="images/landscape-sea-sunset.jpg" width="160" height="96" alt="" loading="lazy" style="object-position:50% 50%"></button><button type="button" class="thumb" aria-label="{{sec-the-places-behind.show-photo-fields-after}}"><img src="images/landscape-field.jpg" width="160" height="96" alt="" loading="lazy" style="object-position:50% 50%"></button><button type="button" class="thumb" aria-label="{{sec-the-places-behind.show-photo-campus-and}}"><img src="images/aerial-campus.jpg" width="160" height="96" alt="" loading="lazy" style="object-position:50% 50%"></button><button type="button" class="thumb" aria-label="{{sec-the-places-behind.show-photo-life-in}}"><img src="images/landscape-butterfly.jpg" width="160" height="96" alt="" loading="lazy" style="object-position:50% 50%"></button><button type="button" class="thumb" aria-label="{{sec-the-places-behind.show-photo-learning-by}}"><img src="images/training-civil-duet.jpg" width="160" height="96" alt="" loading="lazy" style="object-position:50% 40%"></button></div>
+      </div>
+    </section>
+
+    <!-- ===== Call to action: Tell us about your project ===== -->
+    <section class="cta">
+      <div class="wrap cta-in">
+        <div>
+          <h2>{{cta-tell-us-about.tell-us-about-your}}</h2>
+          <p>{{cta-tell-us-about.send-a-short-description}}</p>
+        </div>
+        <div class="btn-row"><a class="btn" href="contact">{{cta-tell-us-about.request-a-quote}}</a><a class="btn btn-line" href="https://wa.me/{{@whatsapp_number}}?text=Hello%20BlueGreen%2C%20I%20would%20like%20to%20discuss%20a%20project." rel="noopener">{{svg:wa}}{{cta-tell-us-about.message-on-whatsapp}}</a></div>
+      </div>
+    </section>
+  </main>
+
+{{include footer}}
+</body>
+</html>

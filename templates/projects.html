@@ -1,0 +1,209 @@
+{{! ============================================================
+    PAGE LAYOUT: Projects page   (web address: /projects)
+    This file holds the layout only. The words are in content/projects.txt:
+    each name in double curly brackets below is a [name] in that file.
+    Colours and sizes are in static/style.css. Search for ===== to jump between sections.
+    ============================================================ !}}
+
+{{include head}}
+<body>
+
+{{include header}}
+
+  <main id="main">
+    <!-- ===== Page title banner ===== -->
+    <div class="page-head">
+      <div class="wrap">
+        <h1>{{banner.projects}}</h1>
+        <p class="lead">{{banner.what-we-are-working}}</p>
+      </div>
+    </div>
+
+    <!-- ===== Section: All projects ===== -->
+    <section>
+      <div class="wrap">
+        <h2 class="sr-only">{{sec-all-projects.all-projects}}</h2>
+        <div class="tabs" role="tablist" aria-label="{{sec-all-projects.project-status}}"><button type="button" class="tab" role="tab" aria-selected="true" data-filter="all">{{sec-all-projects.all}} <span class="n">4</span></button><button type="button" class="tab" role="tab" aria-selected="false" data-filter="prog" data-cat="prog"><span class="dot"></span>{{sec-all-projects.in-progress}}</button><button type="button" class="tab" role="tab" aria-selected="false" data-filter="done" data-cat="done"><span class="dot"></span>{{sec-all-projects.completed}}</button></div>
+        <div class="course-grid">
+          <!-- ===== Card: ETP design and IEE report, recycled paper... ===== -->
+          <article class="ccard" data-cat="prog" data-open="paper-factory">
+            <div class="cart"><img src="images/art/etp.svg" width="320" height="220" alt="" loading="lazy"></div>
+            <div class="cbody">
+              <span class="cchip">{{card-etp-design-and.in-progress}}</span>
+              <h3>{{card-etp-design-and.etp-design-and-iee}}</h3>
+              <p>{{card-etp-design-and.designing-the-effluent}}</p>
+              <div class="cact"><button type="button" class="btn btn-sm" data-open="paper-factory">{{card-etp-design-and.view-details}}</button></div>
+            </div>
+          </article>
+
+          <!-- ===== Card: Thesis project, Institute of Water and... ===== -->
+          <article class="ccard" data-cat="done" data-open="thesis-iwe">
+            <div class="cart"><img src="images/art/thesis.svg" width="320" height="220" alt="" loading="lazy"></div>
+            <div class="cbody">
+              <span class="cchip">{{card-thesis-project.completed}}</span>
+              <h3>{{card-thesis-project.thesis-project-institute-of}}</h3>
+              <p>{{card-thesis-project.research-and-analysis-support}}</p>
+              <div class="cact"><button type="button" class="btn btn-sm" data-open="thesis-iwe">{{card-thesis-project.view-details}}</button></div>
+            </div>
+          </article>
+
+          <!-- ===== Card: MSc thesis project, IUBAT ===== -->
+          <article class="ccard" data-cat="done" data-open="thesis-iubat">
+            <div class="cart"><img src="images/art/c-thesis.svg" width="320" height="220" alt="" loading="lazy"></div>
+            <div class="cbody">
+              <span class="cchip">{{card-msc-thesis-project.completed}}</span>
+              <h3>{{card-msc-thesis-project.msc-thesis-project-iubat}}</h3>
+              <p>{{card-msc-thesis-project.research-and-analysis-support}}</p>
+              <div class="cact"><button type="button" class="btn btn-sm" data-open="thesis-iubat">{{card-msc-thesis-project.view-details}}</button></div>
+            </div>
+          </article>
+
+          <!-- ===== Card: GIS and RS training programme, six batches ===== -->
+          <article class="ccard" data-cat="done" data-open="gis-training">
+            <div class="cart"><img src="images/training-civil-duet.jpg" width="640" height="440" alt="" loading="lazy"></div>
+            <div class="cbody">
+              <span class="cchip">{{card-gis-and-rs.completed}}</span>
+              <h3>{{card-gis-and-rs.gis-and-rs-training}}</h3>
+              <p>{{card-gis-and-rs.four-online-and-two}}</p>
+              <div class="cact"><button type="button" class="btn btn-sm" data-open="gis-training">{{card-gis-and-rs.view-details}}</button></div>
+            </div>
+          </article>
+        </div>
+        <p class="note-line">{{sec-all-projects.open-a-project-to}} <a href="mailto:{{@email_projects}}">{{@email_projects}}</a></p>
+      </div>
+    </section>
+
+    <!-- ===== Popup: ETP design and IEE report, recycled paper... ===== -->
+    <dialog class="mdl cdlg" id="paper-factory" data-cat="prog" aria-labelledby="t-paper-factory">
+      <div class="mdl-head cat">
+        <img class="mdl-art" src="images/art/etp.svg" width="160" height="110" alt="">
+        <div>
+          <span class="cchip light">{{card-etp-design-and.in-progress}}</span>
+          <h3 id="t-paper-factory">{{card-etp-design-and.etp-design-and-iee}}</h3>
+          <p class="role">{{pop-etp-design-and.etp-design-iee-report}}</p>
+        </div>
+        <button type="button" class="mdl-x" data-close aria-label="{{pop-etp-design-and.close-window}}">&times;</button>
+      </div>
+      <div class="mdl-body">
+        <p>{{pop-etp-design-and.we-are-designing-the}}</p>
+        <p>{{pop-etp-design-and.work-of-this-kind}}</p>
+        <h4>{{pop-etp-design-and.what-the-work-covers}}</h4>
+        <ul class="edu">
+          <li>{{pop-etp-design-and.characterising-the-effluent}}</li>
+          <li>{{pop-etp-design-and.designing-the-treatment-units}}</li>
+          <li>{{pop-etp-design-and.baseline-survey-and-impact}}</li>
+          <li>{{pop-etp-design-and.environmental-management-plan}}</li>
+        </ul>
+        <h4>{{pop-etp-design-and.at-a-glance}}</h4>
+        <dl class="glance">
+          <dt>{{pop-etp-design-and.status}}</dt>
+          <dd>{{card-etp-design-and.in-progress}}</dd>
+          <dt>{{pop-etp-design-and.client-type}}</dt>
+          <dd>{{pop-etp-design-and.industry}}</dd>
+          <dt>{{pop-etp-design-and.services}}</dt>
+          <dd>{{pop-etp-design-and.etp-design-iee-report}}</dd>
+        </dl>
+        <p class="fine">{{pop-etp-design-and.client-details-are-kept}}</p>
+        <div class="btn-row"><a class="btn" href="contact?topic=etp">{{pop-etp-design-and.ask-about-similar-work}}</a><a class="btn btn-line" href="mailto:{{@email_projects}}">{{pop-etp-design-and.email-projects-bgrcbd-com}}</a></div>
+      </div>
+    </dialog>
+
+    <!-- ===== Popup: Thesis project, Institute of Water and... ===== -->
+    <dialog class="mdl cdlg" id="thesis-iwe" data-cat="done" aria-labelledby="t-thesis-iwe">
+      <div class="mdl-head cat">
+        <img class="mdl-art" src="images/art/thesis.svg" width="160" height="110" alt="">
+        <div>
+          <span class="cchip light">{{card-thesis-project.completed}}</span>
+          <h3 id="t-thesis-iwe">{{card-thesis-project.thesis-project-institute-of}}</h3>
+          <p class="role">{{pop-thesis-project.thesis-and-project-support}}</p>
+        </div>
+        <button type="button" class="mdl-x" data-close aria-label="{{pop-thesis-project.close-window}}">&times;</button>
+      </div>
+      <div class="mdl-body">
+        <p>{{pop-thesis-project.research-and-analysis-support}}</p>
+        <p>{{pop-thesis-project.support-of-this-kind}}</p>
+        <h4>{{pop-thesis-project.at-a-glance}}</h4>
+        <dl class="glance">
+          <dt>{{pop-thesis-project.status}}</dt>
+          <dd>{{card-thesis-project.completed}}</dd>
+          <dt>{{pop-thesis-project.client-type}}</dt>
+          <dd>{{pop-thesis-project.university-student}}</dd>
+          <dt>{{pop-thesis-project.services}}</dt>
+          <dd>{{pop-thesis-project.thesis-and-project-support}}</dd>
+        </dl>
+        <p class="fine">{{pop-thesis-project.client-details-are-kept}}</p>
+        <div class="btn-row"><a class="btn" href="contact?topic=thesis">{{pop-thesis-project.ask-about-similar-work}}</a><a class="btn btn-line" href="mailto:{{@email_projects}}">{{pop-thesis-project.email-projects-bgrcbd-com}}</a></div>
+      </div>
+    </dialog>
+
+    <!-- ===== Popup: MSc thesis project, IUBAT ===== -->
+    <dialog class="mdl cdlg" id="thesis-iubat" data-cat="done" aria-labelledby="t-thesis-iubat">
+      <div class="mdl-head cat">
+        <img class="mdl-art" src="images/art/c-thesis.svg" width="160" height="110" alt="">
+        <div>
+          <span class="cchip light">{{card-msc-thesis-project.completed}}</span>
+          <h3 id="t-thesis-iubat">{{card-msc-thesis-project.msc-thesis-project-iubat}}</h3>
+          <p class="role">{{pop-msc-thesis-project.thesis-and-project-support}}</p>
+        </div>
+        <button type="button" class="mdl-x" data-close aria-label="{{pop-msc-thesis-project.close-window}}">&times;</button>
+      </div>
+      <div class="mdl-body">
+        <p>{{card-msc-thesis-project.research-and-analysis-support}}</p>
+        <p>{{pop-msc-thesis-project.we-work-alongside-the}}</p>
+        <h4>{{pop-msc-thesis-project.at-a-glance}}</h4>
+        <dl class="glance">
+          <dt>{{pop-msc-thesis-project.status}}</dt>
+          <dd>{{card-msc-thesis-project.completed}}</dd>
+          <dt>{{pop-msc-thesis-project.client-type}}</dt>
+          <dd>{{pop-msc-thesis-project.university-student}}</dd>
+          <dt>{{pop-msc-thesis-project.services}}</dt>
+          <dd>{{pop-msc-thesis-project.thesis-and-project-support}}</dd>
+        </dl>
+        <p class="fine">{{pop-msc-thesis-project.client-details-are-kept}}</p>
+        <div class="btn-row"><a class="btn" href="contact?topic=thesis">{{pop-msc-thesis-project.ask-about-similar-work}}</a><a class="btn btn-line" href="mailto:{{@email_projects}}">{{pop-msc-thesis-project.email-projects-bgrcbd-com}}</a></div>
+      </div>
+    </dialog>
+
+    <!-- ===== Popup: GIS and RS training programme, six batches ===== -->
+    <dialog class="mdl cdlg" id="gis-training" data-cat="done" aria-labelledby="t-gis-training">
+      <div class="mdl-head cat">
+        <img class="mdl-art" src="images/training-civil-duet.jpg" width="160" height="110" alt="">
+        <div>
+          <span class="cchip light">{{card-gis-and-rs.completed}}</span>
+          <h3 id="t-gis-training">{{card-gis-and-rs.gis-and-rs-training}}</h3>
+          <p class="role">{{pop-gis-and-rs.gis-and-remote-sensing}}</p>
+        </div>
+        <button type="button" class="mdl-x" data-close aria-label="{{pop-gis-and-rs.close-window}}">&times;</button>
+      </div>
+      <div class="mdl-body">
+        <p>{{pop-gis-and-rs.four-online-batches-and}}</p>
+        <p>{{pop-gis-and-rs.participants-practise-on-real}}</p>
+        <h4>{{pop-gis-and-rs.at-a-glance}}</h4>
+        <dl class="glance">
+          <dt>{{pop-gis-and-rs.status}}</dt>
+          <dd>{{card-gis-and-rs.completed}}</dd>
+          <dt>{{pop-gis-and-rs.client-type}}</dt>
+          <dd>{{pop-gis-and-rs.students-and-researchers}}</dd>
+          <dt>{{pop-gis-and-rs.services}}</dt>
+          <dd>{{pop-gis-and-rs.gis-and-remote-sensing}}</dd>
+        </dl>
+        <p class="fine">{{pop-gis-and-rs.client-details-are-kept}}</p>
+        <div class="btn-row"><a class="btn" href="contact?topic=training">{{pop-gis-and-rs.ask-about-similar-work}}</a><a class="btn btn-line" href="mailto:{{@email_projects}}">{{pop-gis-and-rs.email-projects-bgrcbd-com}}</a><a class="btn btn-line" href="training">{{pop-gis-and-rs.see-the-training-courses}}</a></div>
+      </div>
+    </dialog>
+
+    <!-- ===== Call to action: Have a project in mind? ===== -->
+    <section class="cta">
+      <div class="wrap cta-in">
+        <div>
+          <h2>{{cta-have-a-project.have-a-project-in}}</h2>
+          <p>{{cta-have-a-project.send-a-short-description}}</p>
+        </div>
+        <div class="btn-row"><a class="btn" href="contact">{{cta-have-a-project.request-a-quote}}</a><a class="btn btn-line" href="https://wa.me/{{@whatsapp_number}}?text=Hello%20BlueGreen%2C%20I%20would%20like%20to%20discuss%20a%20project." rel="noopener">{{svg:wa}}{{cta-have-a-project.message-on-whatsapp}}</a></div>
+      </div>
+    </section>
+  </main>
+
+{{include footer}}
+</body>
+</html>
