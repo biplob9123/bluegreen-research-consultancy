@@ -1,6 +1,11 @@
 (function () {
   "use strict";
 
+  /* ---------- language: Bangla pages use Bangla messages and digits ---------- */
+  var BN = document.documentElement.lang === "bn";
+  function tr(en, bn) { return BN ? bn : en; }
+  function num(n) { return BN ? String(n).replace(/[0-9]/g, function (d) { return "০১২৩৪৫৬৭৮৯"[d]; }) : String(n); }
+
   /* ---------- tidy address bar: /about.html -> /about, /index.html -> / ---------- */
   try {
     if (/^https?:$/.test(location.protocol) && /\.html$/.test(location.pathname) && !/\/404\.html$/.test(location.pathname)) {
@@ -98,10 +103,10 @@
     function step(t) {
       if (start === null) { start = t; }
       var p = Math.min((t - start) / dur, 1);
-      el.textContent = Math.round(to * (1 - Math.pow(1 - p, 3)));
-      if (p < 1) { requestAnimationFrame(step); } else { el.textContent = to; }
+      el.textContent = num(Math.round(to * (1 - Math.pow(1 - p, 3))));
+      if (p < 1) { requestAnimationFrame(step); } else { el.textContent = num(to); }
     }
-    el.textContent = "0";
+    el.textContent = num(0);
     requestAnimationFrame(step);
   }
 
@@ -138,13 +143,13 @@
           "\nInterested in: " + data.get("interest") + "\n\n" + data.get("message");
         window.location.href = "mailto:" + email + "?subject=" +
           encodeURIComponent("Enquiry: " + data.get("interest")) + "&body=" + encodeURIComponent(body);
-        setStatus("Your email app should open with the message ready to send. If it does not, write to " + email + " or message us on WhatsApp.", "ok");
+        setStatus(tr("Your email app should open with the message ready to send. If it does not, write to " + email + " or message us on WhatsApp.", "আপনার ইমেইল অ্যাপে বার্তাটি পাঠানোর জন্য তৈরি অবস্থায় খোলার কথা। না খুললে " + email + " ঠিকানায় লিখুন অথবা হোয়াটসঅ্যাপে বার্তা দিন।"), "ok");
       };
 
       if (!key || key.indexOf("YOUR_") === 0) { viaMailClient(); return; }
 
       btn.disabled = true;
-      setStatus("Sending…");
+      setStatus(tr("Sending…", "পাঠানো হচ্ছে…"));
       var payload = {
         access_key: key,
         subject: "Website enquiry: " + data.get("interest"),
@@ -159,17 +164,17 @@
       }).then(function (r) { return r.json(); }).then(function (j) {
         if (j.success) {
           form.reset();
-          setStatus("Thank you. We have your message and will reply within one working day.", "ok");
+          setStatus(tr("Thank you. We have your message and will reply within one working day.", "ধন্যবাদ। আপনার বার্তা আমরা পেয়েছি, এক কর্মদিবসের মধ্যে উত্তর দেব।"), "ok");
         } else { throw new Error(j.message || "failed"); }
       }).catch(function () {
-        setStatus("The message could not be sent. Please email " + email + " or message us on WhatsApp.", "err");
+        setStatus(tr("The message could not be sent. Please email " + email + " or message us on WhatsApp.", "বার্তাটি পাঠানো যায়নি। অনুগ্রহ করে " + email + " ঠিকানায় ইমেইল করুন অথবা হোয়াটসঅ্যাপে বার্তা দিন।"), "err");
       }).finally(function () { btn.disabled = false; });
     });
   }
 
   /* ---------- footer year ---------- */
   var y = document.getElementById("year");
-  if (y) { y.textContent = new Date().getFullYear(); }
+  if (y) { y.textContent = num(new Date().getFullYear()); }
 
   /* ---------- gallery carousel ---------- */
   Array.prototype.forEach.call(document.querySelectorAll("[data-carousel]"), function (c) {
@@ -179,7 +184,7 @@
       i = (n + slides.length) % slides.length;
       Array.prototype.forEach.call(slides, function (s, k) { s.classList.toggle("on", k === i); });
       Array.prototype.forEach.call(thumbs, function (t, k) { t.classList.toggle("on", k === i); });
-      if (cur) { cur.textContent = i + 1; }
+      if (cur) { cur.textContent = num(i + 1); }
     }
     function start() { stop(); if (playing && !reduceMotion) { timer = setInterval(function () { go(i + 1); }, 5500); } }
     function stop() { if (timer) { clearInterval(timer); timer = null; } }
@@ -188,13 +193,13 @@
     if (pv) { pv.addEventListener("click", function () { go(i - 1); start(); }); }
     if (nx) { nx.addEventListener("click", function () { go(i + 1); start(); }); }
     Array.prototype.forEach.call(thumbs, function (t, k) { t.addEventListener("click", function () { go(k); start(); }); });
-    if (btn) { btn.addEventListener("click", function () { playing = !playing; btn.textContent = playing ? "Pause" : "Play"; playing ? start() : stop(); }); }
+    if (btn) { btn.addEventListener("click", function () { playing = !playing; btn.textContent = playing ? tr("Pause", "থামান") : tr("Play", "চালান"); playing ? start() : stop(); }); }
     c.addEventListener("mouseenter", stop); c.addEventListener("mouseleave", start);
     c.addEventListener("keydown", function (e) { if (e.key === "ArrowLeft") { go(i - 1); } if (e.key === "ArrowRight") { go(i + 1); } });
     var x0 = null;
     c.addEventListener("touchstart", function (e) { x0 = e.touches[0].clientX; }, { passive: true });
     c.addEventListener("touchend", function (e) { if (x0 === null) { return; } var d = e.changedTouches[0].clientX - x0; if (Math.abs(d) > 40) { go(d < 0 ? i + 1 : i - 1); start(); } x0 = null; });
-    if (btn) { btn.textContent = "Pause"; }
+    if (btn) { btn.textContent = tr("Pause", "থামান"); }
     go(0); start();
   });
 
@@ -215,7 +220,7 @@
   /* ---------- ?course= prefill and team hash flash ---------- */
   try {
     var cq = new URLSearchParams(location.search).get("course"), ta = document.querySelector("#contact-form textarea, form textarea");
-    if (cq && ta && !ta.value) { ta.value = "I would like to know about the course: " + cq + "."; }
+    if (cq && ta && !ta.value) { ta.value = tr("I would like to know about the course: " + cq + ".", "আমি এই কোর্সটি সম্পর্কে জানতে চাই: " + cq + "।"); }
   } catch (err) {}
   if (location.hash.indexOf("#p-") === 0) {
     var m = document.getElementById(location.hash.slice(1));

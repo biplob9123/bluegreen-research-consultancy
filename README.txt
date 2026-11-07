@@ -54,3 +54,7 @@ key for info@bgrcbd.com at web3forms.com and paste it into build.py (web3forms_k
 
 UPGRADE v5: fixed mobile menu (Services no longer stuck open, closed menu no longer blocks taps/scroll),
 mid-width dropdown, lighter animations on phones, bigger tap areas, Mamun's photo and details, 4-up team row.
+
+UPGRADE v6: Bangla version of every page in the new "bn" folder (bgrcbd.com/bn/...), EN | বাং switch in the
+header, Services menu grouped into 3 columns (Industrial compliance / Environmental engineering and data /
+Training and academia), sitemap lists both languages. Upload the whole folder INCLUDING the new "bn" folder.
